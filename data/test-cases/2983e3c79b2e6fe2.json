@@ -1,0 +1,116 @@
+{
+  "uid" : "2983e3c79b2e6fe2",
+  "name" : "TC272- Verify that if the user does not belong to any SM, relevant message should be shown in the app",
+  "fullName" : "Login.TC272- Verify that if the user does not belong to any SM, relevant message should be shown in the app",
+  "historyId" : "2dda7fbcf7cf0cf22706d671862e46d6",
+  "time" : {
+    "start" : 1645532141686,
+    "stop" : 1645532207541,
+    "duration" : 65855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC272-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC272-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:97:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC272-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC272-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:97:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login",
+      "time" : {
+        "start" : 1645532141686,
+        "stop" : 1645532162846,
+        "duration" : 21160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Login",
+      "time" : {
+        "start" : 1645532207541,
+        "stop" : 1645532208878,
+        "duration" : 1337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fed829cd33b55e46",
+      "name" : "Screenshot",
+      "source" : "fed829cd33b55e46.png",
+      "type" : "image/png",
+      "size" : 182717
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC272- Verify that if the user does not belong to any SM, relevant message should be shown in the app"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2983e3c79b2e6fe2.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
