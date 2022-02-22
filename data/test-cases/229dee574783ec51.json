@@ -1,0 +1,116 @@
+{
+  "uid" : "229dee574783ec51",
+  "name" : "TC269- Verify that refresh button works on the screen when user doesnt have any shared mail boxes",
+  "fullName" : "Login.TC269- Verify that refresh button works on the screen when user doesnt have any shared mail boxes",
+  "historyId" : "c9fceb33dbf43f35dc169d063d348200",
+  "time" : {
+    "start" : 1645529574717,
+    "stop" : 1645529617377,
+    "duration" : 42660
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC272-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Looks like you are not part of any shared\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC272-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Looks like you are not part of any shared\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:108:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC272-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Looks like you are not part of any shared\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC272-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Looks like you are not part of any shared\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:108:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login",
+      "time" : {
+        "start" : 1645529574718,
+        "stop" : 1645529596035,
+        "duration" : 21317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Login",
+      "time" : {
+        "start" : 1645529617378,
+        "stop" : 1645529618733,
+        "duration" : 1355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "107ccb008cf0b641",
+      "name" : "Screenshot",
+      "source" : "107ccb008cf0b641.png",
+      "type" : "image/png",
+      "size" : 68913
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC269- Verify that refresh button works on the screen when user doesnt have any shared mail boxes"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "229dee574783ec51.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
