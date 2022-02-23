@@ -1,0 +1,116 @@
+{
+  "uid" : "de962ef17b538f9b",
+  "name" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+  "fullName" : "Left Panel and Compose Mail.TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+  "historyId" : "f73ea2c783a76ee4c29998a6d5591d2b",
+  "time" : {
+    "start" : 1645617907994,
+    "stop" : 1645617955967,
+    "duration" : 47973
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC239-Failed-->Reason: AssertionError: expected '<heyuser2@hiver.space>' to include '<workspace1@work.hiver.space>'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC239-Failed-->Reason: AssertionError: expected '<heyuser2@hiver.space>' to include '<workspace1@work.hiver.space>'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:36:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC239-Failed-->Reason: AssertionError: expected '<heyuser2@hiver.space>' to include '<workspace1@work.hiver.space>'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC239-Failed-->Reason: AssertionError: expected '<heyuser2@hiver.space>' to include '<workspace1@work.hiver.space>'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:36:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1645617907995,
+        "stop" : 1645617947862,
+        "duration" : 39867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1645617955968,
+        "stop" : 1645617957017,
+        "duration" : 1049
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f25a20a91bafca4d",
+      "name" : "Screenshot",
+      "source" : "f25a20a91bafca4d.png",
+      "type" : "image/png",
+      "size" : 77270
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testClass",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field"
+  }, {
+    "name" : "package",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "de962ef17b538f9b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
