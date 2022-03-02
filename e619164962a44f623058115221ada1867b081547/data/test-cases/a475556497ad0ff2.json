@@ -1,0 +1,116 @@
+{
+  "uid" : "a475556497ad0ff2",
+  "name" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+  "fullName" : "Left Panel and Compose Mail.TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+  "historyId" : "b3f797a51ee715c9b39b868b699b52cf",
+  "time" : {
+    "start" : 1646231113712,
+    "stop" : 1646231221627,
+    "duration" : 107915
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC253-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC253-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:103:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC253-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC253-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:103:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1646231113713,
+        "stop" : 1646231158134,
+        "duration" : 44421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1646231221627,
+        "stop" : 1646231223726,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fc8ce7fba9a4d3ec",
+      "name" : "Screenshot",
+      "source" : "fc8ce7fba9a4d3ec.png",
+      "type" : "image/png",
+      "size" : 191617
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testClass",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &"
+  }, {
+    "name" : "package",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a475556497ad0ff2.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC253-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+        "uid" : "a475556497ad0ff2",
+        "parentUid" : "a83eee40c0f69a5fd8a2d2c13007170e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646231113712,
+          "stop" : 1646231221627,
+          "duration" : 107915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a83eee40c0f69a5fd8a2d2c13007170e"
+    }, {
+      "name" : "TC254-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC254 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+        "uid" : "e2764e73f2e1bd58",
+        "parentUid" : "6ce246c7886c02b7fb3b728382738085",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646231223726,
+          "stop" : 1646231382424,
+          "duration" : 158698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6ce246c7886c02b7fb3b728382738085"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
