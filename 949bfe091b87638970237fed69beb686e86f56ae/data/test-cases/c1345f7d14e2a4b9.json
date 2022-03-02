@@ -1,0 +1,124 @@
+{
+  "uid" : "c1345f7d14e2a4b9",
+  "name" : "TC262- Verify that app version is shown on the login screen",
+  "fullName" : "Login.TC262- Verify that app version is shown on the login screen",
+  "historyId" : "341f508441f19db9c8bbbf72f7ae74b0",
+  "time" : {
+    "start" : 1646200149806,
+    "stop" : 1646200184126,
+    "duration" : 34320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"//android.widget.TextView[contains(@text,\"v 1.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: Error: Can't call getText on element with selector \"//android.widget.TextView[contains(@text,\"v 1.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:26:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"//android.widget.TextView[contains(@text,\"v 1.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: Error: Can't call getText on element with selector \"//android.widget.TextView[contains(@text,\"v 1.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:26:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login",
+      "time" : {
+        "start" : 1646200149807,
+        "stop" : 1646200171028,
+        "duration" : 21221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook for Login",
+      "time" : {
+        "start" : 1646200184127,
+        "stop" : 1646200185103,
+        "duration" : 976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "61fd1526b2f03d61",
+      "name" : "Screenshot",
+      "source" : "61fd1526b2f03d61.png",
+      "type" : "image/png",
+      "size" : 2665581
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC262- Verify that app version is shown on the login screen"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f94dcc09a93aa84f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643099205133,
+        "stop" : 1643099227319,
+        "duration" : 22186
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c1345f7d14e2a4b9.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
