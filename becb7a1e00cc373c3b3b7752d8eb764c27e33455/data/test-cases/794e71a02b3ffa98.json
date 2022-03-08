@@ -1,0 +1,116 @@
+{
+  "uid" : "794e71a02b3ffa98",
+  "name" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+  "fullName" : "Left Panel and Compose Mail.TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+  "historyId" : "b3f797a51ee715c9b39b868b699b52cf",
+  "time" : {
+    "start" : 1646719986838,
+    "stop" : 1646720055171,
+    "duration" : 68333
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC253-Failed-->Reason: AssertionError: expected 'Gmail Inbox' to include 'BumbleBee'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC253-Failed-->Reason: AssertionError: expected 'Gmail Inbox' to include 'BumbleBee'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:102:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC253-Failed-->Reason: AssertionError: expected 'Gmail Inbox' to include 'BumbleBee'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC253-Failed-->Reason: AssertionError: expected 'Gmail Inbox' to include 'BumbleBee'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:102:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1646719986839,
+        "stop" : 1646720027103,
+        "duration" : 40264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1646720055172,
+        "stop" : 1646720056334,
+        "duration" : 1162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b4d56e5fb31cb258",
+      "name" : "Screenshot",
+      "source" : "b4d56e5fb31cb258.png",
+      "type" : "image/png",
+      "size" : 73794
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testClass",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &"
+  }, {
+    "name" : "package",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "794e71a02b3ffa98.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

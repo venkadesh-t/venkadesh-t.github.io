@@ -1,0 +1,97 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 1.18.5' to equal 'v 1.18.4'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "f77827e4fae3c95c",
+        "parentUid" : "7fcf78537faf7081a5c058c70977343f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646719414804,
+          "stop" : 1646719437636,
+          "duration" : 22832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "7fcf78537faf7081a5c058c70977343f"
+    }, {
+      "name" : "TC253-Failed-->Reason: AssertionError: expected 'Gmail Inbox' to include 'BumbleBee'",
+      "children" : [ {
+        "name" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+        "uid" : "794e71a02b3ffa98",
+        "parentUid" : "e37befe8da3b47e7d89ab0c06225914f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646719986838,
+          "stop" : 1646720055171,
+          "duration" : 68333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e37befe8da3b47e7d89ab0c06225914f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+        "uid" : "b672cfbafb6f802c",
+        "parentUid" : "52a39e3db8d83a0bcb33b98d39301556",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646719512021,
+          "stop" : 1646719580091,
+          "duration" : 68070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "52a39e3db8d83a0bcb33b98d39301556"
+    }, {
+      "name" : "TC254-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"smIcon\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC254 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+        "uid" : "797085c434a37a88",
+        "parentUid" : "7998356e778f9f4feaa330b28c782f0c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646720056334,
+          "stop" : 1646720138743,
+          "duration" : 82409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "7998356e778f9f4feaa330b28c782f0c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
