@@ -1,0 +1,116 @@
+{
+  "uid" : "5b06716451c40d54",
+  "name" : "TC254 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+  "fullName" : "Left Panel and Compose Mail.TC254 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+  "historyId" : "97cf52b50adff9a5dea7076e190b4a99",
+  "time" : {
+    "start" : 1650866594460,
+    "stop" : 1650866722641,
+    "duration" : 128181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC254-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC254-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:128:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC254-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC254-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"SEND ANYWAY\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/leftPanelAndComposeMail.spec.js:128:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1650866594460,
+        "stop" : 1650866635231,
+        "duration" : 40771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left Panel and Compose Mail",
+      "time" : {
+        "start" : 1650866722641,
+        "stop" : 1650866723948,
+        "duration" : 1307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "67a670cd6a142cf8",
+      "name" : "Screenshot",
+      "source" : "67a670cd6a142cf8.png",
+      "type" : "image/png",
+      "size" : 119928
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testClass",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC254 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign"
+  }, {
+    "name" : "package",
+    "value" : "Left Panel and Compose Mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b06716451c40d54.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

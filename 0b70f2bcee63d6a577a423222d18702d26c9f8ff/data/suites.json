@@ -1,0 +1,213 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Left Panel and Compose Mail",
+    "children" : [ {
+      "name" : "TC238 - Verify that user uis able to see the profile information on the left panel",
+      "uid" : "a5ab6504ff7553c7",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866197846,
+        "stop" : 1650866247553,
+        "duration" : 49707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+      "uid" : "3ca4d23264292132",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866248640,
+        "stop" : 1650866297567,
+        "duration" : 48927
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC240 - Verify that user can modify To,From,CC,BCC fields after clicking on help and support option.",
+      "uid" : "701e1cb6e317e914",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866298813,
+        "stop" : 1650866351051,
+        "duration" : 52238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC241 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+      "uid" : "cf9ee714900db533",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866352201,
+        "stop" : 1650866400877,
+        "duration" : 48676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC246 - Verify user should have the option to select any other SM email(or their alias) or my personal email in the From field",
+      "uid" : "f51763aa6cb7db9d",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866401978,
+        "stop" : 1650866452450,
+        "duration" : 50472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC248 - Verify user should be able to add Subject, To, Cc, Bcc fields",
+      "uid" : "ceb9ac3917fa0924",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866453548,
+        "stop" : 1650866516681,
+        "duration" : 63133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC253 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast &",
+      "uid" : "3a4f033e03f0672a",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866517792,
+        "stop" : 1650866593063,
+        "duration" : 75271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC254 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+      "uid" : "5b06716451c40d54",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650866594460,
+        "stop" : 1650866722641,
+        "duration" : 128181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC257 - Verify that user is able to compose and send an email with large content",
+      "uid" : "96578ba34c9c3a50",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866723949,
+        "stop" : 1650866792927,
+        "duration" : 68978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC243 - Verify that user is able to access Compose and help&feedback even with no internet connection",
+      "uid" : "b993d92e514534a1",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866794197,
+        "stop" : 1650866858273,
+        "duration" : 64076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC249 - Verify that user is able to send the email successfully.",
+      "uid" : "8a86394775d23ee4",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866859644,
+        "stop" : 1650866936479,
+        "duration" : 76835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC255 - Verify that user is able to compose and send an email with inline images",
+      "uid" : "33056e5361c6c766",
+      "parentUid" : "1ac8814590ab5cffa8974e356f3cb8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650866937854,
+        "stop" : 1650867008216,
+        "duration" : 70362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "1ac8814590ab5cffa8974e356f3cb8d5"
+  } ]
+}
