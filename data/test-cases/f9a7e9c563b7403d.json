@@ -1,0 +1,116 @@
+{
+  "uid" : "f9a7e9c563b7403d",
+  "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+  "fullName" : "Inbox Suite.TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+  "historyId" : "52322143b6cfe197316b97fe8a7c81bb",
+  "time" : {
+    "start" : 1650871416755,
+    "stop" : 1650871464888,
+    "duration" : 48133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC654-Failed-->Reason: Error: The URL '/wd/hub/session/6241961be34521b73b74d632efaab2635b982cb3/actions' did not map to a valid resource",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC654-Failed-->Reason: Error: The URL '/wd/hub/session/6241961be34521b73b74d632efaab2635b982cb3/actions' did not map to a valid resource\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/inboxSuite.spec.js:118:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC654-Failed-->Reason: Error: The URL '/wd/hub/session/6241961be34521b73b74d632efaab2635b982cb3/actions' did not map to a valid resource",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC654-Failed-->Reason: Error: The URL '/wd/hub/session/6241961be34521b73b74d632efaab2635b982cb3/actions' did not map to a valid resource\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/inboxSuite.spec.js:118:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Suite",
+      "time" : {
+        "start" : 1650871416756,
+        "stop" : 1650871458349,
+        "duration" : 41593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Suite",
+      "time" : {
+        "start" : 1650871464889,
+        "stop" : 1650871466034,
+        "duration" : 1145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c529d31012488f77",
+      "name" : "Screenshot",
+      "source" : "c529d31012488f77.png",
+      "type" : "image/png",
+      "size" : 50366
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f9a7e9c563b7403d.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC654-Failed-->Reason: Error: The URL '/wd/hub/session/6241961be34521b73b74d632efaab2635b982cb3/actions' did not map to a valid resource",
+      "children" : [ {
+        "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+        "uid" : "f9a7e9c563b7403d",
+        "parentUid" : "f23256ed1a97d9254c6d2cb5cb9aa392",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650871416755,
+          "stop" : 1650871464888,
+          "duration" : 48133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f23256ed1a97d9254c6d2cb5cb9aa392"
+    }, {
+      "name" : "TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+        "uid" : "c88a655d2cee6c6c",
+        "parentUid" : "52a39e3db8d83a0bcb33b98d39301556",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650871584965,
+          "stop" : 1650871653010,
+          "duration" : 68045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "52a39e3db8d83a0bcb33b98d39301556"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

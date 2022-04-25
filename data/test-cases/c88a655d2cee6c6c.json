@@ -1,0 +1,116 @@
+{
+  "uid" : "c88a655d2cee6c6c",
+  "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+  "fullName" : "Login.TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+  "historyId" : "6cf8f69f93fea7c4c6ad7cf1df7c209c",
+  "time" : {
+    "start" : 1650871584965,
+    "stop" : 1650871653010,
+    "duration" : 68045
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:59:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:59:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login",
+      "time" : {
+        "start" : 1650871584966,
+        "stop" : 1650871606395,
+        "duration" : 21429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Login",
+      "time" : {
+        "start" : 1650871653011,
+        "stop" : 1650871654198,
+        "duration" : 1187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2825c6010f01b1bd",
+      "name" : "Screenshot",
+      "source" : "2825c6010f01b1bd.png",
+      "type" : "image/png",
+      "size" : 156284
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c88a655d2cee6c6c.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
