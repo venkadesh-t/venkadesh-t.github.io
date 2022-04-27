@@ -1,0 +1,116 @@
+{
+  "uid" : "e71c34b9fb5c193a",
+  "name" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+  "fullName" : "Inbox Suite.TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+  "historyId" : "a374a0f3a3835166551ac313d6bd708c",
+  "time" : {
+    "start" : 1651033753503,
+    "stop" : 1651033806831,
+    "duration" : 53328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC664-Failed-->Reason: AssertionError: expected 'No results found' to equal '\\'No results found'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC664-Failed-->Reason: AssertionError: expected 'No results found' to equal '\\'No results found'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/inboxSuite.spec.js:190:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC664-Failed-->Reason: AssertionError: expected 'No results found' to equal '\\'No results found'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC664-Failed-->Reason: AssertionError: expected 'No results found' to equal '\\'No results found'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/inboxSuite.spec.js:190:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Suite",
+      "time" : {
+        "start" : 1651033753503,
+        "stop" : 1651033795169,
+        "duration" : 41666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Suite",
+      "time" : {
+        "start" : 1651033806831,
+        "stop" : 1651033808055,
+        "duration" : 1224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dff648e2e8c8da5c",
+      "name" : "Screenshot",
+      "source" : "dff648e2e8c8da5c.png",
+      "type" : "image/png",
+      "size" : 63295
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e71c34b9fb5c193a.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

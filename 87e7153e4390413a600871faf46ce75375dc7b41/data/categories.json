@@ -1,0 +1,55 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC654-Failed-->Reason: TypeError: inboxSuite.VerifyTheSearchKeyword is not a function",
+      "children" : [ {
+        "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+        "uid" : "9c67e4402314599c",
+        "parentUid" : "aacd044ea811c1bc11a335d8a87e0eb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651033475255,
+          "stop" : 1651033524682,
+          "duration" : 49427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "aacd044ea811c1bc11a335d8a87e0eb0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC664-Failed-->Reason: AssertionError: expected 'No results found' to equal '\\'No results found'",
+      "children" : [ {
+        "name" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+        "uid" : "e71c34b9fb5c193a",
+        "parentUid" : "20c87eeada543dc9f055a561e7998256",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651033753503,
+          "stop" : 1651033806831,
+          "duration" : 53328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "20c87eeada543dc9f055a561e7998256"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
