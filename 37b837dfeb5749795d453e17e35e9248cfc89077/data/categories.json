@@ -1,0 +1,118 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.0.1' to equal 'v 2.0.0'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "5738deab56041b0",
+        "parentUid" : "af567e993277a0ef78d36e17830c2da1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651555915910,
+          "stop" : 1651555938100,
+          "duration" : 22190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "af567e993277a0ef78d36e17830c2da1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC261-Failed-->Reason: Error: element (\"//android.widget.Button[@text=\"I agree\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+        "uid" : "ac1390644bc5bd0",
+        "parentUid" : "52a39e3db8d83a0bcb33b98d39301556",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651556010663,
+          "stop" : 1651556076039,
+          "duration" : 65376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "52a39e3db8d83a0bcb33b98d39301556"
+    }, {
+      "name" : "TC632-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Social\")]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+        "uid" : "7f41e70853da857b",
+        "parentUid" : "b09544c32defa33ba46d8171492b5a2e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651556898282,
+          "stop" : 1651556959686,
+          "duration" : 61404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b09544c32defa33ba46d8171492b5a2e"
+    }, {
+      "name" : "TC674-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "c05f90cb1782f563",
+        "parentUid" : "6f9caff68c6b643b60d1f25c272ad174",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651557690933,
+          "stop" : 1651557818716,
+          "duration" : 127783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6f9caff68c6b643b60d1f25c272ad174"
+    }, {
+      "name" : "TC676-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+        "uid" : "b6b20bf48aeab266",
+        "parentUid" : "e44b432b5e0ae316057e71b05796b37e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651557957935,
+          "stop" : 1651558012983,
+          "duration" : 55048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e44b432b5e0ae316057e71b05796b37e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
