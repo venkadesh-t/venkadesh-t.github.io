@@ -1,0 +1,116 @@
+{
+  "uid" : "f11a647ab28795a",
+  "name" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+  "fullName" : "Complete Test Suite.TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+  "historyId" : "780b58cc67bbff5bcc311b5a8e871c13",
+  "time" : {
+    "start" : 1652440150312,
+    "stop" : 1652440202475,
+    "duration" : 52163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC239-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC239-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:105:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC239-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC239-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:105:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1652440150313,
+        "stop" : 1652440171675,
+        "duration" : 21362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1652440202476,
+        "stop" : 1652440203705,
+        "duration" : 1229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ad1d6db06dbc2255",
+      "name" : "Screenshot",
+      "source" : "ad1d6db06dbc2255.png",
+      "type" : "image/png",
+      "size" : 239894
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f11a647ab28795a.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
