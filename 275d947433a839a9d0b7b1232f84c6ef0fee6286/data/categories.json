@@ -1,0 +1,156 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC632-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Promotions\")]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+        "uid" : "2e0175dae9676573",
+        "parentUid" : "ab7f20a15578ed64b3a9130f378722a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653367245818,
+          "stop" : 1653367302980,
+          "duration" : 57162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "ab7f20a15578ed64b3a9130f378722a6"
+    }, {
+      "name" : "TC654-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"selectThread[0]\"]/android.view.ViewGroup/android.widget.TextView[3]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+        "uid" : "996aa1cfdacc4d41",
+        "parentUid" : "437ae59442999a702a62995d1a23fe06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653367528600,
+          "stop" : 1653367577407,
+          "duration" : 48807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "437ae59442999a702a62995d1a23fe06"
+    }, {
+      "name" : "TC674-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "ff7d3fa522ad5910",
+        "parentUid" : "6f9caff68c6b643b60d1f25c272ad174",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653367925983,
+          "stop" : 1653368038462,
+          "duration" : 112479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6f9caff68c6b643b60d1f25c272ad174"
+    }, {
+      "name" : "TC657-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"assign\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "1a97f57ed6649e07",
+        "parentUid" : "668a6f3ecb25b1130ead2976178298e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653368319667,
+          "stop" : 1653368375369,
+          "duration" : 55702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "668a6f3ecb25b1130ead2976178298e8"
+    }, {
+      "name" : "TC670-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "9b7a11ab244de6c0",
+        "parentUid" : "37276c0b286dfcb18c89d9ca12675eac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653368489008,
+          "stop" : 1653368587034,
+          "duration" : 98026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "37276c0b286dfcb18c89d9ca12675eac"
+    }, {
+      "name" : "TC672-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC672 - To verify confirmation popup before removing the conversation",
+        "uid" : "c96de9e35f3aeac5",
+        "parentUid" : "c57be2d538edca18a5f5f30f447c717c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653368588187,
+          "stop" : 1653368701438,
+          "duration" : 113251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c57be2d538edca18a5f5f30f447c717c"
+    }, {
+      "name" : "TC678-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC678 - To verify remove conversation from <SM name>”",
+        "uid" : "51d2e6c60ad728e5",
+        "parentUid" : "5ac407830020a555cb81c0ca453f7217",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653368925677,
+          "stop" : 1653369037864,
+          "duration" : 112187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5ac407830020a555cb81c0ca453f7217"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
