@@ -1,0 +1,116 @@
+{
+  "uid" : "132e7828b1b6e580",
+  "name" : "TC241 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+  "fullName" : "Complete Test Suite.TC241 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+  "historyId" : "8a87f5b37f76166770b11eea891b8622",
+  "time" : {
+    "start" : 1653663903499,
+    "stop" : 1653663946722,
+    "duration" : 43223
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC241-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC241-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:127:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC241-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC241-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:127:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653663903500,
+        "stop" : 1653663924727,
+        "duration" : 21227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653663946723,
+        "stop" : 1653663947943,
+        "duration" : 1220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1f9ad080b4421b0c",
+      "name" : "Screenshot",
+      "source" : "1f9ad080b4421b0c.png",
+      "type" : "image/png",
+      "size" : 181487
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC241 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "132e7828b1b6e580.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

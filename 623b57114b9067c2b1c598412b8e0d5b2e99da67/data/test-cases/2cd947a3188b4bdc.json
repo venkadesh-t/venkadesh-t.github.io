@@ -1,0 +1,116 @@
+{
+  "uid" : "2cd947a3188b4bdc",
+  "name" : "TC246 - Verify user should have the option to select any other SM email(or their alias) or my personal email in the From field",
+  "fullName" : "Complete Test Suite.TC246 - Verify user should have the option to select any other SM email(or their alias) or my personal email in the From field",
+  "historyId" : "1fd98282a2850c716b12528d714031e3",
+  "time" : {
+    "start" : 1653663947943,
+    "stop" : 1653663991306,
+    "duration" : 43363
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC246-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC246-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:140:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC246-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC246-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"smName\"]/../../android.view.ViewGroup[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:140:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653663947944,
+        "stop" : 1653663969353,
+        "duration" : 21409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653663991307,
+        "stop" : 1653663992563,
+        "duration" : 1256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f73c3f10b8f52df",
+      "name" : "Screenshot",
+      "source" : "f73c3f10b8f52df.png",
+      "type" : "image/png",
+      "size" : 181545
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC246 - Verify user should have the option to select any other SM email(or their alias) or my personal email in the From field"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2cd947a3188b4bdc.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
