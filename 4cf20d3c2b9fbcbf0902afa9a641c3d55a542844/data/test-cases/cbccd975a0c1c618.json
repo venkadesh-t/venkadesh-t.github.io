@@ -1,0 +1,116 @@
+{
+  "uid" : "cbccd975a0c1c618",
+  "name" : "TC638 - To verify that the time or date information on a conversation",
+  "fullName" : "Complete Test Suite.TC638 - To verify that the time or date information on a conversation",
+  "historyId" : "abc965f89424188f4de718841adc2099",
+  "time" : {
+    "start" : 1653750654792,
+    "stop" : 1653750698157,
+    "duration" : 43365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC638-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC638-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:309:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC638-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC638-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:309:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653750654793,
+        "stop" : 1653750676050,
+        "duration" : 21257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653750698157,
+        "stop" : 1653750699256,
+        "duration" : 1099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "64b2fbb0967a2905",
+      "name" : "Screenshot",
+      "source" : "64b2fbb0967a2905.png",
+      "type" : "image/png",
+      "size" : 180913
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC638 - To verify that the time or date information on a conversation"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cbccd975a0c1c618.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

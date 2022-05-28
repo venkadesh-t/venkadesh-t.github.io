@@ -1,0 +1,116 @@
+{
+  "uid" : "7ded93f0cc2cb2a4",
+  "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+  "fullName" : "Complete Test Suite.TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+  "historyId" : "f7f8c3b294e32f0d7ed1233e977a383d",
+  "time" : {
+    "start" : 1653751367043,
+    "stop" : 1653751409940,
+    "duration" : 42897
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC676-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC676-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:556:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC676-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC676-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:556:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653751367044,
+        "stop" : 1653751388171,
+        "duration" : 21127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1653751409940,
+        "stop" : 1653751411105,
+        "duration" : 1165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b23771e09a78d873",
+      "name" : "Screenshot",
+      "source" : "b23771e09a78d873.png",
+      "type" : "image/png",
+      "size" : 181538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7ded93f0cc2cb2a4.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
