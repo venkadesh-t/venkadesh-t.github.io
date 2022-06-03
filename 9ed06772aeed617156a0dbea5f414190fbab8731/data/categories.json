@@ -1,0 +1,391 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "2ae2641f86e0577",
+        "parentUid" : "aa7858c5630f6fc9ba80b5e020d57e1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654249865901,
+          "stop" : 1654249888178,
+          "duration" : 22277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "aa7858c5630f6fc9ba80b5e020d57e1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC238-Failed-->Reason: Error: element (\"//android.widget.TextView[contains (@text, \"heyuser3 s\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC238 - Verify that user uis able to see the profile information on the left panel",
+        "uid" : "f2b1ff8d0ca152c8",
+        "parentUid" : "6fc49e9997f22885b86e265e5df4fbf6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654250081161,
+          "stop" : 1654250131125,
+          "duration" : 49964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6fc49e9997f22885b86e265e5df4fbf6"
+    }, {
+      "name" : "TC239-Failed-->Reason: Error: element (\"//android.view.ViewGroup[contains(@content-desc,\"Help and feedback\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+        "uid" : "3df11ed8cf07f541",
+        "parentUid" : "270c2c45a4340d8c4a8ae82ad25d1f83",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654250132477,
+          "stop" : 1654250179360,
+          "duration" : 46883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "270c2c45a4340d8c4a8ae82ad25d1f83"
+    }, {
+      "name" : "TC240-Failed-->Reason: Error: element (\"//android.view.ViewGroup[contains(@content-desc,\"Help and feedback\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC240 - Verify that user can modify To,From,CC,BCC fields after clicking on help and support option.",
+        "uid" : "e3a17ffde1ea4c03",
+        "parentUid" : "0e0f58d707a1bd95ca710e9541545ad6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654250180716,
+          "stop" : 1654250226984,
+          "duration" : 46268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "0e0f58d707a1bd95ca710e9541545ad6"
+    }, {
+      "name" : "TC241-Failed-->Reason: Error: element (\"//android.view.ViewGroup[contains(@content-desc,\"Product updates\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC241 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+        "uid" : "a251f550208e9900",
+        "parentUid" : "cd515964bdf3e34b3a826af036791bd6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654250228430,
+          "stop" : 1654250274161,
+          "duration" : 45731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "cd515964bdf3e34b3a826af036791bd6"
+    }, {
+      "name" : "TC243-Failed-->Reason: Error: element (\"//android.view.ViewGroup[contains(@content-desc,\"Help and feedback\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC243 - Verify that user is able to access Compose and help&feedback even with no internet connection",
+        "uid" : "eda40ad1d45a343c",
+        "parentUid" : "173a812f6440bce31d5f1575e9c6fad6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654250553715,
+          "stop" : 1654250600718,
+          "duration" : 47003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "173a812f6440bce31d5f1575e9c6fad6"
+    }, {
+      "name" : "TC632-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+        "uid" : "f1c2cddfb9a76cb5",
+        "parentUid" : "6ea7ecd8a92c4336fe7e5407229aa281",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654250757538,
+          "stop" : 1654250797640,
+          "duration" : 40102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6ea7ecd8a92c4336fe7e5407229aa281"
+    }, {
+      "name" : "TC674-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "bb209606d81a2be7",
+        "parentUid" : "6f9caff68c6b643b60d1f25c272ad174",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654251422496,
+          "stop" : 1654251533865,
+          "duration" : 111369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6f9caff68c6b643b60d1f25c272ad174"
+    }, {
+      "name" : "TC657-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"assign\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "12d08d9cc8125437",
+        "parentUid" : "668a6f3ecb25b1130ead2976178298e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654251804718,
+          "stop" : 1654251860103,
+          "duration" : 55385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "668a6f3ecb25b1130ead2976178298e8"
+    }, {
+      "name" : "TC668-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+        "uid" : "9dc851fad2b0c549",
+        "parentUid" : "71129f72cc6d84234406a12066856367",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654251861497,
+          "stop" : 1654251976009,
+          "duration" : 114512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "71129f72cc6d84234406a12066856367"
+    }, {
+      "name" : "TC670-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "86e64f8576d11a30",
+        "parentUid" : "d1dddefb4c198d73e7420d4b949fa2cf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654251977383,
+          "stop" : 1654252091476,
+          "duration" : 114093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d1dddefb4c198d73e7420d4b949fa2cf"
+    }, {
+      "name" : "TC672-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC672 - To verify confirmation popup before removing the conversation",
+        "uid" : "859d486117267777",
+        "parentUid" : "c57be2d538edca18a5f5f30f447c717c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252092970,
+          "stop" : 1654252206745,
+          "duration" : 113775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c57be2d538edca18a5f5f30f447c717c"
+    }, {
+      "name" : "TC673-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC673 - To verify remove the conversation from SM",
+        "uid" : "188d75f34335d52d",
+        "parentUid" : "af04562de0360f766c23c4db9c2f1b03",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252207998,
+          "stop" : 1654252321839,
+          "duration" : 113841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "af04562de0360f766c23c4db9c2f1b03"
+    }, {
+      "name" : "TC675-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC675 - To verify cancel option on the confirmation popup",
+        "uid" : "9f7b90f36752e974",
+        "parentUid" : "0df00b801c63a7ec0293dbbfeb892e0b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252323720,
+          "stop" : 1654252438154,
+          "duration" : 114434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "0df00b801c63a7ec0293dbbfeb892e0b"
+    }, {
+      "name" : "TC678-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text = \"BumbleBee\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC678 - To verify remove conversation from <SM name>”",
+        "uid" : "48d1db9abe3e9793",
+        "parentUid" : "5ac407830020a555cb81c0ca453f7217",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252440120,
+          "stop" : 1654252554620,
+          "duration" : 114500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5ac407830020a555cb81c0ca453f7217"
+    }, {
+      "name" : "TC97-Failed-->Reason: Error: element (\"//*[@text = \"BumbleBee\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC97 - Verify that user is able to see subject line of the conversation",
+        "uid" : "c33dbca9d651da52",
+        "parentUid" : "fdbd9f44ff12fddab7590e1e58d8127f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252556106,
+          "stop" : 1654252600524,
+          "duration" : 44418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "fdbd9f44ff12fddab7590e1e58d8127f"
+    }, {
+      "name" : "TC99-Failed-->Reason: Error: element (\"//*[@text = \"BumbleBee\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC99 - Verify that if any email is unread in the conversation, it should expand automatically for the user to read.",
+        "uid" : "66afd76cade54f23",
+        "parentUid" : "092becc3204ad8f55cbb0847c45e269c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252601985,
+          "stop" : 1654252647042,
+          "duration" : 45057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "092becc3204ad8f55cbb0847c45e269c"
+    }, {
+      "name" : "TC104-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC104 - Verify that user can see the attachement icon in the list view of mail.",
+        "uid" : "49cdfe34f9b9561d",
+        "parentUid" : "42a1ceb5a0ee86a93f6810dcb2974f8e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654252648697,
+          "stop" : 1654252682914,
+          "duration" : 34217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "42a1ceb5a0ee86a93f6810dcb2974f8e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
