@@ -1,0 +1,116 @@
+{
+  "uid" : "5a3c403e2664d03b",
+  "name" : "TC262- Verify that app version is shown on the login screen",
+  "fullName" : "Complete Test Suite.TC262- Verify that app version is shown on the login screen",
+  "historyId" : "7e7a7c7822ce282a06a41c6b8dd1eba9",
+  "time" : {
+    "start" : 1654440938595,
+    "stop" : 1654440960971,
+    "duration" : 22376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:34:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:34:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654440938597,
+        "stop" : 1654440959710,
+        "duration" : 21113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654440960972,
+        "stop" : 1654440962014,
+        "duration" : 1042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "30327c087c4ce794",
+      "name" : "Screenshot",
+      "source" : "30327c087c4ce794.png",
+      "type" : "image/png",
+      "size" : 240495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC262- Verify that app version is shown on the login screen"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a3c403e2664d03b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
