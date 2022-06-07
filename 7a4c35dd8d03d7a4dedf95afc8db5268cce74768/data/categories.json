@@ -1,0 +1,118 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "fed0a7c7791cc47d",
+        "parentUid" : "aa7858c5630f6fc9ba80b5e020d57e1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654614289964,
+          "stop" : 1654614313108,
+          "duration" : 23144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "aa7858c5630f6fc9ba80b5e020d57e1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC238-Failed-->Reason: Error: element (\"//android.widget.TextView[contains (@text, \"heyuser3 s\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC238 - Verify that user uis able to see the profile information on the left panel",
+        "uid" : "c9f2ff4ba62e18eb",
+        "parentUid" : "6fc49e9997f22885b86e265e5df4fbf6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654614505313,
+          "stop" : 1654614555900,
+          "duration" : 50587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6fc49e9997f22885b86e265e5df4fbf6"
+    }, {
+      "name" : "TC239-Failed-->Reason: Error: element (\"//android.view.ViewGroup[contains(@content-desc,\"Help and feedback\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC239 - Verify that on clicking on help and support, compose mail is opened with support id as default in \"To\" field",
+        "uid" : "c36c381231e4e73f",
+        "parentUid" : "270c2c45a4340d8c4a8ae82ad25d1f83",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654614557533,
+          "stop" : 1654614607379,
+          "duration" : 49846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "270c2c45a4340d8c4a8ae82ad25d1f83"
+    }, {
+      "name" : "TC240-Failed-->Reason: Error: element (\"//android.view.ViewGroup[contains(@content-desc,\"Help and feedback\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC240 - Verify that user can modify To,From,CC,BCC fields after clicking on help and support option.",
+        "uid" : "66fff71db9e925aa",
+        "parentUid" : "0e0f58d707a1bd95ca710e9541545ad6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654614608770,
+          "stop" : 1654614656355,
+          "duration" : 47585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "0e0f58d707a1bd95ca710e9541545ad6"
+    }, {
+      "name" : "TC241-Failed-->Reason: Error: Session not started or terminated",
+      "children" : [ {
+        "name" : "TC241 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+        "uid" : "6be11c5f4850b5c7",
+        "parentUid" : "93e0870f4e36cfc2a2ab84d9467d5a68",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654614657900,
+          "stop" : 1654614686763,
+          "duration" : 28863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "93e0870f4e36cfc2a2ab84d9467d5a68"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
