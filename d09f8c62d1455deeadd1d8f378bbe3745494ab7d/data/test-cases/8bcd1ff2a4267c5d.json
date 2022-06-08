@@ -1,0 +1,116 @@
+{
+  "uid" : "8bcd1ff2a4267c5d",
+  "name" : "TC678 - To verify remove conversation from <SM name>”",
+  "fullName" : "Complete Test Suite.TC678 - To verify remove conversation from <SM name>”",
+  "historyId" : "25b7033639cceada4241d4bb702f6ff8",
+  "time" : {
+    "start" : 1654671426768,
+    "stop" : 1654671451314,
+    "duration" : 24546
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC678-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC678-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:695:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC678-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC678-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:695:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654671426768,
+        "stop" : 1654671437968,
+        "duration" : 11200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654671451314,
+        "stop" : 1654671452540,
+        "duration" : 1226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "64884611650ac86c",
+      "name" : "Screenshot",
+      "source" : "64884611650ac86c.png",
+      "type" : "image/png",
+      "size" : 191670
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC678 - To verify remove conversation from <SM name>”"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8bcd1ff2a4267c5d.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,408 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.2.0' to equal 'v 2.1.0'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "f0f3a110f4b6bf7e",
+        "parentUid" : "aa7858c5630f6fc9ba80b5e020d57e1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654670171230,
+          "stop" : 1654670183459,
+          "duration" : 12229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "aa7858c5630f6fc9ba80b5e020d57e1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC735-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC735 - To verify \"Compose\" page is displayed when clicked on \"Compose\" button in left drawer panel.",
+        "uid" : "3061e47101863003",
+        "parentUid" : "41541e711a4594f6197ff3b5b05264d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654670524155,
+          "stop" : 1654670560702,
+          "duration" : 36547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "41541e711a4594f6197ff3b5b05264d7"
+    }, {
+      "name" : "TC632-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+        "uid" : "de8081e471286568",
+        "parentUid" : "6ea7ecd8a92c4336fe7e5407229aa281",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654670615542,
+          "stop" : 1654670645795,
+          "duration" : 30253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6ea7ecd8a92c4336fe7e5407229aa281"
+    }, {
+      "name" : "TC669-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+        "uid" : "d69842630ba52cdf",
+        "parentUid" : "36c23de7b81b798db59a5efa014dc65a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671040982,
+          "stop" : 1654671066038,
+          "duration" : 25056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "36c23de7b81b798db59a5efa014dc65a"
+    }, {
+      "name" : "TC674-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "588c860c5ee0a078",
+        "parentUid" : "1e0b96903053c3123a6489c7c638392a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671067015,
+          "stop" : 1654671090636,
+          "duration" : 23621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1e0b96903053c3123a6489c7c638392a"
+    }, {
+      "name" : "TC676-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+        "uid" : "df55e11e74f11209",
+        "parentUid" : "6b83dc613a88d75999c2be48fb9b174e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671091718,
+          "stop" : 1654671124096,
+          "duration" : 32378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+        "uid" : "35c59ab12aaa9fac",
+        "parentUid" : "6b83dc613a88d75999c2be48fb9b174e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671125171,
+          "stop" : 1654671158075,
+          "duration" : 32904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b83dc613a88d75999c2be48fb9b174e"
+    }, {
+      "name" : "TC655-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC655 - To verify users will be able to see all the SMs to which the conversation belongs to.",
+        "uid" : "ea570d5b58633c69",
+        "parentUid" : "97b57c825fe006301b6f2006d0c1597b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671159188,
+          "stop" : 1654671191472,
+          "duration" : 32284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "97b57c825fe006301b6f2006d0c1597b"
+    }, {
+      "name" : "TC656-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC656 - To verify users can switch to a different SM on the conversation thread screen",
+        "uid" : "40e5048681e287a1",
+        "parentUid" : "9a376b395089df00512cfd1d172b64af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671192515,
+          "stop" : 1654671235097,
+          "duration" : 42582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9a376b395089df00512cfd1d172b64af"
+    }, {
+      "name" : "TC657-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "bd98817427f9b5a8",
+        "parentUid" : "a948fdd0a34ea28127f7e05b3db8f280",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671236205,
+          "stop" : 1654671278766,
+          "duration" : 42561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a948fdd0a34ea28127f7e05b3db8f280"
+    }, {
+      "name" : "TC668-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+        "uid" : "23fa80bf234dfb2",
+        "parentUid" : "f2efd6de038606d5e7c160aa7073440b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671279890,
+          "stop" : 1654671322729,
+          "duration" : 42839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f2efd6de038606d5e7c160aa7073440b"
+    }, {
+      "name" : "TC670-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "564178dcda2667f7",
+        "parentUid" : "d1d8e194b2b83f4328fc7e336bd45c0f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671324007,
+          "stop" : 1654671348702,
+          "duration" : 24695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d1d8e194b2b83f4328fc7e336bd45c0f"
+    }, {
+      "name" : "TC672-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC672 - To verify confirmation popup before removing the conversation",
+        "uid" : "879a3dc422002557",
+        "parentUid" : "84f9540c93e63bb306c51d7190385eab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671349823,
+          "stop" : 1654671373642,
+          "duration" : 23819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "84f9540c93e63bb306c51d7190385eab"
+    }, {
+      "name" : "TC673-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC673 - To verify remove the conversation from SM",
+        "uid" : "8e50f58390f2d571",
+        "parentUid" : "c31f87d0a4e31b4717e09e6f46ae1408",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671374671,
+          "stop" : 1654671399548,
+          "duration" : 24877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c31f87d0a4e31b4717e09e6f46ae1408"
+    }, {
+      "name" : "TC675-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC675 - To verify cancel option on the confirmation popup",
+        "uid" : "1a4bdcc984eaed1d",
+        "parentUid" : "98ee76a70bef6ecc062c8cc461c5b419",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671400599,
+          "stop" : 1654671425703,
+          "duration" : 25104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "98ee76a70bef6ecc062c8cc461c5b419"
+    }, {
+      "name" : "TC678-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+      "children" : [ {
+        "name" : "TC678 - To verify remove conversation from <SM name>”",
+        "uid" : "8bcd1ff2a4267c5d",
+        "parentUid" : "d64fe9a44e380ca42ecc775ccd02910a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671426768,
+          "stop" : 1654671451314,
+          "duration" : 24546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d64fe9a44e380ca42ecc775ccd02910a"
+    }, {
+      "name" : "TC97-Failed-->Reason: Error: element (\"//*[@text = \"BumbleBee\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC97 - Verify that user is able to see subject line of the conversation",
+        "uid" : "6ea1fb4cb596d33a",
+        "parentUid" : "fdbd9f44ff12fddab7590e1e58d8127f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671452540,
+          "stop" : 1654671487179,
+          "duration" : 34639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "fdbd9f44ff12fddab7590e1e58d8127f"
+    }, {
+      "name" : "TC99-Failed-->Reason: Error: element (\"//*[@text = \"BumbleBee\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC99 - Verify that if any email is unread in the conversation, it should expand automatically for the user to read.",
+        "uid" : "8b7fa6310a6a111f",
+        "parentUid" : "092becc3204ad8f55cbb0847c45e269c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671488224,
+          "stop" : 1654671522431,
+          "duration" : 34207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "092becc3204ad8f55cbb0847c45e269c"
+    }, {
+      "name" : "TC104-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC104 - Verify that user can see the attachement icon in the list view of mail.",
+        "uid" : "f7f1aa2f55f578d5",
+        "parentUid" : "42a1ceb5a0ee86a93f6810dcb2974f8e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654671523425,
+          "stop" : 1654671547605,
+          "duration" : 24180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "42a1ceb5a0ee86a93f6810dcb2974f8e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

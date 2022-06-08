@@ -1,0 +1,116 @@
+{
+  "uid" : "de8081e471286568",
+  "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+  "fullName" : "Complete Test Suite.TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+  "historyId" : "58b871239ef29e8cc2ba9c549a9b7be6",
+  "time" : {
+    "start" : 1654670615542,
+    "stop" : 1654670645795,
+    "duration" : 30253
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC632-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:214:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC632-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:214:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654670615543,
+        "stop" : 1654670626912,
+        "duration" : 11369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654670645795,
+        "stop" : 1654670647027,
+        "duration" : 1232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cbc7f6fa6270c9de",
+      "name" : "Screenshot",
+      "source" : "cbc7f6fa6270c9de.png",
+      "type" : "image/png",
+      "size" : 75742
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "de8081e471286568.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
