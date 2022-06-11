@@ -1,0 +1,116 @@
+{
+  "uid" : "98e82785e8a9072a",
+  "name" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+  "fullName" : "Complete Test Suite.TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+  "historyId" : "2ffc0a4bd2a38f71eb6e530fff239fb0",
+  "time" : {
+    "start" : 1654960101810,
+    "stop" : 1654960136558,
+    "duration" : 34748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC666-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text=\"Gmail Inbox\"]' is not linked to the same object in DOM anymore",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC666-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text=\"Gmail Inbox\"]' is not linked to the same object in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:382:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC666-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text=\"Gmail Inbox\"]' is not linked to the same object in DOM anymore",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC666-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //*[@text=\"Gmail Inbox\"]' is not linked to the same object in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:382:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654960101810,
+        "stop" : 1654960112987,
+        "duration" : 11177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1654960136558,
+        "stop" : 1654960137675,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "30cf02c624089cbb",
+      "name" : "Screenshot",
+      "source" : "30cf02c624089cbb.png",
+      "type" : "image/png",
+      "size" : 192081
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "98e82785e8a9072a.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
