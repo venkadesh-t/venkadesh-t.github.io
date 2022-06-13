@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"//XCUIElementTypeStaticText[@name=\"v 1.18.7\"]\" because element wasn't found",
+      "name" : "TC262-Failed-->Reason: TypeError: signInPage.clickAllow is not a function",
       "children" : [ {
         "name" : "TC262- Verify that app version is shown on the login screen",
-        "uid" : "c59a6c77a608b776",
-        "parentUid" : "fbd2f48b052298914ff9800dbadb4dde",
+        "uid" : "8b8dd4dd6c72effd",
+        "parentUid" : "d1726335357e64b6c632e7e837fd1ad6",
         "status" : "broken",
         "time" : {
-          "start" : 1655102243763,
-          "stop" : 1655102274701,
-          "duration" : 30938
+          "start" : 1655107222260,
+          "stop" : 1655107242419,
+          "duration" : 20159
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,7 +23,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "iphone-15.0" ]
       } ],
-      "uid" : "fbd2f48b052298914ff9800dbadb4dde"
+      "uid" : "d1726335357e64b6c632e7e837fd1ad6"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
