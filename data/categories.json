@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"//XCUIElementTypeStaticText[@name=\"v 1.18.7\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "c59a6c77a608b776",
+        "parentUid" : "fbd2f48b052298914ff9800dbadb4dde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655102243763,
+          "stop" : 1655102274701,
+          "duration" : 30938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "fbd2f48b052298914ff9800dbadb4dde"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
