@@ -1,0 +1,116 @@
+{
+  "uid" : "bdd64c6d0ee8fbb7",
+  "name" : "TC660 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+  "fullName" : "Complete Test Suite.TC660 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+  "historyId" : "5e5e117e42ed77de1ae7d97a7ebb1f6d",
+  "time" : {
+    "start" : 1655219913669,
+    "stop" : 1655219953310,
+    "duration" : 39641
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC660-Failed-->Reason: AssertionError: expected 'Jun 13' to equal 'Re-Automation'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC660-Failed-->Reason: AssertionError: expected 'Jun 13' to equal 'Re-Automation'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:341:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC660-Failed-->Reason: AssertionError: expected 'Jun 13' to equal 'Re-Automation'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC660-Failed-->Reason: AssertionError: expected 'Jun 13' to equal 'Re-Automation'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:341:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655219913672,
+        "stop" : 1655219925377,
+        "duration" : 11705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655219953311,
+        "stop" : 1655219954599,
+        "duration" : 1288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9261a5e42bc74a49",
+      "name" : "Screenshot",
+      "source" : "9261a5e42bc74a49.png",
+      "type" : "image/png",
+      "size" : 191579
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC660 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bdd64c6d0ee8fbb7.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
