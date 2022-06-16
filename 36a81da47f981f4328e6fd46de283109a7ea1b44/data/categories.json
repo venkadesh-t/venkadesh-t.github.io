@@ -1,0 +1,778 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.3.0' to equal 'v 2.2.0'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "f4e53bc8fd37bc7b",
+        "parentUid" : "ff108f3e597bac7150340e53ac9167c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655360636229,
+          "stop" : 1655360649552,
+          "duration" : 13323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "ff108f3e597bac7150340e53ac9167c2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC724-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC724 - To verify profileAvatar.",
+        "uid" : "dfbe19903e4c557d",
+        "parentUid" : "8227503fa5475c3888f71a6b0963b63b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655360800646,
+          "stop" : 1655360834389,
+          "duration" : 33743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8227503fa5475c3888f71a6b0963b63b"
+    }, {
+      "name" : "TC725-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC725 - To verify right drawer panel  is accessible when user clicks on \"Profile Avatar\" in home page.",
+        "uid" : "2228724ab3458979",
+        "parentUid" : "16831ec1c99fd7c3aa46ad5e244a9d17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655360835502,
+          "stop" : 1655360868077,
+          "duration" : 32575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "16831ec1c99fd7c3aa46ad5e244a9d17"
+    }, {
+      "name" : "TC726-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC726 - To verify \"Right Drawer\" panel is closed when user clicks on \"Close\" icon.",
+        "uid" : "cde2b5a6a733a4f",
+        "parentUid" : "27455400fbbcd5d858861126b79c30d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655360869221,
+          "stop" : 1655360902115,
+          "duration" : 32894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "27455400fbbcd5d858861126b79c30d8"
+    }, {
+      "name" : "TC727-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+        "uid" : "a82c5ed6b940790d",
+        "parentUid" : "76e7657016ce796dfe537c8da208e6e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655360903201,
+          "stop" : 1655360936160,
+          "duration" : 32959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "76e7657016ce796dfe537c8da208e6e1"
+    }, {
+      "name" : "TC730-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC730 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+        "uid" : "bea13fcb89961125",
+        "parentUid" : "eda74109b03e1b5e463b9e20f7f7fcb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655360937259,
+          "stop" : 1655360970465,
+          "duration" : 33206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "TC731 - Verify that user is able to logout of the app using logout button.",
+        "uid" : "a61263623995590",
+        "parentUid" : "eda74109b03e1b5e463b9e20f7f7fcb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655360971491,
+          "stop" : 1655361004550,
+          "duration" : 33059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "eda74109b03e1b5e463b9e20f7f7fcb6"
+    }, {
+      "name" : "TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+        "uid" : "64e8117f85dc2672",
+        "parentUid" : "2579f7cefd4126766be74277f962758f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361005729,
+          "stop" : 1655361040363,
+          "duration" : 34634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2579f7cefd4126766be74277f962758f"
+    }, {
+      "name" : "TC735-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC735 - To verify \"Compose\" page is displayed when clicked on \"Compose\" button in left drawer panel.",
+        "uid" : "10036b398c40e341",
+        "parentUid" : "45c9ab1a35d7d22cb2cdeb1337848b93",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361041449,
+          "stop" : 1655361074579,
+          "duration" : 33130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "45c9ab1a35d7d22cb2cdeb1337848b93"
+    }, {
+      "name" : "TC738-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+        "uid" : "4858e46a38a45095",
+        "parentUid" : "d71c865e452fa8a19e23eb757eecbbb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361075658,
+          "stop" : 1655361109185,
+          "duration" : 33527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d71c865e452fa8a19e23eb757eecbbb2"
+    }, {
+      "name" : "TC631-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login.",
+        "uid" : "949fbd82bc8487dd",
+        "parentUid" : "964d5efcb2437b91486aca84047756ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361110374,
+          "stop" : 1655361143594,
+          "duration" : 33220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "964d5efcb2437b91486aca84047756ba"
+    }, {
+      "name" : "TC632-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+        "uid" : "bc20378145c39761",
+        "parentUid" : "aa2e25b6b7d02ee4c0eda5c03b0e0b23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361144681,
+          "stop" : 1655361178407,
+          "duration" : 33726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "aa2e25b6b7d02ee4c0eda5c03b0e0b23"
+    }, {
+      "name" : "TC638-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC638 - To verify that the time or date information on a conversation",
+        "uid" : "51b8b905cda4ac6f",
+        "parentUid" : "97c204a8aa19d4a6f34352d86e23a16d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361179503,
+          "stop" : 1655361213046,
+          "duration" : 33543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "97c204a8aa19d4a6f34352d86e23a16d"
+    }, {
+      "name" : "TC639-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC639 - To verify that the \"Profile Letter\" of the user is shown who started the conversation under default inbox categories.",
+        "uid" : "985f864df3e63369",
+        "parentUid" : "dd87a4a966ea5e92ab566926f607c40e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361214194,
+          "stop" : 1655361246994,
+          "duration" : 32800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "dd87a4a966ea5e92ab566926f607c40e"
+    }, {
+      "name" : "TC640-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC640 - To verify Subject line",
+        "uid" : "a1ad3f7881931833",
+        "parentUid" : "dfdc74a884e8e23dd7f815cf11af095a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361248116,
+          "stop" : 1655361281596,
+          "duration" : 33480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "dfdc74a884e8e23dd7f815cf11af095a"
+    }, {
+      "name" : "TC646-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC646 - To verify each mail in conversation should have the option to reply/reply all or forward",
+        "uid" : "c1565fa6ca627f2e",
+        "parentUid" : "b68405442a50d6908e65be1415291e4d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361282678,
+          "stop" : 1655361315462,
+          "duration" : 32784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b68405442a50d6908e65be1415291e4d"
+    }, {
+      "name" : "TC652-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox.",
+        "uid" : "57649e340edd6e53",
+        "parentUid" : "76d24e94bebb9f000d7dd21d43721d64",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361316526,
+          "stop" : 1655361349686,
+          "duration" : 33160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "76d24e94bebb9f000d7dd21d43721d64"
+    }, {
+      "name" : "TC653-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC653 - To  verify user is able to switch between header tabs in the search screen.",
+        "uid" : "fe7d5178bac6ff3e",
+        "parentUid" : "0f76658da0f77ec1c97574f07768f50c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361350908,
+          "stop" : 1655361384328,
+          "duration" : 33420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "0f76658da0f77ec1c97574f07768f50c"
+    }, {
+      "name" : "TC654-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+        "uid" : "ad931afe747f7868",
+        "parentUid" : "4a31b0bdb90feed70306506dfb25995b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361385381,
+          "stop" : 1655361418343,
+          "duration" : 32962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "4a31b0bdb90feed70306506dfb25995b"
+    }, {
+      "name" : "TC658-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC658 - To verify when user is searching within Gmail inbox, the search results should only contain email exchange data",
+        "uid" : "ba3471cdad1b377a",
+        "parentUid" : "bca8c0393afd8ee6031c8c76e3da371d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361419438,
+          "stop" : 1655361453066,
+          "duration" : 33628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bca8c0393afd8ee6031c8c76e3da371d"
+    }, {
+      "name" : "TC660-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC660 - To verify \"Gmail Inbox\" chip is displayed for personal conversation if user searches for conversation in \"All Inboxes\"",
+        "uid" : "3b24d433746a6640",
+        "parentUid" : "a6057f3742cad0f3678c3491fea35b19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361454273,
+          "stop" : 1655361487476,
+          "duration" : 33203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "TC660 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+        "uid" : "641b8d78b043da02",
+        "parentUid" : "a6057f3742cad0f3678c3491fea35b19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361488699,
+          "stop" : 1655361521060,
+          "duration" : 32361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a6057f3742cad0f3678c3491fea35b19"
+    }, {
+      "name" : "TC663-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\".",
+        "uid" : "4802429797ae78ab",
+        "parentUid" : "2b1ec5ac61ef5b6aae5f118d49425d92",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361522435,
+          "stop" : 1655361555789,
+          "duration" : 33354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2b1ec5ac61ef5b6aae5f118d49425d92"
+    }, {
+      "name" : "TC664-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+        "uid" : "cc2e32d7377cc8f6",
+        "parentUid" : "bbbc267ca2d868123a826ab3151e4abb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361556922,
+          "stop" : 1655361590138,
+          "duration" : 33216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bbbc267ca2d868123a826ab3151e4abb"
+    }, {
+      "name" : "TC666-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+        "uid" : "633744ea2304e21c",
+        "parentUid" : "4aaae6da83bf94be15b10b38d4088a8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361591303,
+          "stop" : 1655361625321,
+          "duration" : 34018
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "4aaae6da83bf94be15b10b38d4088a8b"
+    }, {
+      "name" : "TC669-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+        "uid" : "50fa12969265b68e",
+        "parentUid" : "1e2a4d9eb5be070face56b80e469d4bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361626493,
+          "stop" : 1655361659811,
+          "duration" : 33318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1e2a4d9eb5be070face56b80e469d4bc"
+    }, {
+      "name" : "TC674-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "77e150d122131acf",
+        "parentUid" : "641b1683f767cdf181113e7d434014b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361660973,
+          "stop" : 1655361693694,
+          "duration" : 32721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "641b1683f767cdf181113e7d434014b4"
+    }, {
+      "name" : "TC676-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+        "uid" : "1115eee6daad42eb",
+        "parentUid" : "6b83dc613a88d75999c2be48fb9b174e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361694827,
+          "stop" : 1655361728181,
+          "duration" : 33354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+        "uid" : "bb54ede5dfe3bf6b",
+        "parentUid" : "6b83dc613a88d75999c2be48fb9b174e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361729242,
+          "stop" : 1655361762683,
+          "duration" : 33441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b83dc613a88d75999c2be48fb9b174e"
+    }, {
+      "name" : "TC655-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC655 - To verify users will be able to see all the SMs to which the conversation belongs to.",
+        "uid" : "4fd619ba571cb6a3",
+        "parentUid" : "97b57c825fe006301b6f2006d0c1597b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361763834,
+          "stop" : 1655361797506,
+          "duration" : 33672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "97b57c825fe006301b6f2006d0c1597b"
+    }, {
+      "name" : "TC656-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC656 - To verify users can switch to a different SM on the conversation thread screen",
+        "uid" : "1f0cc5aa5e114612",
+        "parentUid" : "9a376b395089df00512cfd1d172b64af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361798698,
+          "stop" : 1655361831574,
+          "duration" : 32876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9a376b395089df00512cfd1d172b64af"
+    }, {
+      "name" : "TC657-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "cbbe4cd94aed92f1",
+        "parentUid" : "a948fdd0a34ea28127f7e05b3db8f280",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361832688,
+          "stop" : 1655361864834,
+          "duration" : 32146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a948fdd0a34ea28127f7e05b3db8f280"
+    }, {
+      "name" : "TC668-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+        "uid" : "b8614f9252dd9504",
+        "parentUid" : "f2efd6de038606d5e7c160aa7073440b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361865964,
+          "stop" : 1655361898479,
+          "duration" : 32515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f2efd6de038606d5e7c160aa7073440b"
+    }, {
+      "name" : "TC670-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "1066edf487f494f8",
+        "parentUid" : "978d49a16c715f977af8f94a03474c24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361900113,
+          "stop" : 1655361933533,
+          "duration" : 33420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "978d49a16c715f977af8f94a03474c24"
+    }, {
+      "name" : "TC672-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC672 - To verify confirmation popup before removing the conversation",
+        "uid" : "10de53bc58e5f26d",
+        "parentUid" : "a76d7c8b5c5a86ba9a8914dfe8842d48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361934707,
+          "stop" : 1655361967949,
+          "duration" : 33242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a76d7c8b5c5a86ba9a8914dfe8842d48"
+    }, {
+      "name" : "TC673-Failed-->Reason: Error: element (\"//*[@text=\"Gmail Inbox\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC673 - To verify remove the conversation from SM",
+        "uid" : "c0099173b5a5ae91",
+        "parentUid" : "869221c42bd0a5879f41a60ad0bbce54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655361969183,
+          "stop" : 1655362001765,
+          "duration" : 32582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "869221c42bd0a5879f41a60ad0bbce54"
+    }, {
+      "name" : "TC675-Failed-->Reason: invalid session id: A session is either terminated or not started",
+      "children" : [ {
+        "name" : "TC675 - To verify cancel option on the confirmation popup",
+        "uid" : "2e2de33790795e2b",
+        "parentUid" : "85ca23349d045e6ccbac0a84c2cb9e83",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655362003002,
+          "stop" : 1655362020006,
+          "duration" : 17004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "85ca23349d045e6ccbac0a84c2cb9e83"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
