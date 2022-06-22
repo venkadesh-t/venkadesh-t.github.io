@@ -1,0 +1,116 @@
+{
+  "uid" : "9d316d8d55871a84",
+  "name" : "TC630- To verify long press on hiver logo, showing the popup for quick login",
+  "fullName" : "Complete Test Suite.TC630- To verify long press on hiver logo, showing the popup for quick login",
+  "historyId" : "a2f57effbd2547daf8675d9ed53bdbc2",
+  "time" : {
+    "start" : 1655906204809,
+    "stop" : 1655906234150,
+    "duration" : 29341
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"~v 2.2.0\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"~v 2.2.0\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:56:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"~v 2.2.0\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"~v 2.2.0\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:56:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655906204810,
+        "stop" : 1655906223550,
+        "duration" : 18740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655906234150,
+        "stop" : 1655906235211,
+        "duration" : 1061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "17277273851fad10",
+      "name" : "Screenshot",
+      "source" : "17277273851fad10.png",
+      "type" : "image/png",
+      "size" : 178964
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC630- To verify long press on hiver logo, showing the popup for quick login"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9d316d8d55871a84.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}

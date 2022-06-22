@@ -1,0 +1,116 @@
+{
+  "uid" : "6c3e15f53485bc89",
+  "name" : "TC262- Verify that app version is shown on the login screen",
+  "fullName" : "Complete Test Suite.TC262- Verify that app version is shown on the login screen",
+  "historyId" : "5a7326b39132997d0ad22645c08c283c",
+  "time" : {
+    "start" : 1655906142157,
+    "stop" : 1655906173037,
+    "duration" : 30880
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"~v 2.2.0\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: Error: Can't call getText on element with selector \"~v 2.2.0\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:39:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"~v 2.2.0\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: Error: Can't call getText on element with selector \"~v 2.2.0\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:39:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655906142159,
+        "stop" : 1655906162112,
+        "duration" : 19953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655906173038,
+        "stop" : 1655906174098,
+        "duration" : 1060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cbb853d86321deba",
+      "name" : "Screenshot",
+      "source" : "cbb853d86321deba.png",
+      "type" : "image/png",
+      "size" : 178989
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC262- Verify that app version is shown on the login screen"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6c3e15f53485bc89.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}
