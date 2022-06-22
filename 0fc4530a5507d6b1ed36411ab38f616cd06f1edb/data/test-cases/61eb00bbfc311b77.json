@@ -1,0 +1,116 @@
+{
+  "uid" : "61eb00bbfc311b77",
+  "name" : "TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\"",
+  "fullName" : "Complete Test Suite.TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\"",
+  "historyId" : "ef69a34781ed90fa4a9787c568be5b39",
+  "time" : {
+    "start" : 1655911058595,
+    "stop" : 1655911099143,
+    "duration" : 40548
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC632-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:433:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC632-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.xpath: //android.widget.TextView[contains(@text,\"Primary\")]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:433:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655911058596,
+        "stop" : 1655911070036,
+        "duration" : 11440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655911099143,
+        "stop" : 1655911100214,
+        "duration" : 1071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "296525475588131e",
+      "name" : "Screenshot",
+      "source" : "296525475588131e.png",
+      "type" : "image/png",
+      "size" : 76640
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\""
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "61eb00bbfc311b77.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

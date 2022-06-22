@@ -1,0 +1,116 @@
+{
+  "uid" : "2769140b213a86c",
+  "name" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+  "fullName" : "Complete Test Suite.TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+  "historyId" : "643804431719c9d227944fdd942abbfd",
+  "time" : {
+    "start" : 1655911805089,
+    "stop" : 1655911831569,
+    "duration" : 26480
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC676-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC676-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:749:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC676-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC676-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:749:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655911805089,
+        "stop" : 1655911816392,
+        "duration" : 11303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1655911831569,
+        "stop" : 1655911832716,
+        "duration" : 1147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "60400585b4a49c97",
+      "name" : "Screenshot",
+      "source" : "60400585b4a49c97.png",
+      "type" : "image/png",
+      "size" : 207511
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2769140b213a86c.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
