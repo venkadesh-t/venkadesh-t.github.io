@@ -1,0 +1,116 @@
+{
+  "uid" : "ec02f82abba6bb06",
+  "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+  "fullName" : "Complete Test Suite.TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+  "historyId" : "cb203c24dd68c590a8c04aa1d9f1f3eb",
+  "time" : {
+    "start" : 1656084725800,
+    "stop" : 1656084755075,
+    "duration" : 29275
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC669-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC669-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:696:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC669-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC669-Failed-->Reason: ReferenceError: leftPanelAndComposeMail is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:696:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656084725801,
+        "stop" : 1656084737348,
+        "duration" : 11547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656084755075,
+        "stop" : 1656084756316,
+        "duration" : 1241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "192c20ebae872071",
+      "name" : "Screenshot",
+      "source" : "192c20ebae872071.png",
+      "type" : "image/png",
+      "size" : 205344
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\""
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ec02f82abba6bb06.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
