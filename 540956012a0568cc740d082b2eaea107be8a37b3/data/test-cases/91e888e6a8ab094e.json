@@ -1,0 +1,116 @@
+{
+  "uid" : "91e888e6a8ab094e",
+  "name" : "TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel.",
+  "fullName" : "Complete Test Suite.TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel.",
+  "historyId" : "44616fec7cc1d16e7e06eff211a0f6fb",
+  "time" : {
+    "start" : 1656049047724,
+    "stop" : 1656049115297,
+    "duration" : 67573
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC727-Failed-->Reason: TypeError: leftAndRightPanel.swipeAction is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: TypeError: leftAndRightPanel.swipeAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:113:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC727-Failed-->Reason: TypeError: leftAndRightPanel.swipeAction is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: TypeError: leftAndRightPanel.swipeAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:113:36)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656049047725,
+        "stop" : 1656049091953,
+        "duration" : 44228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656049115297,
+        "stop" : 1656049116358,
+        "duration" : 1061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e12bad1c3bc437f6",
+      "name" : "Screenshot",
+      "source" : "e12bad1c3bc437f6.png",
+      "type" : "image/png",
+      "size" : 771514
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "91e888e6a8ab094e.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}
