@@ -1,0 +1,55 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.3.1' to equal 'v 2.2.0'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "19d43d6d4ecd2f3d",
+        "parentUid" : "26a1073c266fdbdcaafdb732e91fc09b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656094639035,
+          "stop" : 1656094684130,
+          "duration" : 45095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "26a1073c266fdbdcaafdb732e91fc09b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC746-Failed-->Reason: Error: element (\"(//XCUIElementTypeOther[@name=\"profilePic\"])[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast.",
+        "uid" : "26e8c8b7ae128ac7",
+        "parentUid" : "fcd1df3cdd506e91eeca9238aef7e097",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656096303517,
+          "stop" : 1656096412311,
+          "duration" : 108794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "fcd1df3cdd506e91eeca9238aef7e097"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
