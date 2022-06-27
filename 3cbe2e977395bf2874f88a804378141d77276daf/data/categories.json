@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC746-Failed-->Reason: Error: element (\"(//XCUIElementTypeOther[@name=\"profilePic\"])[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast.",
+        "uid" : "e163ee5f3f957495",
+        "parentUid" : "fcd1df3cdd506e91eeca9238aef7e097",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656355473156,
+          "stop" : 1656355593061,
+          "duration" : 119905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "fcd1df3cdd506e91eeca9238aef7e097"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
