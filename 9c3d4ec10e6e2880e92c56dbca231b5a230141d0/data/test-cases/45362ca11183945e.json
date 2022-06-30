@@ -1,0 +1,116 @@
+{
+  "uid" : "45362ca11183945e",
+  "name" : "TC640 - To verify Subject line",
+  "fullName" : "Complete Test Suite.TC640 - To verify Subject line",
+  "historyId" : "622b6678c0b0ba5266c5a81130db9d07",
+  "time" : {
+    "start" : 1656602621168,
+    "stop" : 1656602660351,
+    "duration" : 39183
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC640-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"selectThread[0]\"]/android.view.ViewGroup/android.widget.TextView[3]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC640-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"selectThread[0]\"]/android.view.ViewGroup/android.widget.TextView[3]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:467:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC640-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"selectThread[0]\"]/android.view.ViewGroup/android.widget.TextView[3]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC640-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"selectThread[0]\"]/android.view.ViewGroup/android.widget.TextView[3]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:467:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656602621168,
+        "stop" : 1656602632620,
+        "duration" : 11452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656602660352,
+        "stop" : 1656602661630,
+        "duration" : 1278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "43cf532710438756",
+      "name" : "Screenshot",
+      "source" : "43cf532710438756.png",
+      "type" : "image/png",
+      "size" : 211475
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC640 - To verify Subject line"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "45362ca11183945e.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
