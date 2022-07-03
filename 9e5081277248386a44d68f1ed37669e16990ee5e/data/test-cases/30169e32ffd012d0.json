@@ -1,0 +1,116 @@
+{
+  "uid" : "30169e32ffd012d0",
+  "name" : "TC658 - To verify when user is searching within Gmail inbox, the search results should only contain email exchange data",
+  "fullName" : "Complete Test Suite.TC658 - To verify when user is searching within Gmail inbox, the search results should only contain email exchange data",
+  "historyId" : "a3866721b94eb3ea6444d04a00f79b21",
+  "time" : {
+    "start" : 1656861721257,
+    "stop" : 1656861751448,
+    "duration" : 30191
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC658-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC658-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:599:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC658-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC658-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:599:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656861721258,
+        "stop" : 1656861732599,
+        "duration" : 11341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656861751449,
+        "stop" : 1656861752647,
+        "duration" : 1198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d11a98de09d3dadf",
+      "name" : "Screenshot",
+      "source" : "d11a98de09d3dadf.png",
+      "type" : "image/png",
+      "size" : 182427
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC658 - To verify when user is searching within Gmail inbox, the search results should only contain email exchange data"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "30169e32ffd012d0.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
