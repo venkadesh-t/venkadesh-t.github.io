@@ -1,0 +1,116 @@
+{
+  "uid" : "1f2f51869f7dd64a",
+  "name" : "TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario.",
+  "fullName" : "Complete Test Suite.TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario.",
+  "historyId" : "1035cfa118a62dfe6eb474fa32a6d90c",
+  "time" : {
+    "start" : 1656959516440,
+    "stop" : 1656959584802,
+    "duration" : 68362
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC733-Failed-->Reason: Error: The previously found element \"\"v 2.3.1\" Other\" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the 'boundElementsByIndex' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n                    StaticText, {{161.7, 734.7}, {51.7, 15.3}}, label: 'v 2.3.1'\n                )}",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC733-Failed-->Reason: Error: The previously found element \"\"v 2.3.1\" Other\" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the 'boundElementsByIndex' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n                    StaticText, {{161.7, 734.7}, {51.7, 15.3}}, label: 'v 2.3.1'\n                )}\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:173:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC733-Failed-->Reason: Error: The previously found element \"\"v 2.3.1\" Other\" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the 'boundElementsByIndex' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n                    StaticText, {{161.7, 734.7}, {51.7, 15.3}}, label: 'v 2.3.1'\n                )}",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC733-Failed-->Reason: Error: The previously found element \"\"v 2.3.1\" Other\" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the 'boundElementsByIndex' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n                    StaticText, {{161.7, 734.7}, {51.7, 15.3}}, label: 'v 2.3.1'\n                )}\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:173:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656959516441,
+        "stop" : 1656959561219,
+        "duration" : 44778
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1656959584803,
+        "stop" : 1656959586008,
+        "duration" : 1205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4a62a40080e5d2ac",
+      "name" : "Screenshot",
+      "source" : "4a62a40080e5d2ac.png",
+      "type" : "image/png",
+      "size" : 890806
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1f2f51869f7dd64a.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}
