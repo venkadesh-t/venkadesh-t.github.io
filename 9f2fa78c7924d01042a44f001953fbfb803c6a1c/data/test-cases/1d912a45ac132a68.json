@@ -1,0 +1,116 @@
+{
+  "uid" : "1d912a45ac132a68",
+  "name" : "TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\".",
+  "fullName" : "Complete Test Suite.TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\".",
+  "historyId" : "9e678d45dff4dee1a4f9bd146e775aca",
+  "time" : {
+    "start" : 1657128496154,
+    "stop" : 1657128550688,
+    "duration" : 54534
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC663-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC663-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:641:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC663-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC663-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:641:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657128496155,
+        "stop" : 1657128507874,
+        "duration" : 11719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657128550689,
+        "stop" : 1657128551954,
+        "duration" : 1265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "56954834559e6fb4",
+      "name" : "Screenshot",
+      "source" : "56954834559e6fb4.png",
+      "type" : "image/png",
+      "size" : 98378
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\"."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1d912a45ac132a68.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC663-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'",
+      "children" : [ {
+        "name" : "TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\".",
+        "uid" : "1d912a45ac132a68",
+        "parentUid" : "78aedee13a7f878a386315afc59c41ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657128496154,
+          "stop" : 1657128550688,
+          "duration" : 54534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "78aedee13a7f878a386315afc59c41ad"
+    }, {
+      "name" : "TC669-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+        "uid" : "744fc8838f2dbe2b",
+        "parentUid" : "99568474c9b163ecea3d19bbca630b9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657128648439,
+          "stop" : 1657128748404,
+          "duration" : 99965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "99568474c9b163ecea3d19bbca630b9d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC674-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Error finding if 'com.hiverhq.app' is installed. Original error: Could not find a connected Android device in 20052ms.",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "797b21796e93f462",
+        "parentUid" : "bb0c56993c649175e1cc97f85f3d9d0c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657128749746,
+          "stop" : 1657128883289,
+          "duration" : 133543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bb0c56993c649175e1cc97f85f3d9d0c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,116 @@
+{
+  "uid" : "744fc8838f2dbe2b",
+  "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+  "fullName" : "Complete Test Suite.TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+  "historyId" : "cb203c24dd68c590a8c04aa1d9f1f3eb",
+  "time" : {
+    "start" : 1657128648439,
+    "stop" : 1657128748404,
+    "duration" : 99965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC669-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC669-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:690:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC669-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC669-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:690:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657128648440,
+        "stop" : 1657128659982,
+        "duration" : 11542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657128748405,
+        "stop" : 1657128749746,
+        "duration" : 1341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2ddad1f90c4fecad",
+      "name" : "Screenshot",
+      "source" : "2ddad1f90c4fecad.png",
+      "type" : "image/png",
+      "size" : 84069
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\""
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "744fc8838f2dbe2b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
