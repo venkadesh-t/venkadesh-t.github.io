@@ -1,0 +1,307 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC654-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+        "uid" : "b9630cbb0b4e3",
+        "parentUid" : "5e5d8a657e64c8afa0e42399b3d693dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657162249413,
+          "stop" : 1657162288421,
+          "duration" : 39008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5e5d8a657e64c8afa0e42399b3d693dc"
+    }, {
+      "name" : "TC658-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC658 - To verify when user is searching within Gmail inbox, the search results should only contain email exchange data",
+        "uid" : "c7a1e27a4b804c2d",
+        "parentUid" : "a154a6c6668fbebc07be126c04bb1996",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657162289417,
+          "stop" : 1657162327495,
+          "duration" : 38078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a154a6c6668fbebc07be126c04bb1996"
+    }, {
+      "name" : "TC662-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC662 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+        "uid" : "24cbefc1d31aa0cd",
+        "parentUid" : "3cd70e9befb6dffa6bd573017c7f9d93",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657162359157,
+          "stop" : 1657162397004,
+          "duration" : 37847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "3cd70e9befb6dffa6bd573017c7f9d93"
+    }, {
+      "name" : "TC676-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+        "uid" : "9925b907ce501c3b",
+        "parentUid" : "f8126e0a37e7ae53caee0d9bc960d8f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657162638607,
+          "stop" : 1657162662553,
+          "duration" : 23946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f8126e0a37e7ae53caee0d9bc960d8f9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC663-Failed-->Reason: AssertionError: expected 'Re: Re-Automation' to equal 'Re-Automation'",
+      "children" : [ {
+        "name" : "TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\".",
+        "uid" : "641dd9f8754a60a7",
+        "parentUid" : "78aedee13a7f878a386315afc59c41ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657162398046,
+          "stop" : 1657162429749,
+          "duration" : 31703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "78aedee13a7f878a386315afc59c41ad"
+    }, {
+      "name" : "TC669-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+        "uid" : "3d23a2caff3cc7a4",
+        "parentUid" : "99568474c9b163ecea3d19bbca630b9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657162486259,
+          "stop" : 1657162561017,
+          "duration" : 74758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "99568474c9b163ecea3d19bbca630b9d"
+    }, {
+      "name" : "TC674-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "603ffbad32f42805",
+        "parentUid" : "8a41ce82aa8edb7ec19a1f5f82383fa9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657162562120,
+          "stop" : 1657162637611,
+          "duration" : 75491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8a41ce82aa8edb7ec19a1f5f82383fa9"
+    }, {
+      "name" : "TC657-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "b9709f67478e1a7f",
+        "parentUid" : "f2f8a49fac99585c90322e9f845baf01",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657162778021,
+          "stop" : 1657162857167,
+          "duration" : 79146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f2f8a49fac99585c90322e9f845baf01"
+    }, {
+      "name" : "TC668-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+        "uid" : "fbd530d842f530cd",
+        "parentUid" : "f86729ca3fd44db09b85b0d5b1b75bfb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657162858237,
+          "stop" : 1657162934182,
+          "duration" : 75945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f86729ca3fd44db09b85b0d5b1b75bfb"
+    }, {
+      "name" : "TC670-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "63f6bb23d2d762b5",
+        "parentUid" : "e18ca5326d352547d6679c8d7c7fdb00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657162935282,
+          "stop" : 1657163013554,
+          "duration" : 78272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e18ca5326d352547d6679c8d7c7fdb00"
+    }, {
+      "name" : "TC672-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC672 - To verify confirmation popup before removing the conversation",
+        "uid" : "37d5ac5a836e9824",
+        "parentUid" : "e658f349995a435dfa7081acb4d59f91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657163014565,
+          "stop" : 1657163092714,
+          "duration" : 78149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e658f349995a435dfa7081acb4d59f91"
+    }, {
+      "name" : "TC673-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC673 - To verify remove the conversation from SM",
+        "uid" : "b6afce4ab8cf792e",
+        "parentUid" : "ac413f1eea4da1debc15fb2d0ddb97e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657163093773,
+          "stop" : 1657163172363,
+          "duration" : 78590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "ac413f1eea4da1debc15fb2d0ddb97e0"
+    }, {
+      "name" : "TC675-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC675 - To verify cancel option on the confirmation popup",
+        "uid" : "7038a2a89b69a85f",
+        "parentUid" : "2fbd8cd909ce0199f60a2c523cb86673",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657163173434,
+          "stop" : 1657163251638,
+          "duration" : 78204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2fbd8cd909ce0199f60a2c523cb86673"
+    }, {
+      "name" : "TC678-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+      "children" : [ {
+        "name" : "TC678 - To verify remove conversation from <SM name>”",
+        "uid" : "5d93f8b99c678444",
+        "parentUid" : "214296f6b9fdfbed958b9b49e53534ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657163252750,
+          "stop" : 1657163331363,
+          "duration" : 78613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "214296f6b9fdfbed958b9b49e53534ef"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

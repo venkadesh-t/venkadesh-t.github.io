@@ -1,0 +1,116 @@
+{
+  "uid" : "24cbefc1d31aa0cd",
+  "name" : "TC662 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+  "fullName" : "Complete Test Suite.TC662 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+  "historyId" : "6a28abe5fb9c571598db998c27d69b2c",
+  "time" : {
+    "start" : 1657162359157,
+    "stop" : 1657162397004,
+    "duration" : 37847
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC662-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC662-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:627:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC662-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC662-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text = \"Unassigned\"])[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:627:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657162359157,
+        "stop" : 1657162370424,
+        "duration" : 11267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657162397004,
+        "stop" : 1657162398046,
+        "duration" : 1042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c02bb98d87aabf87",
+      "name" : "Screenshot",
+      "source" : "c02bb98d87aabf87.png",
+      "type" : "image/png",
+      "size" : 187155
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC662 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "24cbefc1d31aa0cd.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

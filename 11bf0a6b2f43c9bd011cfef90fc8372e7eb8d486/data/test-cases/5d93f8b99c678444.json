@@ -1,0 +1,116 @@
+{
+  "uid" : "5d93f8b99c678444",
+  "name" : "TC678 - To verify remove conversation from <SM name>”",
+  "fullName" : "Complete Test Suite.TC678 - To verify remove conversation from <SM name>”",
+  "historyId" : "25b7033639cceada4241d4bb702f6ff8",
+  "time" : {
+    "start" : 1657163252750,
+    "stop" : 1657163331363,
+    "duration" : 78613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC678-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC678-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:989:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC678-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC678-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:989:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657163252751,
+        "stop" : 1657163263976,
+        "duration" : 11225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657163331366,
+        "stop" : 1657163332541,
+        "duration" : 1175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "70df316d1fa4c85e",
+      "name" : "Screenshot",
+      "source" : "70df316d1fa4c85e.png",
+      "type" : "image/png",
+      "size" : 85127
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC678 - To verify remove conversation from <SM name>”"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5d93f8b99c678444.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

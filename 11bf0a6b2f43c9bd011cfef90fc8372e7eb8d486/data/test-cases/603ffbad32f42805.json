@@ -1,0 +1,116 @@
+{
+  "uid" : "603ffbad32f42805",
+  "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+  "fullName" : "Complete Test Suite.TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+  "historyId" : "a0f83bbb5f50f4913b21e660da69ba24",
+  "time" : {
+    "start" : 1657162562120,
+    "stop" : 1657162637611,
+    "duration" : 75491
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC674-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC674-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:717:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC674-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC674-Failed-->Reason: AssertionError: expected 'Add to Shared Mailbox' to equal ''\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:717:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657162562121,
+        "stop" : 1657162573476,
+        "duration" : 11355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657162637611,
+        "stop" : 1657162638607,
+        "duration" : 996
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "604fd19dc992844a",
+      "name" : "Screenshot",
+      "source" : "604fd19dc992844a.png",
+      "type" : "image/png",
+      "size" : 84211
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "603ffbad32f42805.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
