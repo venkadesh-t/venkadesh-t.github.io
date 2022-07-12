@@ -1,0 +1,116 @@
+{
+  "uid" : "6cef61c13bf582c",
+  "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+  "fullName" : "Complete Test Suite.TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+  "historyId" : "4c4c5d51c61e3286abff47dcab346544",
+  "time" : {
+    "start" : 1657624590034,
+    "stop" : 1657624619709,
+    "duration" : 29675
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC632-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:393:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC632-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:393:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624590035,
+        "stop" : 1657624608892,
+        "duration" : 18857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624619710,
+        "stop" : 1657624620827,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e1cc2da6f1e6b005",
+      "name" : "Screenshot",
+      "source" : "e1cc2da6f1e6b005.png",
+      "type" : "image/png",
+      "size" : 180448
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6cef61c13bf582c.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}

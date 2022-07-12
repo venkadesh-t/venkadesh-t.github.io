@@ -1,0 +1,116 @@
+{
+  "uid" : "56d5660b509bc333",
+  "name" : "TC749 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+  "fullName" : "Complete Test Suite.TC749 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+  "historyId" : "d56017e63a54a15142fb6c0386d59878",
+  "time" : {
+    "start" : 1657624434573,
+    "stop" : 1657624464300,
+    "duration" : 29727
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC749-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC749-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:326:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC749-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC749-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:326:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624434574,
+        "stop" : 1657624453618,
+        "duration" : 19044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624464301,
+        "stop" : 1657624465459,
+        "duration" : 1158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "711814472177ea1a",
+      "name" : "Screenshot",
+      "source" : "711814472177ea1a.png",
+      "type" : "image/png",
+      "size" : 179442
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC749 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "56d5660b509bc333.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}

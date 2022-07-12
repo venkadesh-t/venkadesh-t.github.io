@@ -1,0 +1,116 @@
+{
+  "uid" : "f812cd98cd5ad664",
+  "name" : "TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario.",
+  "fullName" : "Complete Test Suite.TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario.",
+  "historyId" : "1035cfa118a62dfe6eb474fa32a6d90c",
+  "time" : {
+    "start" : 1657624094633,
+    "stop" : 1657624124526,
+    "duration" : 29893
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC733-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC733-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:173:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC733-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC733-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:173:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624094634,
+        "stop" : 1657624113532,
+        "duration" : 18898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624124526,
+        "stop" : 1657624125679,
+        "duration" : 1153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "eefe7661c4c666e6",
+      "name" : "Screenshot",
+      "source" : "eefe7661c4c666e6.png",
+      "type" : "image/png",
+      "size" : 181009
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f812cd98cd5ad664.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}

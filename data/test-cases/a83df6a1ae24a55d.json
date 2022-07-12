@@ -1,0 +1,116 @@
+{
+  "uid" : "a83df6a1ae24a55d",
+  "name" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+  "fullName" : "Complete Test Suite.TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+  "historyId" : "7b66dcd678e22042a316579875b266bd",
+  "time" : {
+    "start" : 1657624218785,
+    "stop" : 1657624248435,
+    "duration" : 29650
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC738-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC738-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:219:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC738-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC738-Failed-->Reason: Error: element (\"~v 2.3.2\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite.spec.js:219:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624218786,
+        "stop" : 1657624237666,
+        "duration" : 18880
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1657624248435,
+        "stop" : 1657624249672,
+        "duration" : 1237
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "db957fbf855af117",
+      "name" : "Screenshot",
+      "source" : "db957fbf855af117.png",
+      "type" : "image/png",
+      "size" : 180361
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\""
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a83df6a1ae24a55d.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}
