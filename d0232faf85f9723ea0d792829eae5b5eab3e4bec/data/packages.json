@@ -1,5 +1,26 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ ],
-  "name" : "packages"
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Complete Test Suite",
+    "children" : [ {
+      "name" : "TC262- Verify that app version is shown on the login screen",
+      "uid" : "9dbcd20da240df1",
+      "parentUid" : "dd2a30b0774137fdf9489dc583b6da83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657862067438,
+        "stop" : 1657862112421,
+        "duration" : 44983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "iphone-15.0" ]
+    } ],
+    "uid" : "dd2a30b0774137fdf9489dc583b6da83"
+  } ]
 }
