@@ -2,19 +2,20 @@
   "5a7326b39132997d0ad22645c08c283c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9dbcd20da240df1",
-      "status" : "passed",
+      "uid" : "7f6318c0c92ceb7c",
+      "status" : "broken",
+      "statusDetails" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"~v 2.3.2\" because element wasn't found",
       "time" : {
-        "start" : 1657862067438,
-        "stop" : 1657862112421,
-        "duration" : 44983
+        "start" : 1657867328914,
+        "stop" : 1657867359683,
+        "duration" : 30769
       }
     } ]
   }

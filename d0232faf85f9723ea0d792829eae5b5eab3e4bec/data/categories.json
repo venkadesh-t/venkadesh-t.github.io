@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: Error: Can't call getText on element with selector \"~v 2.3.2\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "7f6318c0c92ceb7c",
+        "parentUid" : "00aaa1157556eb8297d7161b6b4437e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657867328914,
+          "stop" : 1657867359683,
+          "duration" : 30769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "00aaa1157556eb8297d7161b6b4437e0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
