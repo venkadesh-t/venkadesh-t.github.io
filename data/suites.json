@@ -1,5 +1,60 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Complete Test Suite",
+    "children" : [ {
+      "name" : "TC262- Verify that app version is shown on the login screen",
+      "uid" : "cfeee2240ad3f196",
+      "parentUid" : "9c9438d68d9365ffddfb375c197301bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657888984769,
+        "stop" : 1657889028801,
+        "duration" : 44032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "iphone-15.0" ]
+    }, {
+      "name" : "TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login.",
+      "uid" : "eb16235c390fdc07",
+      "parentUid" : "9c9438d68d9365ffddfb375c197301bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1657889319790,
+        "stop" : 1657889350975,
+        "duration" : 31185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "iphone-15.0" ]
+    }, {
+      "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+      "uid" : "4792209762e96eed",
+      "parentUid" : "9c9438d68d9365ffddfb375c197301bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1657889352143,
+        "stop" : 1657889381770,
+        "duration" : 29627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "iphone-15.0" ]
+    } ],
+    "uid" : "9c9438d68d9365ffddfb375c197301bd"
+  } ],
   "name" : "suites"
 }
