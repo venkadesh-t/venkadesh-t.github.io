@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC652-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox.",
+        "uid" : "633325df6ac66ba8",
+        "parentUid" : "e9ec6ceed024cef3e128ec7404f4b02e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658157584277,
+          "stop" : 1658157609820,
+          "duration" : 25543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e9ec6ceed024cef3e128ec7404f4b02e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
