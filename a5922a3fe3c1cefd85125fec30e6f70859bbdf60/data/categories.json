@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC647-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+        "uid" : "531c10067c40bfc7",
+        "parentUid" : "d48e5952ff372b68202a7ae9e17442e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658331477298,
+          "stop" : 1658331516338,
+          "duration" : 39040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d48e5952ff372b68202a7ae9e17442e6"
+    }, {
+      "name" : "TC670-Failed-->Reason: RequestError: read ECONNRESET",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "43ea5b78104b882d",
+        "parentUid" : "143c25280b680bc48bf0cf0e679b4b2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658331940686,
+          "stop" : 1658331970151,
+          "duration" : 29465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "143c25280b680bc48bf0cf0e679b4b2f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
