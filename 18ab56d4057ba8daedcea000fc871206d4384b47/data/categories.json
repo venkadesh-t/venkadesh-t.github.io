@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC706-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC706 - To verify \"Private Permalink\" is easily distinguishable between normal text and public permalink created both in dark and lite mode.",
+        "uid" : "2e281dfafe355865",
+        "parentUid" : "d6105cdd943b5cfe2330e664d009e555",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658505949834,
+          "stop" : 1658506033588,
+          "duration" : 83754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d6105cdd943b5cfe2330e664d009e555"
+    }, {
+      "name" : "TC696-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC696 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+        "uid" : "844d5289adeeeca",
+        "parentUid" : "937e755f23ab360f6503790ebd7cce37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658507068657,
+          "stop" : 1658507108812,
+          "duration" : 40155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "937e755f23ab360f6503790ebd7cce37"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
