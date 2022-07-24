@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC756-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC756 - To verify the if the app will show a restricted page stating that the user does not have access to the conversation.",
+        "uid" : "4bb469f7a98c2ded",
+        "parentUid" : "4bc1ddaf9eb88cfd7e2608808111a751",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658678163953,
+          "stop" : 1658678235802,
+          "duration" : 71849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "4bc1ddaf9eb88cfd7e2608808111a751"
+    }, {
+      "name" : "TC698-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Generate\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC698 - To verify user should be able to delete an existing public permalink",
+        "uid" : "54f1a5a2fa643435",
+        "parentUid" : "64c595c830e18ca60d2a0bcd91d10af5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658679035694,
+          "stop" : 1658679116628,
+          "duration" : 80934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "64c595c830e18ca60d2a0bcd91d10af5"
+    }, {
+      "name" : "TC700-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Public Link deleted by You \"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+        "uid" : "fb9bffaa58ba6108",
+        "parentUid" : "eb2923fb79e53f2757a5e47ef1fb5188",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658679117680,
+          "stop" : 1658679157941,
+          "duration" : 40261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "eb2923fb79e53f2757a5e47ef1fb5188"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
