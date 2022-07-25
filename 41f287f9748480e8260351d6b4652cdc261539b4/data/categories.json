@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC653-Failed-->Reason: Error: Can't call addValue on element with selector \"~Email\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC653 - To  verify user is able to switch between header tabs in the search screen.",
+        "uid" : "e76102c640d04d47",
+        "parentUid" : "342307d579cdb406fc94c453145e8de5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658745148409,
+          "stop" : 1658745211015,
+          "duration" : 62606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "342307d579cdb406fc94c453145e8de5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

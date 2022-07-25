@@ -1,0 +1,124 @@
+{
+  "uid" : "e76102c640d04d47",
+  "name" : "TC653 - To  verify user is able to switch between header tabs in the search screen.",
+  "fullName" : "Complete Test Suite.TC653 - To  verify user is able to switch between header tabs in the search screen.",
+  "historyId" : "6914082083f87a529446c17a7a00ed5e",
+  "time" : {
+    "start" : 1658745148409,
+    "stop" : 1658745211015,
+    "duration" : 62606
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC653-Failed-->Reason: Error: Can't call addValue on element with selector \"~Email\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC653-Failed-->Reason: Error: Can't call addValue on element with selector \"~Email\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite2.spec.js:175:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC653-Failed-->Reason: Error: Can't call addValue on element with selector \"~Email\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC653-Failed-->Reason: Error: Can't call addValue on element with selector \"~Email\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/iosSpec/completeTestSuite2.spec.js:175:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1658745148409,
+        "stop" : 1658745191745,
+        "duration" : 43336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1658745211016,
+        "stop" : 1658745212081,
+        "duration" : 1065
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2c3ed3965667abff",
+      "name" : "Screenshot",
+      "source" : "2c3ed3965667abff.png",
+      "type" : "image/png",
+      "size" : 891854
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC653 - To  verify user is able to switch between header tabs in the search screen."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-15.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8167263a9c35072",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658744930634,
+        "stop" : 1658745004106,
+        "duration" : 73472
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e76102c640d04d47.json",
+  "parameterValues" : [ "iphone-15.0" ]
+}
