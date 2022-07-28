@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC733-Failed-->Reason: Error: The previously found element \"\"v 2.3.3\" Other\" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the 'boundElementsByIndex' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n                    StaticText, {{161.7, 734.7}, {51.7, 15.3}}, label: 'v 2.3.3'\n                )}",
+      "children" : [ {
+        "name" : "TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario.",
+        "uid" : "2f51f252421ee2d9",
+        "parentUid" : "b5ed499afa5184e588e5f06793904256",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659032450844,
+          "stop" : 1659032521982,
+          "duration" : 71138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "iphone-15.0" ]
+      } ],
+      "uid" : "b5ed499afa5184e588e5f06793904256"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
