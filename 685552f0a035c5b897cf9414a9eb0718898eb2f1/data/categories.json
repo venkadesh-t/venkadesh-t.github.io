@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC668-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+        "uid" : "618e4f15a213dfcc",
+        "parentUid" : "e2071078e2c762466bac852ca1857a98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659109153703,
+          "stop" : 1659109190468,
+          "duration" : 36765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e2071078e2c762466bac852ca1857a98"
+    }, {
+      "name" : "TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+        "uid" : "fd583c43a2df5d3",
+        "parentUid" : "f1200e703ef8aabc70f41e65f825c17a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659110544257,
+          "stop" : 1659110603256,
+          "duration" : 58999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f1200e703ef8aabc70f41e65f825c17a"
+    }, {
+      "name" : "TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+        "uid" : "ec2ed60e7b8f5bfd",
+        "parentUid" : "26d3f71519b510f0f8bceca4b8ffdd95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659111433569,
+          "stop" : 1659111492890,
+          "duration" : 59321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "26d3f71519b510f0f8bceca4b8ffdd95"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,116 @@
+{
+  "uid" : "ec2ed60e7b8f5bfd",
+  "name" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+  "fullName" : "Complete Test Suite.TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+  "historyId" : "5dc7e850cbe22e54ebfc1b6dd99e1a61",
+  "time" : {
+    "start" : 1659111433569,
+    "stop" : 1659111492890,
+    "duration" : 59321
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:448:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:448:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1659111433570,
+        "stop" : 1659111445244,
+        "duration" : 11674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1659111492890,
+        "stop" : 1659111494114,
+        "duration" : 1224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "30b8a45e7e810a03",
+      "name" : "Screenshot",
+      "source" : "30b8a45e7e810a03.png",
+      "type" : "image/png",
+      "size" : 2658031
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ec2ed60e7b8f5bfd.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
