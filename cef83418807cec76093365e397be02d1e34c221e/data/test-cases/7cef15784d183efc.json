@@ -1,0 +1,116 @@
+{
+  "uid" : "7cef15784d183efc",
+  "name" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+  "fullName" : "Complete Test Suite.TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+  "historyId" : "532ffdc8e2a836089931686a0ec06a0d",
+  "time" : {
+    "start" : 1659280880746,
+    "stop" : 1659280906975,
+    "duration" : 26229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC664-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC664-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:686:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC664-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC664-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:686:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1659280880746,
+        "stop" : 1659280891881,
+        "duration" : 11135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1659280906976,
+        "stop" : 1659280908030,
+        "duration" : 1054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9c627ecfc485693a",
+      "name" : "Screenshot",
+      "source" : "9c627ecfc485693a.png",
+      "type" : "image/png",
+      "size" : 240420
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7cef15784d183efc.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
