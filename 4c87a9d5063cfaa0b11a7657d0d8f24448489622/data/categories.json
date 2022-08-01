@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC756-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC756 - To verify the if the app will show a restricted page stating that the user does not have access to the conversation.",
+        "uid" : "30928bb33efe1717",
+        "parentUid" : "4bc1ddaf9eb88cfd7e2608808111a751",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659370538935,
+          "stop" : 1659370631494,
+          "duration" : 92559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "4bc1ddaf9eb88cfd7e2608808111a751"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
