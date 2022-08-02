@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC678-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC678 - To verify remove conversation from <SM name>”",
+        "uid" : "16294c9f2ccb16f6",
+        "parentUid" : "493d477059a48facb93b679f98bd98da",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659455720233,
+          "stop" : 1659455816155,
+          "duration" : 95922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "493d477059a48facb93b679f98bd98da"
+    }, {
+      "name" : "TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+        "uid" : "db7559f46be61c24",
+        "parentUid" : "b00c21434390f2f96014b17076a84ba1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659456910358,
+          "stop" : 1659456982676,
+          "duration" : 72318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b00c21434390f2f96014b17076a84ba1"
+    }, {
+      "name" : "TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+        "uid" : "3b33217b0f6ed796",
+        "parentUid" : "26d3f71519b510f0f8bceca4b8ffdd95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659457292164,
+          "stop" : 1659457340918,
+          "duration" : 48754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "26d3f71519b510f0f8bceca4b8ffdd95"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
