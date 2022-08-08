@@ -1,0 +1,116 @@
+{
+  "uid" : "596978db6b55aaf1",
+  "name" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+  "fullName" : "Complete Test Suite.TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+  "historyId" : "cff17d36d70d83fc389a1b34b402f3d1",
+  "time" : {
+    "start" : 1659975763617,
+    "stop" : 1659975790048,
+    "duration" : 26431
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC700-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC700-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:534:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC700-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC700-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:534:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1659975763617,
+        "stop" : 1659975774891,
+        "duration" : 11274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1659975790048,
+        "stop" : 1659975791130,
+        "duration" : 1082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8df82d79d6b3faac",
+      "name" : "Screenshot",
+      "source" : "8df82d79d6b3faac.png",
+      "type" : "image/png",
+      "size" : 241678
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "596978db6b55aaf1.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
