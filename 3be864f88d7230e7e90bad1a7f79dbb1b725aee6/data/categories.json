@@ -1,0 +1,93 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC690-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+        "uid" : "bf5e429165bd3d99",
+        "parentUid" : "d27c05da8f47b59c89ece102955ee2ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660273175301,
+          "stop" : 1660273224711,
+          "duration" : 49410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d27c05da8f47b59c89ece102955ee2ee"
+    }, {
+      "name" : "TC593-Failed-->Reason: Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.TextView[contains(@text,\"The email address \"Invalid_email\" was not recognized. Please use the correct format for email address.\")]'. See Cause.",
+      "children" : [ {
+        "name" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+        "uid" : "983273d4d2418242",
+        "parentUid" : "6d7df6dad609b3245765043467bba43c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660275026122,
+          "stop" : 1660275073016,
+          "duration" : 46894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6d7df6dad609b3245765043467bba43c"
+    }, {
+      "name" : "TC567-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC567 - To verify click on the \"Reply\" or \"Reply all\" quoted text will automatically be attached",
+        "uid" : "50f22c92f04609bc",
+        "parentUid" : "353de54167a76d81f26aabbc9487de06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660275461556,
+          "stop" : 1660275507854,
+          "duration" : 46298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "353de54167a76d81f26aabbc9487de06"
+    }, {
+      "name" : "TC573-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC573 - To verify the removed quoted text in the Gmail conversation",
+        "uid" : "feb6a6af8c36bbc6",
+        "parentUid" : "31cd51d866f6bdd547f66c24497be6f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660275638134,
+          "stop" : 1660275688982,
+          "duration" : 50848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "31cd51d866f6bdd547f66c24497be6f1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

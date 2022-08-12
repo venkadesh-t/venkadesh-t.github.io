@@ -1,0 +1,116 @@
+{
+  "uid" : "983273d4d2418242",
+  "name" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+  "fullName" : "Complete Test Suite.TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+  "historyId" : "5f066c9be581e550a637e866a42b9f0f",
+  "time" : {
+    "start" : 1660275026122,
+    "stop" : 1660275073016,
+    "duration" : 46894
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC593-Failed-->Reason: Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.TextView[contains(@text,\"The email address \"Invalid_email\" was not recognized. Please use the correct format for email address.\")]'. See Cause.",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC593-Failed-->Reason: Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.TextView[contains(@text,\"The email address \"Invalid_email\" was not recognized. Please use the correct format for email address.\")]'. See Cause.\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:646:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC593-Failed-->Reason: Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.TextView[contains(@text,\"The email address \"Invalid_email\" was not recognized. Please use the correct format for email address.\")]'. See Cause.",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC593-Failed-->Reason: Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.TextView[contains(@text,\"The email address \"Invalid_email\" was not recognized. Please use the correct format for email address.\")]'. See Cause.\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:646:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660275026122,
+        "stop" : 1660275037728,
+        "duration" : 11606
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660275073017,
+        "stop" : 1660275074290,
+        "duration" : 1273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "75a0990a482674f1",
+      "name" : "Screenshot",
+      "source" : "75a0990a482674f1.png",
+      "type" : "image/png",
+      "size" : 102938
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "983273d4d2418242.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
