@@ -1,0 +1,223 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.3.5' to equal 'v 2.3.4'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "c095c589f3a00fc3",
+        "parentUid" : "6f3c0deb1604a7625c60242c15a40246",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660729553445,
+          "stop" : 1660729567945,
+          "duration" : 14500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6f3c0deb1604a7625c60242c15a40246"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC261-Failed-->Reason: Error: element (\"//android.widget.EditText\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+        "uid" : "c64d24b20bd16d04",
+        "parentUid" : "6d69c1b9fcc022780bbe359683a1e89f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660729619887,
+          "stop" : 1660729651333,
+          "duration" : 31446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6d69c1b9fcc022780bbe359683a1e89f"
+    }, {
+      "name" : "TC640-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC640 - To verify Subject line",
+        "uid" : "d7fb703015b8d745",
+        "parentUid" : "99f26fe3d892b9e387f3ddf239864bf0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660731124393,
+          "stop" : 1660731166839,
+          "duration" : 42446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "99f26fe3d892b9e387f3ddf239864bf0"
+    }, {
+      "name" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(This conversation is part of multiple mailboxes, of which at least one has public links disabled)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+        "uid" : "1b57da0e4e85202b",
+        "parentUid" : "495b3705966c2b69f315532852ce67b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660734565304,
+          "stop" : 1660734605800,
+          "duration" : 40496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "495b3705966c2b69f315532852ce67b2"
+    }, {
+      "name" : "TC593-Failed-->Reason: Error: Appium error: java.lang.IllegalArgumentException: Unable to compile '//android.widget.TextView[contains(@text,\"The email address \"Invalid_email\" was not recognized. Please use the correct format for email address.\")]'. See Cause.",
+      "children" : [ {
+        "name" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+        "uid" : "1f2acb917c40e827",
+        "parentUid" : "6d7df6dad609b3245765043467bba43c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660735705798,
+          "stop" : 1660735747342,
+          "duration" : 41544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6d7df6dad609b3245765043467bba43c"
+    }, {
+      "name" : "TC573-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC573 - To verify the removed quoted text in the Gmail conversation",
+        "uid" : "175898717412d9",
+        "parentUid" : "31cd51d866f6bdd547f66c24497be6f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660736222828,
+          "stop" : 1660736265924,
+          "duration" : 43096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "31cd51d866f6bdd547f66c24497be6f1"
+    }, {
+      "name" : "TC582-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC582 - To check the quoted text is removed in both sender and receiver side",
+        "uid" : "797be89373b09e61",
+        "parentUid" : "e882c6e8c5957229c6744b0d822c86e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660736481293,
+          "stop" : 1660736541243,
+          "duration" : 59950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e882c6e8c5957229c6744b0d822c86e8"
+    }, {
+      "name" : "TC583-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC583 - To verify the date format and email address in the quoted text",
+        "uid" : "afe4ae540ab5d1d6",
+        "parentUid" : "c582de341659dc502d8cdfdad3ce863d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660736542470,
+          "stop" : 1660736602381,
+          "duration" : 59911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c582de341659dc502d8cdfdad3ce863d"
+    }, {
+      "name" : "TC584-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC584 - To check the quoted text should not be the part of Shared Draft",
+        "uid" : "74edfdde78dc52b9",
+        "parentUid" : "bacb3b804ef5bc36ce7586135c744d31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660736603502,
+          "stop" : 1660736662737,
+          "duration" : 59235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bacb3b804ef5bc36ce7586135c744d31"
+    }, {
+      "name" : "TC585-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC585 - To verify the cursor when attachments added to the compose screen",
+        "uid" : "584437dc7284a0b5",
+        "parentUid" : "6b5f71485d8238fd57af78a85176e5a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660736663890,
+          "stop" : 1660736723378,
+          "duration" : 59488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b5f71485d8238fd57af78a85176e5a7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
