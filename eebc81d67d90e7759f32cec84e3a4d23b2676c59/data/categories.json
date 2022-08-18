@@ -1,0 +1,114 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC573-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC573 - To verify the removed quoted text in the Gmail conversation",
+        "uid" : "a363a344a9ac8152",
+        "parentUid" : "31cd51d866f6bdd547f66c24497be6f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660823968736,
+          "stop" : 1660824019826,
+          "duration" : 51090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "31cd51d866f6bdd547f66c24497be6f1"
+    }, {
+      "name" : "TC582-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC582 - To check the quoted text is removed in both sender and receiver side",
+        "uid" : "f116ebfe6a75e2e0",
+        "parentUid" : "e882c6e8c5957229c6744b0d822c86e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660824281240,
+          "stop" : 1660824348035,
+          "duration" : 66795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e882c6e8c5957229c6744b0d822c86e8"
+    }, {
+      "name" : "TC583-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC583 - To verify the date format and email address in the quoted text",
+        "uid" : "a249b51b962e71ea",
+        "parentUid" : "c582de341659dc502d8cdfdad3ce863d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660824349414,
+          "stop" : 1660824414825,
+          "duration" : 65411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c582de341659dc502d8cdfdad3ce863d"
+    }, {
+      "name" : "TC584-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC584 - To check the quoted text should not be the part of Shared Draft",
+        "uid" : "ec781f883660b48a",
+        "parentUid" : "bacb3b804ef5bc36ce7586135c744d31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660824416311,
+          "stop" : 1660824481684,
+          "duration" : 65373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bacb3b804ef5bc36ce7586135c744d31"
+    }, {
+      "name" : "TC585-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC585 - To verify the cursor when attachments added to the compose screen",
+        "uid" : "7d53cf857b16e5b2",
+        "parentUid" : "6b5f71485d8238fd57af78a85176e5a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660824483398,
+          "stop" : 1660824550111,
+          "duration" : 66713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b5f71485d8238fd57af78a85176e5a7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
