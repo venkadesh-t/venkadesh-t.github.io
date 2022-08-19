@@ -1,0 +1,116 @@
+{
+  "uid" : "e634aaf1050740ea",
+  "name" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+  "fullName" : "Complete Test Suite.TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+  "historyId" : "c94b36aa0344959869326730342dc44b",
+  "time" : {
+    "start" : 1660927226074,
+    "stop" : 1660927262671,
+    "duration" : 36597
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC565-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC565-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:761:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC565-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC565-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:761:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660927226075,
+        "stop" : 1660927237505,
+        "duration" : 11430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660927262671,
+        "stop" : 1660927263860,
+        "duration" : 1189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e60f2d1ef12529f",
+      "name" : "Screenshot",
+      "source" : "e60f2d1ef12529f.png",
+      "type" : "image/png",
+      "size" : 77421
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e634aaf1050740ea.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

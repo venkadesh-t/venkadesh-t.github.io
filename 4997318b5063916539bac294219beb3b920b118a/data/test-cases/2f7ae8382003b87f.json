@@ -1,0 +1,116 @@
+{
+  "uid" : "2f7ae8382003b87f",
+  "name" : "TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen.",
+  "fullName" : "Complete Test Suite.TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen.",
+  "historyId" : "2687ddc93765d90099171a3c45d663cf",
+  "time" : {
+    "start" : 1660927186508,
+    "stop" : 1660927224879,
+    "duration" : 38371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC564-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC564-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:748:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC564-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC564-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:748:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660927186509,
+        "stop" : 1660927197853,
+        "duration" : 11344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660927224880,
+        "stop" : 1660927226074,
+        "duration" : 1194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "612a4221d549cac3",
+      "name" : "Screenshot",
+      "source" : "612a4221d549cac3.png",
+      "type" : "image/png",
+      "size" : 77979
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2f7ae8382003b87f.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

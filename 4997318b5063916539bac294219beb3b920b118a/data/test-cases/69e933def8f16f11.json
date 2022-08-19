@@ -1,0 +1,116 @@
+{
+  "uid" : "69e933def8f16f11",
+  "name" : "TC598 - To verify the focus/cusor when user removes the attachment in compose screen",
+  "fullName" : "Complete Test Suite.TC598 - To verify the focus/cusor when user removes the attachment in compose screen",
+  "historyId" : "f2f1d7c90c78b75461e8177d63b86064",
+  "time" : {
+    "start" : 1660927650343,
+    "stop" : 1660927689629,
+    "duration" : 39286
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC598-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC598-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:908:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC598-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC598-Failed-->Reason: Error: element (\"(//android.widget.TextView[@text= \"Show quoted text\"])[2]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:908:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660927650344,
+        "stop" : 1660927661515,
+        "duration" : 11171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1660927689629,
+        "stop" : 1660927690669,
+        "duration" : 1040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a94d87fd57483621",
+      "name" : "Screenshot",
+      "source" : "a94d87fd57483621.png",
+      "type" : "image/png",
+      "size" : 102782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC598 - To verify the focus/cusor when user removes the attachment in compose screen"
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "69e933def8f16f11.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
