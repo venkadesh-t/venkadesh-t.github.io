@@ -1,0 +1,116 @@
+{
+  "uid" : "c16810687654ed43",
+  "name" : "TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable.",
+  "fullName" : "Complete Test Suite.TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable.",
+  "historyId" : "aca57995619f2cad4a5446d9cc8e1983",
+  "time" : {
+    "start" : 1661273134611,
+    "stop" : 1661273170644,
+    "duration" : 36033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC563-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC563-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:735:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC563-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC563-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:735:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1661273134612,
+        "stop" : 1661273145658,
+        "duration" : 11046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Complete Test Suite",
+      "time" : {
+        "start" : 1661273170645,
+        "stop" : 1661273171692,
+        "duration" : 1047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b95b19c1a9155114",
+      "name" : "Screenshot",
+      "source" : "b95b19c1a9155114.png",
+      "type" : "image/png",
+      "size" : 79394
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable."
+  }, {
+    "name" : "package",
+    "value" : "Complete Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c16810687654ed43.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
