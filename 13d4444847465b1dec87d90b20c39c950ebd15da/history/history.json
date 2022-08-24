@@ -1,0 +1,41 @@
+{
+  "7e7a7c7822ce282a06a41c6b8dd1eba9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "721cecdc9ac91d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661353034495,
+        "stop" : 1661353046657,
+        "duration" : 12162
+      }
+    } ]
+  },
+  "82f39ce55db601dcfabf8076ba03646f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67d16a853e1b540f",
+      "status" : "broken",
+      "statusDetails" : "TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "time" : {
+        "start" : 1661353318522,
+        "stop" : 1661353343548,
+        "duration" : 25026
+      }
+    } ]
+  }
+}
