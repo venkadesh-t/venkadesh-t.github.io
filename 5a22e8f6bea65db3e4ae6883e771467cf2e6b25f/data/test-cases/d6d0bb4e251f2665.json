@@ -1,0 +1,116 @@
+{
+  "uid" : "d6d0bb4e251f2665",
+  "name" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+  "fullName" : "Login & Left and Right Panel.TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+  "historyId" : "8dedd310cf5f4ccf11485a5c130c78c8",
+  "time" : {
+    "start" : 1661415349741,
+    "stop" : 1661415397606,
+    "duration" : 47865
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC727-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"<heyuser3@hiver.space>\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"<heyuser3@hiver.space>\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:139:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC727-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"<heyuser3@hiver.space>\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"<heyuser3@hiver.space>\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:139:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login & Left and Right Panel",
+      "time" : {
+        "start" : 1661415349741,
+        "stop" : 1661415360939,
+        "duration" : 11198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Login & Left and Right Panel",
+      "time" : {
+        "start" : 1661415397607,
+        "stop" : 1661415398603,
+        "duration" : 996
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3c341b330c841800",
+      "name" : "Screenshot",
+      "source" : "3c341b330c841800.png",
+      "type" : "image/png",
+      "size" : 2667058
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login & Left and Right Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Login & Left and Right Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field"
+  }, {
+    "name" : "package",
+    "value" : "Login & Left and Right Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d6d0bb4e251f2665.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
