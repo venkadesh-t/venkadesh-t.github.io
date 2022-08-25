@@ -1,0 +1,125 @@
+{
+  "uid" : "e0640b461096c695",
+  "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+  "fullName" : "Permalink & Forward & Quoted Text.TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+  "historyId" : "27785f38984b5b0d50e71d27dfd1277",
+  "time" : {
+    "start" : 1661412701920,
+    "stop" : 1661412726770,
+    "duration" : 24850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:54:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:54:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalink & Forward & Quoted Text",
+      "time" : {
+        "start" : 1661412701921,
+        "stop" : 1661412714564,
+        "duration" : 12643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Permalink & Forward & Quoted Text",
+      "time" : {
+        "start" : 1661412726771,
+        "stop" : 1661412726863,
+        "duration" : 92
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b316706ecaf59e51",
+      "name" : "Screenshot",
+      "source" : "b316706ecaf59e51.png",
+      "type" : "image/png",
+      "size" : 156168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalink & Forward & Quoted Text"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalink & Forward & Quoted Text"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations."
+  }, {
+    "name" : "package",
+    "value" : "Permalink & Forward & Quoted Text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2af7b7afb84eabc2",
+      "status" : "broken",
+      "statusDetails" : "TC690-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1661412640811,
+        "stop" : 1661412678995,
+        "duration" : 38184
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e0640b461096c695.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
