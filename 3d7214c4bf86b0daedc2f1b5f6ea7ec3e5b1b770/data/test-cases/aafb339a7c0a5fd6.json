@@ -1,0 +1,124 @@
+{
+  "uid" : "aafb339a7c0a5fd6",
+  "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+  "fullName" : "Permalink Test Suite.TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+  "historyId" : "b92444213cbcbe8e1464d2bf66c58aaa",
+  "time" : {
+    "start" : 1661617860183,
+    "stop" : 1661617883489,
+    "duration" : 23306
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:54:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC690-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:54:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1661617860184,
+        "stop" : 1661617872434,
+        "duration" : 12250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1661617883490,
+        "stop" : 1661617883544,
+        "duration" : 54
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "493ef2a1cd14f2c4",
+      "name" : "Screenshot",
+      "source" : "493ef2a1cd14f2c4.png",
+      "type" : "image/png",
+      "size" : 157638
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalink Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalink Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations."
+  }, {
+    "name" : "package",
+    "value" : "Permalink Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bae45adaacdf9ea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661615111453,
+        "stop" : 1661615194701,
+        "duration" : 83248
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aafb339a7c0a5fd6.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

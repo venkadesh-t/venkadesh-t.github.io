@@ -1,0 +1,116 @@
+{
+  "uid" : "733976a7d74790a1",
+  "name" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+  "fullName" : "Permalink Test Suite.TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+  "historyId" : "a50bf34f9d56f8a0ad47fe24845dce9",
+  "time" : {
+    "start" : 1661615901804,
+    "stop" : 1661615966594,
+    "duration" : 64790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:331:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:331:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1661615901804,
+        "stop" : 1661615913031,
+        "duration" : 11227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1661615966595,
+        "stop" : 1661615967786,
+        "duration" : 1191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9f70f6f6dd83c4ff",
+      "name" : "Screenshot",
+      "source" : "9f70f6f6dd83c4ff.png",
+      "type" : "image/png",
+      "size" : 60569
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalink Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalink Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM."
+  }, {
+    "name" : "package",
+    "value" : "Permalink Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "733976a7d74790a1.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
