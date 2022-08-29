@@ -1,0 +1,124 @@
+{
+  "uid" : "f21ec8b2dcdd4d54",
+  "name" : "TC586 -To verify user is able to see \"Forward\" button at the bottom in the conversation list page.",
+  "fullName" : "Forward Test Suite.TC586 -To verify user is able to see \"Forward\" button at the bottom in the conversation list page.",
+  "historyId" : "926081d1fd5d3986768155014fcbbda0",
+  "time" : {
+    "start" : 1661792647699,
+    "stop" : 1661792673969,
+    "duration" : 26270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC586-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC586-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:567:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC586-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC586-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:567:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Forward Test Suite",
+      "time" : {
+        "start" : 1661792647699,
+        "stop" : 1661792660921,
+        "duration" : 13222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Forward Test Suite",
+      "time" : {
+        "start" : 1661792673970,
+        "stop" : 1661792674312,
+        "duration" : 342
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7cfe90a3b3aa5817",
+      "name" : "Screenshot",
+      "source" : "7cfe90a3b3aa5817.png",
+      "type" : "image/png",
+      "size" : 156249
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC586 -To verify user is able to see \"Forward\" button at the bottom in the conversation list page."
+  }, {
+    "name" : "package",
+    "value" : "Forward Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "99810295603b8e83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661790918157,
+        "stop" : 1661790959271,
+        "duration" : 41114
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f21ec8b2dcdd4d54.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
