@@ -1,0 +1,116 @@
+{
+  "uid" : "6a51f15117ef17f4",
+  "name" : "TC581 - To verify the quoted received by the new recipient",
+  "fullName" : "Quoted Text Test Suite.TC581 - To verify the quoted received by the new recipient",
+  "historyId" : "c9ddf8a60929f94a26a04e9ae4cc2a2e",
+  "time" : {
+    "start" : 1661878267412,
+    "stop" : 1661878330675,
+    "duration" : 63263
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC581-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC581-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:946:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC581-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC581-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:946:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Quoted Text Test Suite",
+      "time" : {
+        "start" : 1661878267412,
+        "stop" : 1661878278959,
+        "duration" : 11547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Quoted Text Test Suite",
+      "time" : {
+        "start" : 1661878330676,
+        "stop" : 1661878331978,
+        "duration" : 1302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "79ebcea8edc00887",
+      "name" : "Screenshot",
+      "source" : "79ebcea8edc00887.png",
+      "type" : "image/png",
+      "size" : 130647
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC581 - To verify the quoted received by the new recipient"
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6a51f15117ef17f4.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

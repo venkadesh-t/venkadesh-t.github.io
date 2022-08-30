@@ -1,0 +1,116 @@
+{
+  "uid" : "ea384293c79c7c97",
+  "name" : "TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+  "fullName" : "Forward Test Suite.TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+  "historyId" : "6fd7dbbb576f7a1760b7c3dd8d2ba6d",
+  "time" : {
+    "start" : 1661877163764,
+    "stop" : 1661877208471,
+    "duration" : 44707
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC588-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC588-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:608:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC588-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC588-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:608:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Forward Test Suite",
+      "time" : {
+        "start" : 1661877163765,
+        "stop" : 1661877175279,
+        "duration" : 11514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Forward Test Suite",
+      "time" : {
+        "start" : 1661877208471,
+        "stop" : 1661877209749,
+        "duration" : 1278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fdf52b77842797a5",
+      "name" : "Screenshot",
+      "source" : "fdf52b77842797a5.png",
+      "type" : "image/png",
+      "size" : 127660
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail."
+  }, {
+    "name" : "package",
+    "value" : "Forward Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea384293c79c7c97.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

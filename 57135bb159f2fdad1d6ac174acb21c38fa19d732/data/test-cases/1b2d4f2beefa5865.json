@@ -1,0 +1,125 @@
+{
+  "uid" : "1b2d4f2beefa5865",
+  "name" : "TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page.",
+  "fullName" : "Quoted Text Test Suite.TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page.",
+  "historyId" : "e7e06f0f0c7f1f15a8f4005efe9995aa",
+  "time" : {
+    "start" : 1661878656826,
+    "stop" : 1661878680700,
+    "duration" : 23874
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC559-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC559-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:723:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC559-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC559-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:723:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Quoted Text Test Suite",
+      "time" : {
+        "start" : 1661878656826,
+        "stop" : 1661878669183,
+        "duration" : 12357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Quoted Text Test Suite",
+      "time" : {
+        "start" : 1661878680700,
+        "stop" : 1661878680750,
+        "duration" : 50
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "774c2a5116bb7161",
+      "name" : "Screenshot",
+      "source" : "774c2a5116bb7161.png",
+      "type" : "image/png",
+      "size" : 157026
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page."
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e46ce6ad230016b",
+      "status" : "broken",
+      "statusDetails" : "TC559-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1661877467868,
+        "stop" : 1661877526998,
+        "duration" : 59130
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1b2d4f2beefa5865.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

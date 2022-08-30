@@ -1,0 +1,116 @@
+{
+  "uid" : "82da496b57ca24db",
+  "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+  "fullName" : "Quoted Text Test Suite.TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+  "historyId" : "1ced3abf801a22a82fa7750b42ff11be",
+  "time" : {
+    "start" : 1661877528480,
+    "stop" : 1661877567724,
+    "duration" : 39244
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:734:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:734:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Quoted Text Test Suite",
+      "time" : {
+        "start" : 1661877528481,
+        "stop" : 1661877539984,
+        "duration" : 11503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Quoted Text Test Suite",
+      "time" : {
+        "start" : 1661877567725,
+        "stop" : 1661877569175,
+        "duration" : 1450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8b79a1d030ed5a29",
+      "name" : "Screenshot",
+      "source" : "8b79a1d030ed5a29.png",
+      "type" : "image/png",
+      "size" : 96668
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page."
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "82da496b57ca24db.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
