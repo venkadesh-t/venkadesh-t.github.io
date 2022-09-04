@@ -1,0 +1,146 @@
+{
+  "uid" : "1e59b6edc447e7f6",
+  "name" : "TC543 - To verify search results are displayed even when user puts the app in background and comes back again.",
+  "fullName" : "Permalink Test Suite: Conversation Search.TC543 - To verify search results are displayed even when user puts the app in background and comes back again.",
+  "historyId" : "a0a8754fd3767b482a2c67d44a83130f",
+  "time" : {
+    "start" : 1662302406969,
+    "stop" : 1662302466203,
+    "duration" : 59234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC543-Failed-->Reason: Error: element (\"~searchIcon\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC543-Failed-->Reason: Error: element (\"~searchIcon\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:282:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC543-Failed-->Reason: Error: element (\"~searchIcon\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC543-Failed-->Reason: Error: element (\"~searchIcon\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:282:36)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1662302406970,
+        "stop" : 1662302418170,
+        "duration" : 11200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"before each\" hook for Conversation Search",
+      "time" : {
+        "start" : 1662302418171,
+        "stop" : 1662302429276,
+        "duration" : 11105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Conversation Search",
+      "time" : {
+        "start" : 1662302466205,
+        "stop" : 1662302467353,
+        "duration" : 1148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1662302467353,
+        "stop" : 1662302468513,
+        "duration" : 1160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "293094917ce4a545",
+      "name" : "Screenshot",
+      "source" : "293094917ce4a545.png",
+      "type" : "image/png",
+      "size" : 189346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalink Test Suite: Conversation Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalink Test Suite: Conversation Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC543 - To verify search results are displayed even when user puts the app in background and comes back again."
+  }, {
+    "name" : "package",
+    "value" : "Permalink Test Suite: Conversation Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1e59b6edc447e7f6.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

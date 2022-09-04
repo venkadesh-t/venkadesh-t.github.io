@@ -1,0 +1,146 @@
+{
+  "uid" : "38ac12a4daeefb41",
+  "name" : "TC532 - To verify that name of the originator of the conversation is displayed in the search results.",
+  "fullName" : "Permalink Test Suite: Conversation Search.TC532 - To verify that name of the originator of the conversation is displayed in the search results.",
+  "historyId" : "d1ba1166d625e87b1e60a1b0b8f93b1d",
+  "time" : {
+    "start" : 1662302045964,
+    "stop" : 1662302093505,
+    "duration" : 47541
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC532-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC532-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:169:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC532-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC532-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:169:36)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1662302045964,
+        "stop" : 1662302057119,
+        "duration" : 11155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"before each\" hook for Conversation Search",
+      "time" : {
+        "start" : 1662302057120,
+        "stop" : 1662302068257,
+        "duration" : 11137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Conversation Search",
+      "time" : {
+        "start" : 1662302093505,
+        "stop" : 1662302094676,
+        "duration" : 1171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Permalink Test Suite",
+      "time" : {
+        "start" : 1662302094676,
+        "stop" : 1662302095869,
+        "duration" : 1193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "77508d12eb038566",
+      "name" : "Screenshot",
+      "source" : "77508d12eb038566.png",
+      "type" : "image/png",
+      "size" : 212261
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalink Test Suite: Conversation Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalink Test Suite: Conversation Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC532 - To verify that name of the originator of the conversation is displayed in the search results."
+  }, {
+    "name" : "package",
+    "value" : "Permalink Test Suite: Conversation Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "38ac12a4daeefb41.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
