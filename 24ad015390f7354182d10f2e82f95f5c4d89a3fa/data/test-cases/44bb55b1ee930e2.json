@@ -1,0 +1,116 @@
+{
+  "uid" : "44bb55b1ee930e2",
+  "name" : "TC687 - To verify the Gmail inbox conversation list view with shared conversation mails",
+  "fullName" : "Inbox Test Suite.TC687 - To verify the Gmail inbox conversation list view with shared conversation mails",
+  "historyId" : "9ed11aa45f63a3204d45b46a175fd11f",
+  "time" : {
+    "start" : 1663169469583,
+    "stop" : 1663169521482,
+    "duration" : 51899
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC687-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC687-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:848:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC687-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC687-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:848:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1663169469583,
+        "stop" : 1663169481185,
+        "duration" : 11602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1663169521483,
+        "stop" : 1663169522701,
+        "duration" : 1218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9a4e88ba2d8ea677",
+      "name" : "Screenshot",
+      "source" : "9a4e88ba2d8ea677.png",
+      "type" : "image/png",
+      "size" : 2686850
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC687 - To verify the Gmail inbox conversation list view with shared conversation mails"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44bb55b1ee930e2.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,261 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC749-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC749 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+        "uid" : "410d539fc4243036",
+        "parentUid" : "2a2f4cc2d1c21d10a97976314b226e91",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663168149121,
+          "stop" : 1663168194466,
+          "duration" : 45345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2a2f4cc2d1c21d10a97976314b226e91"
+    }, {
+      "name" : "TC687-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC687 - To verify the Gmail inbox conversation list view with shared conversation mails",
+        "uid" : "44bb55b1ee930e2",
+        "parentUid" : "8f7635a63b38ae52c2fbf929d9d2da9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663169469583,
+          "stop" : 1663169521482,
+          "duration" : 51899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8f7635a63b38ae52c2fbf929d9d2da9e"
+    }, {
+      "name" : "TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+        "uid" : "a49adcd3b572963b",
+        "parentUid" : "2ea701bb88286b4d7d430b44e418c382",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663170833810,
+          "stop" : 1663170882285,
+          "duration" : 48475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2ea701bb88286b4d7d430b44e418c382"
+    }, {
+      "name" : "TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
+        "uid" : "6443e028afa7bf70",
+        "parentUid" : "5207cce1383724e6eac580524f7385f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663170883820,
+          "stop" : 1663170930452,
+          "duration" : 46632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5207cce1383724e6eac580524f7385f6"
+    }, {
+      "name" : "TC564-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen.",
+        "uid" : "bba99485ca9b8ad5",
+        "parentUid" : "3d3f16ef78c779beb341aa9cf62b5b9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663170973328,
+          "stop" : 1663171033227,
+          "duration" : 59899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "3d3f16ef78c779beb341aa9cf62b5b9f"
+    }, {
+      "name" : "TC565-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+        "uid" : "d3a6eb0da0b2ffca",
+        "parentUid" : "87c1513077559d81a1f60d6d25a3f637",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663171034645,
+          "stop" : 1663171095418,
+          "duration" : 60773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "87c1513077559d81a1f60d6d25a3f637"
+    }, {
+      "name" : "TC566-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC566 - To verify quoted text gets removed/deleted from the compose screen if user clicks on \"Remove\" link in compose screen",
+        "uid" : "efe5f4fca762ea5",
+        "parentUid" : "4446bd747013eaf86c56129e5a940b51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663171096830,
+          "stop" : 1663171156725,
+          "duration" : 59895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "4446bd747013eaf86c56129e5a940b51"
+    }, {
+      "name" : "TC567-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC567 - To verify click on the \"Reply\" or \"Reply all\" quoted text will automatically be attached",
+        "uid" : "d5319bfd64fd39c7",
+        "parentUid" : "353de54167a76d81f26aabbc9487de06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663171158180,
+          "stop" : 1663171207018,
+          "duration" : 48838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "353de54167a76d81f26aabbc9487de06"
+    }, {
+      "name" : "TC571-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC571 - To verify the quoted in the Shared Draft screen",
+        "uid" : "b5d82a8159e74d1c",
+        "parentUid" : "1e2faf912fa738de214b129bc91b7146",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663171208457,
+          "stop" : 1663171272168,
+          "duration" : 63711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1e2faf912fa738de214b129bc91b7146"
+    }, {
+      "name" : "TC572-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC572 - To verify the quoted text with new recipient",
+        "uid" : "eb255284a648b4ef",
+        "parentUid" : "7661485f0db368ebb332fca5b44be695",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663171273666,
+          "stop" : 1663171372005,
+          "duration" : 98339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "7661485f0db368ebb332fca5b44be695"
+    }, {
+      "name" : "TC584-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC584 - To check the quoted text should not be the part of Shared Draft",
+        "uid" : "79d40bc0177aed59",
+        "parentUid" : "bacb3b804ef5bc36ce7586135c744d31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663171847978,
+          "stop" : 1663171955229,
+          "duration" : 107251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bacb3b804ef5bc36ce7586135c744d31"
+    }, {
+      "name" : "TC559-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page.",
+        "uid" : "2625fd9dc30ccd6",
+        "parentUid" : "b92939322cf69289123be86cdd73fbfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663172031796,
+          "stop" : 1663172058703,
+          "duration" : 26907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b92939322cf69289123be86cdd73fbfe"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
