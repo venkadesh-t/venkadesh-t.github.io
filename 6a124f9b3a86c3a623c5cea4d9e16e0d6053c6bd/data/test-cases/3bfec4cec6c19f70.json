@@ -1,0 +1,116 @@
+{
+  "uid" : "3bfec4cec6c19f70",
+  "name" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+  "fullName" : "Inbox Test Suite.TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+  "historyId" : "faaedfe0391c2df859ad4004c96c0d72",
+  "time" : {
+    "start" : 1663170165523,
+    "stop" : 1663170299013,
+    "duration" : 133490
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC676-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC676-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:797:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC676-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC676-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:797:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1663170165523,
+        "stop" : 1663170177603,
+        "duration" : 12080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1663170299015,
+        "stop" : 1663170300477,
+        "duration" : 1462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "26cdb7aac97ccafd",
+      "name" : "Screenshot",
+      "source" : "26cdb7aac97ccafd.png",
+      "type" : "image/png",
+      "size" : 95192
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3bfec4cec6c19f70.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
