@@ -1,0 +1,116 @@
+{
+  "uid" : "cd5b92ea5af8ee14",
+  "name" : "TC284- Verify that count of activity gets updated on sending a note from activity screen and then on swiping right",
+  "fullName" : "Activity Panel and Notes.TC284- Verify that count of activity gets updated on sending a note from activity screen and then on swiping right",
+  "historyId" : "94b98823c7fc0ce49c149048ac6d7973",
+  "time" : {
+    "start" : 1664817706560,
+    "stop" : 1664817763295,
+    "duration" : 56735
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC284-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC284-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:444:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC284-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC284-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:444:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817706560,
+        "stop" : 1664817717678,
+        "duration" : 11118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817763295,
+        "stop" : 1664817764439,
+        "duration" : 1144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "530d3a67695e78bf",
+      "name" : "Screenshot",
+      "source" : "530d3a67695e78bf.png",
+      "type" : "image/png",
+      "size" : 62386
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC284- Verify that count of activity gets updated on sending a note from activity screen and then on swiping right"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd5b92ea5af8ee14.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

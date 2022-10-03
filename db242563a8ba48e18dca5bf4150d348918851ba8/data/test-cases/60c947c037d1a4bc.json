@@ -1,0 +1,116 @@
+{
+  "uid" : "60c947c037d1a4bc",
+  "name" : "TC72- Verify that user can add any notes with special character",
+  "fullName" : "Activity Panel and Notes.TC72- Verify that user can add any notes with special character",
+  "historyId" : "8730ceb17de5b8b11e32fed3645c2a0b",
+  "time" : {
+    "start" : 1664817764439,
+    "stop" : 1664817818887,
+    "duration" : 54448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC72-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC72-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:461:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC72-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC72-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:461:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817764439,
+        "stop" : 1664817775573,
+        "duration" : 11134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817818887,
+        "stop" : 1664817820097,
+        "duration" : 1210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4ad47db0af89d4de",
+      "name" : "Screenshot",
+      "source" : "4ad47db0af89d4de.png",
+      "type" : "image/png",
+      "size" : 63318
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC72- Verify that user can add any notes with special character"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "60c947c037d1a4bc.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

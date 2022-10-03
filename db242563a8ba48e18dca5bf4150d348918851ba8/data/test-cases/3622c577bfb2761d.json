@@ -1,0 +1,124 @@
+{
+  "uid" : "3622c577bfb2761d",
+  "name" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+  "fullName" : "Assignee.TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+  "historyId" : "b158f82091ed5e8bc496365b7ba9b98a",
+  "time" : {
+    "start" : 1664818890201,
+    "stop" : 1664818913529,
+    "duration" : 23328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:682:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:682:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Assignee",
+      "time" : {
+        "start" : 1664818890201,
+        "stop" : 1664818902388,
+        "duration" : 12187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Assignee",
+      "time" : {
+        "start" : 1664818913530,
+        "stop" : 1664818913565,
+        "duration" : 35
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "deb23f61e07d3bfd",
+      "name" : "Screenshot",
+      "source" : "deb23f61e07d3bfd.png",
+      "type" : "image/png",
+      "size" : 156293
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dee4d94281e48462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664818266089,
+        "stop" : 1664818298142,
+        "duration" : 32053
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3622c577bfb2761d.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

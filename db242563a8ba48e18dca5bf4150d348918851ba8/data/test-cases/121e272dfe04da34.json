@@ -1,0 +1,116 @@
+{
+  "uid" : "121e272dfe04da34",
+  "name" : "TC285- Verify that count of activity gets updated on changing status of an email",
+  "fullName" : "Activity Panel and Notes.TC285- Verify that count of activity gets updated on changing status of an email",
+  "historyId" : "afde3c760d1b9b0e4305be66da12be33",
+  "time" : {
+    "start" : 1664817648703,
+    "stop" : 1664817705292,
+    "duration" : 56589
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC285-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC285-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:423:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC285-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC285-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:423:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817648703,
+        "stop" : 1664817659909,
+        "duration" : 11206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817705292,
+        "stop" : 1664817706560,
+        "duration" : 1268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ee13606998fc7966",
+      "name" : "Screenshot",
+      "source" : "ee13606998fc7966.png",
+      "type" : "image/png",
+      "size" : 62345
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC285- Verify that count of activity gets updated on changing status of an email"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "121e272dfe04da34.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

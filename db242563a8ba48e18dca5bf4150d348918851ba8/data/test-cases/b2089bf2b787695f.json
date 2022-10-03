@@ -1,0 +1,116 @@
+{
+  "uid" : "b2089bf2b787695f",
+  "name" : "TC74- Verify that notification is sent to the user if anyone replies to the note of that user",
+  "fullName" : "Activity Panel and Notes.TC74- Verify that notification is sent to the user if anyone replies to the note of that user",
+  "historyId" : "dcb5f8fbf3ff68f5ef97db7ad6c63047",
+  "time" : {
+    "start" : 1664818097793,
+    "stop" : 1664818153338,
+    "duration" : 55545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC74-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC74-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:614:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC74-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC74-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:614:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664818097794,
+        "stop" : 1664818108957,
+        "duration" : 11163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664818153339,
+        "stop" : 1664818154533,
+        "duration" : 1194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "98084feb3746cfd7",
+      "name" : "Screenshot",
+      "source" : "98084feb3746cfd7.png",
+      "type" : "image/png",
+      "size" : 63277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC74- Verify that notification is sent to the user if anyone replies to the note of that user"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2089bf2b787695f.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

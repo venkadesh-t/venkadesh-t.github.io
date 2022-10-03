@@ -1,0 +1,116 @@
+{
+  "uid" : "2790edc90423cec1",
+  "name" : "TC45- Verify that if a note is longer than a particular height  it should be truncated with a cue ‘See more’ which can be tapped on to view the entire note ",
+  "fullName" : "Activity Panel and Notes.TC45- Verify that if a note is longer than a particular height  it should be truncated with a cue ‘See more’ which can be tapped on to view the entire note ",
+  "historyId" : "b7e94943fcdfd7b5042f594d24e4253e",
+  "time" : {
+    "start" : 1664817122642,
+    "stop" : 1664817178973,
+    "duration" : 56331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC45-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC45-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:255:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC45-Failed-->Reason: ReferenceError: activityAndNotes is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC45-Failed-->Reason: ReferenceError: activityAndNotes is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:255:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817122642,
+        "stop" : 1664817133923,
+        "duration" : 11281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1664817178973,
+        "stop" : 1664817180067,
+        "duration" : 1094
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b7292f3c02b361ae",
+      "name" : "Screenshot",
+      "source" : "b7292f3c02b361ae.png",
+      "type" : "image/png",
+      "size" : 62659
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC45- Verify that if a note is longer than a particular height  it should be truncated with a cue ‘See more’ which can be tapped on to view the entire note "
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2790edc90423cec1.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

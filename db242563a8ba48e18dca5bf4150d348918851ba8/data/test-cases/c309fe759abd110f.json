@@ -1,0 +1,116 @@
+{
+  "uid" : "c309fe759abd110f",
+  "name" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+  "fullName" : "Permalinks.TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+  "historyId" : "e882c4e555c619e7501228347acdcfa1",
+  "time" : {
+    "start" : 1664814238743,
+    "stop" : 1664814278234,
+    "duration" : 39491
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Conversation Permalinks\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Conversation Permalinks\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:782:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Conversation Permalinks\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Conversation Permalinks\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:782:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalinks",
+      "time" : {
+        "start" : 1664814238744,
+        "stop" : 1664814249899,
+        "duration" : 11155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Permalinks",
+      "time" : {
+        "start" : 1664814278235,
+        "stop" : 1664814279297,
+        "duration" : 1062
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f0e6d7f3511c7574",
+      "name" : "Screenshot",
+      "source" : "f0e6d7f3511c7574.png",
+      "type" : "image/png",
+      "size" : 158447
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM"
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c309fe759abd110f.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
