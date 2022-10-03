@@ -1,0 +1,116 @@
+{
+  "uid" : "a7c23656afb57e32",
+  "name" : "TC447 - To verify the \"Status\" modal is still in expanded state if user closes the app or puts the app in background and opens the app again..",
+  "fullName" : "Status & Views.TC447 - To verify the \"Status\" modal is still in expanded state if user closes the app or puts the app in background and opens the app again..",
+  "historyId" : "65392749931c4c4dc42948608419cfb",
+  "time" : {
+    "start" : 1664789820665,
+    "stop" : 1664789853142,
+    "duration" : 32477
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC447-Failed-->Reason: ReferenceError: status is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC447-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1517:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC447-Failed-->Reason: ReferenceError: status is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC447-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1517:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789820665,
+        "stop" : 1664789832214,
+        "duration" : 11549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789853142,
+        "stop" : 1664789854476,
+        "duration" : 1334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9896fe745e3c18b8",
+      "name" : "Screenshot",
+      "source" : "9896fe745e3c18b8.png",
+      "type" : "image/png",
+      "size" : 91359
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC447 - To verify the \"Status\" modal is still in expanded state if user closes the app or puts the app in background and opens the app again.."
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a7c23656afb57e32.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

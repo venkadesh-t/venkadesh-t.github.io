@@ -1,0 +1,116 @@
+{
+  "uid" : "cccecb19fbe19db",
+  "name" : "TC435 - To verify user is able to see all the other \"Views\" option present when he clicks on the view floater button",
+  "fullName" : "Status & Views.TC435 - To verify user is able to see all the other \"Views\" option present when he clicks on the view floater button",
+  "historyId" : "f9baa98bd6b577a9a83a65842d2a90e3",
+  "time" : {
+    "start" : 1664789599595,
+    "stop" : 1664789628364,
+    "duration" : 28769
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC435-Failed-->Reason: ReferenceError: status is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC435-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1419:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC435-Failed-->Reason: ReferenceError: status is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC435-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1419:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789599595,
+        "stop" : 1664789611341,
+        "duration" : 11746
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789628365,
+        "stop" : 1664789629636,
+        "duration" : 1271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "39d3e9d04a52e178",
+      "name" : "Screenshot",
+      "source" : "39d3e9d04a52e178.png",
+      "type" : "image/png",
+      "size" : 55833
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC435 - To verify user is able to see all the other \"Views\" option present when he clicks on the view floater button"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cccecb19fbe19db.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

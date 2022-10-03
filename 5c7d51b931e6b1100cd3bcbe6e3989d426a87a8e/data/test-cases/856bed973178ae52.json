@@ -1,0 +1,116 @@
+{
+  "uid" : "856bed973178ae52",
+  "name" : "TC436 - To verify user is able to switch between the views of the particular SM.",
+  "fullName" : "Status & Views.TC436 - To verify user is able to switch between the views of the particular SM.",
+  "historyId" : "4eb82dac419237faa6fead35e1122a65",
+  "time" : {
+    "start" : 1664789629636,
+    "stop" : 1664789658306,
+    "duration" : 28670
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC436-Failed-->Reason: ReferenceError: status is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC436-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1432:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC436-Failed-->Reason: ReferenceError: status is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC436-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1432:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789629637,
+        "stop" : 1664789641115,
+        "duration" : 11478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789658306,
+        "stop" : 1664789659660,
+        "duration" : 1354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f1b5e380cd59b77d",
+      "name" : "Screenshot",
+      "source" : "f1b5e380cd59b77d.png",
+      "type" : "image/png",
+      "size" : 55113
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC436 - To verify user is able to switch between the views of the particular SM."
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "856bed973178ae52.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

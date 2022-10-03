@@ -1,0 +1,116 @@
+{
+  "uid" : "c16fbcc05433c620",
+  "name" : "TC442 - To verify the default status of the new mail added to SM is \"Open\".",
+  "fullName" : "Status & Views.TC442 - To verify the default status of the new mail added to SM is \"Open\".",
+  "historyId" : "5dd849ef672862f937b1ad7f18860386",
+  "time" : {
+    "start" : 1664789689158,
+    "stop" : 1664789720937,
+    "duration" : 31779
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC442-Failed-->Reason: ReferenceError: status is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC442-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1459:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC442-Failed-->Reason: ReferenceError: status is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC442-Failed-->Reason: ReferenceError: status is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1459:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789689159,
+        "stop" : 1664789700804,
+        "duration" : 11645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1664789720937,
+        "stop" : 1664789722194,
+        "duration" : 1257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "61cb48013b5ee466",
+      "name" : "Screenshot",
+      "source" : "61cb48013b5ee466.png",
+      "type" : "image/png",
+      "size" : 121157
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC442 - To verify the default status of the new mail added to SM is \"Open\"."
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c16fbcc05433c620.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

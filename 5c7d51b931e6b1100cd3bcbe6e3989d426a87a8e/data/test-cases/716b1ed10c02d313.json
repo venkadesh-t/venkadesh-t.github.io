@@ -1,0 +1,116 @@
+{
+  "uid" : "716b1ed10c02d313",
+  "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+  "fullName" : "Login Test Suite.TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+  "historyId" : "bd46ce2e21c839e7bc2a9198b0dc26b",
+  "time" : {
+    "start" : 1664781984647,
+    "stop" : 1664782012763,
+    "duration" : 28116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC261-Failed-->Reason: Error: element (\"//android.widget.EditText\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC261-Failed-->Reason: Error: element (\"//android.widget.EditText\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:65:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC261-Failed-->Reason: Error: element (\"//android.widget.EditText\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC261-Failed-->Reason: Error: element (\"//android.widget.EditText\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:65:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1664781984647,
+        "stop" : 1664781996067,
+        "duration" : 11420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1664782012763,
+        "stop" : 1664782014084,
+        "duration" : 1321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9256d3843682d67e",
+      "name" : "Screenshot",
+      "source" : "9256d3843682d67e.png",
+      "type" : "image/png",
+      "size" : 55498
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "716b1ed10c02d313.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
