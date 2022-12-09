@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.4.1' to equal 'v 2.3.9'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "a1ebc6821fe28abb",
+        "parentUid" : "cd090c41fde047e2d9404e88c99aea4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1670591653916,
+          "stop" : 1670591667355,
+          "duration" : 13439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "cd090c41fde047e2d9404e88c99aea4c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+        "uid" : "729365077889425d",
+        "parentUid" : "2ea701bb88286b4d7d430b44e418c382",
+        "status" : "broken",
+        "time" : {
+          "start" : 1670595736480,
+          "stop" : 1670595784152,
+          "duration" : 47672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2ea701bb88286b4d7d430b44e418c382"
+    }, {
+      "name" : "TC545-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[@text = \"Open\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC545 - To verify if search item updates when assignee/status/read-unread is updated from mobile or web",
+        "uid" : "f347d9e7ac6f4b8c",
+        "parentUid" : "a54647fd7bfa4738aa42fa62b8b40689",
+        "status" : "broken",
+        "time" : {
+          "start" : 1670597367316,
+          "stop" : 1670597410917,
+          "duration" : 43601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a54647fd7bfa4738aa42fa62b8b40689"
+    }, {
+      "name" : "TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+        "uid" : "8ae26992ca20b932",
+        "parentUid" : "b00c21434390f2f96014b17076a84ba1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1670598446710,
+          "stop" : 1670598523988,
+          "duration" : 77278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b00c21434390f2f96014b17076a84ba1"
+    }, {
+      "name" : "TC27-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+        "uid" : "1717a1f0e0bd039b",
+        "parentUid" : "dcdc8b64aea2c58997410d83f78fb5fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1670600164786,
+          "stop" : 1670600189223,
+          "duration" : 24437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "dcdc8b64aea2c58997410d83f78fb5fa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
