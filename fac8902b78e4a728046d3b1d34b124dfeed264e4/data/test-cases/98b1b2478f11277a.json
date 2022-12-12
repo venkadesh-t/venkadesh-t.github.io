@@ -1,0 +1,112 @@
+{
+  "uid" : "98b1b2478f11277a",
+  "name" : "TC99 - Verify that if any email is unread in the conversation, it should expand automatically for the user to read.",
+  "fullName" : "Inbox Test Suite.TC99 - Verify that if any email is unread in the conversation, it should expand automatically for the user to read.",
+  "historyId" : "d49a792084c7aa622a1c932cd18e7b3c",
+  "time" : {
+    "start" : 1670843306729,
+    "stop" : 1670843343041,
+    "duration" : 36312
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC99-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC99-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:1196:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC99-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC99-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:1196:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1670843306729,
+        "stop" : 1670843317985,
+        "duration" : 11256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1670843343041,
+        "stop" : 1670843344071,
+        "duration" : 1030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "aaca9d041d670eeb",
+      "name" : "Screenshot",
+      "source" : "aaca9d041d670eeb.png",
+      "type" : "image/png",
+      "size" : 1766670
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC99 - Verify that if any email is unread in the conversation, it should expand automatically for the user to read."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "98b1b2478f11277a.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
