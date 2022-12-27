@@ -1,0 +1,106 @@
+{
+  "uid" : "699d77bf218453ed",
+  "name" : "TC262- Verify that app version is shown on the login screen",
+  "fullName" : "Login.TC262- Verify that app version is shown on the login screen",
+  "historyId" : "341f508441f19db9c8bbbf72f7ae74b0",
+  "time" : {
+    "start" : 1672132923234,
+    "stop" : 1672132923246,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC262-Failed-->Reason: TypeError: $(...).getText is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:26:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC262-Failed-->Reason: TypeError: $(...).getText is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC262-Failed-->Reason: TypeError: $(...).getText is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/signIn.spec.js:26:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login",
+      "time" : {
+        "start" : 1672132923234,
+        "stop" : 1672132923240,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Login",
+      "time" : {
+        "start" : 1672132923248,
+        "stop" : 1672132923250,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC262- Verify that app version is shown on the login screen"
+  }, {
+    "name" : "package",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "699d77bf218453ed.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
