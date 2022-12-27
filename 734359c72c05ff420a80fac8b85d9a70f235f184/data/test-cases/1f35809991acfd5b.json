@@ -1,0 +1,112 @@
+{
+  "uid" : "1f35809991acfd5b",
+  "name" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+  "fullName" : "Left and Right Panel Test Suite.TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+  "historyId" : "b5a039669f4b5d2cf6f04395373683f9",
+  "time" : {
+    "start" : 1672135416287,
+    "stop" : 1672135457533,
+    "duration" : 41246
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC738-Failed-->Reason: Error: Can't call getText on element with selector \"~smName\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC738-Failed-->Reason: Error: Can't call getText on element with selector \"~smName\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:242:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC738-Failed-->Reason: Error: Can't call getText on element with selector \"~smName\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC738-Failed-->Reason: Error: Can't call getText on element with selector \"~smName\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:242:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1672135416288,
+        "stop" : 1672135427376,
+        "duration" : 11088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1672135457533,
+        "stop" : 1672135458700,
+        "duration" : 1167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "549a33f1f878a43d",
+      "name" : "Screenshot",
+      "source" : "549a33f1f878a43d.png",
+      "type" : "image/png",
+      "size" : 2672411
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\""
+  }, {
+    "name" : "package",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1f35809991acfd5b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

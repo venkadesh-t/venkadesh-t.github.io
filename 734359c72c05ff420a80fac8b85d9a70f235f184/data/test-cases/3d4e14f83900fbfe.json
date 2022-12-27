@@ -1,0 +1,112 @@
+{
+  "uid" : "3d4e14f83900fbfe",
+  "name" : "TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation.",
+  "fullName" : "Inbox Test Suite.TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation.",
+  "historyId" : "ddefd892ad2345476015f939e8b96e5d",
+  "time" : {
+    "start" : 1672137251746,
+    "stop" : 1672137388800,
+    "duration" : 137054
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC651-Failed-->Reason: Error: element (\"~assign\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC651-Failed-->Reason: Error: element (\"~assign\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:889:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC651-Failed-->Reason: Error: element (\"~assign\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC651-Failed-->Reason: Error: element (\"~assign\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:889:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1672137251746,
+        "stop" : 1672137262892,
+        "duration" : 11146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1672137388802,
+        "stop" : 1672137389911,
+        "duration" : 1109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9676ec5ad43a46a9",
+      "name" : "Screenshot",
+      "source" : "9676ec5ad43a46a9.png",
+      "type" : "image/png",
+      "size" : 2661261
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d4e14f83900fbfe.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
