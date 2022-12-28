@@ -1,0 +1,112 @@
+{
+  "uid" : "9d8bdaf3bcfbcc3",
+  "name" : "TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft.",
+  "fullName" : "Inbox Test Suite.TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft.",
+  "historyId" : "48b053352c710803e8f1d4cc5c8125bf",
+  "time" : {
+    "start" : 1672198400211,
+    "stop" : 1672198509733,
+    "duration" : 109522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC686-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Use email template\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC686-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Use email template\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:822:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC686-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Use email template\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC686-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Use email template\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:822:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1672198400211,
+        "stop" : 1672198411320,
+        "duration" : 11109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1672198509734,
+        "stop" : 1672198510801,
+        "duration" : 1067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "802ab5a2c4cba0c0",
+      "name" : "Screenshot",
+      "source" : "802ab5a2c4cba0c0.png",
+      "type" : "image/png",
+      "size" : 2682877
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9d8bdaf3bcfbcc3.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

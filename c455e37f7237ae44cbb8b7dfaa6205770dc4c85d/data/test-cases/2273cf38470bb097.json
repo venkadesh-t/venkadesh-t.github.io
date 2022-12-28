@@ -1,0 +1,112 @@
+{
+  "uid" : "2273cf38470bb097",
+  "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+  "fullName" : "Activity Panel and Notes.TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+  "historyId" : "c005ac9e73b5ab59ee10e7eec63a71d1",
+  "time" : {
+    "start" : 1672200298762,
+    "stop" : 1672200350333,
+    "duration" : 51571
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC30-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"(\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC30-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"(\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:101:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC30-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"(\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC30-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"(\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:101:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1672200298763,
+        "stop" : 1672200310259,
+        "duration" : 11496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1672200350333,
+        "stop" : 1672200351567,
+        "duration" : 1234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fdfe8d12ac176dbb",
+      "name" : "Screenshot",
+      "source" : "fdfe8d12ac176dbb.png",
+      "type" : "image/png",
+      "size" : 1749984
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2273cf38470bb097.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
