@@ -1,0 +1,112 @@
+{
+  "uid" : "239491ef14eda7a6",
+  "name" : "TC57- Verify that note goes to pending if the internet goes off",
+  "fullName" : "Activity Panel and Notes.TC57- Verify that note goes to pending if the internet goes off",
+  "historyId" : "c7222d6ce69f78ccdf5a3f7133f18311",
+  "time" : {
+    "start" : 1676451764185,
+    "stop" : 1676451818678,
+    "duration" : 54493
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC57-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"All Activity\") or contains(@text,\"Only Notes\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC57-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"All Activity\") or contains(@text,\"Only Notes\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:327:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC57-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"All Activity\") or contains(@text,\"Only Notes\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC57-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"All Activity\") or contains(@text,\"Only Notes\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:327:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1676451764185,
+        "stop" : 1676451775521,
+        "duration" : 11336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1676451818678,
+        "stop" : 1676451819757,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9e041b766e431720",
+      "name" : "Screenshot",
+      "source" : "9e041b766e431720.png",
+      "type" : "image/png",
+      "size" : 82638
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC57- Verify that note goes to pending if the internet goes off"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "239491ef14eda7a6.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
