@@ -1,0 +1,112 @@
+{
+  "uid" : "925df977eac31a81",
+  "name" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity",
+  "fullName" : "Activity Panel and Notes.TC289- Verify that user is taken to activity screen on opening a notification related to activity",
+  "historyId" : "8b6925ba890c4a238a296ce425a2d0c9",
+  "time" : {
+    "start" : 1677950158554,
+    "stop" : 1677950290179,
+    "duration" : 131625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"ALL\")])[1]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"ALL\")])[1]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:581:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"ALL\")])[1]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"ALL\")])[1]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:581:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1677950158554,
+        "stop" : 1677950169598,
+        "duration" : 11044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1677950290179,
+        "stop" : 1677950291209,
+        "duration" : 1030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cba6e849dcac6ab3",
+      "name" : "Screenshot",
+      "source" : "cba6e849dcac6ab3.png",
+      "type" : "image/png",
+      "size" : 2667084
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "925df977eac31a81.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
