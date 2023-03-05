@@ -1,0 +1,112 @@
+{
+  "uid" : "4b54254b4f638eb0",
+  "name" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+  "fullName" : "Permalinks.TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+  "historyId" : "d192a06ef554015b1d25e00a36f28d5",
+  "time" : {
+    "start" : 1678030560591,
+    "stop" : 1678030638410,
+    "duration" : 77819
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC700-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC700-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1246:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC700-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC700-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1246:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalinks",
+      "time" : {
+        "start" : 1678030560591,
+        "stop" : 1678030571751,
+        "duration" : 11160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Permalinks",
+      "time" : {
+        "start" : 1678030638411,
+        "stop" : 1678030639498,
+        "duration" : 1087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e4771a9c66233163",
+      "name" : "Screenshot",
+      "source" : "e4771a9c66233163.png",
+      "type" : "image/png",
+      "size" : 2667183
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel"
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b54254b4f638eb0.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
