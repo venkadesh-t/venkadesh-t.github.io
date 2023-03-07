@@ -1,0 +1,112 @@
+{
+  "uid" : "e3804ae48991cea5",
+  "name" : "TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen.",
+  "fullName" : "Quoted Text.TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen.",
+  "historyId" : "b13a2c6d7f39e832cf5bd17febd5c8c2",
+  "time" : {
+    "start" : 1678203948252,
+    "stop" : 1678203993385,
+    "duration" : 45133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC564-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC564-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:118:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC564-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC564-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:118:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Quoted Text",
+      "time" : {
+        "start" : 1678203948253,
+        "stop" : 1678203959412,
+        "duration" : 11159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Quoted Text",
+      "time" : {
+        "start" : 1678203993385,
+        "stop" : 1678203994554,
+        "duration" : 1169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "12ccd6d08f433140",
+      "name" : "Screenshot",
+      "source" : "12ccd6d08f433140.png",
+      "type" : "image/png",
+      "size" : 90734
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen."
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e3804ae48991cea5.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

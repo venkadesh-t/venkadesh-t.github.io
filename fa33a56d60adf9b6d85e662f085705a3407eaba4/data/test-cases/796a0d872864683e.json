@@ -1,0 +1,112 @@
+{
+  "uid" : "796a0d872864683e",
+  "name" : "TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel.",
+  "fullName" : "Left and Right Panel Test Suite.TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel.",
+  "historyId" : "11beb98ee98f8ef356a2f5dbf89d36f",
+  "time" : {
+    "start" : 1678200504709,
+    "stop" : 1678200544317,
+    "duration" : 39608
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC727-Failed-->Reason: Error: Can't call getText on element with selector \"~profilePic\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: Error: Can't call getText on element with selector \"~profilePic\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:136:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC727-Failed-->Reason: Error: Can't call getText on element with selector \"~profilePic\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: Error: Can't call getText on element with selector \"~profilePic\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:136:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1678200504709,
+        "stop" : 1678200515861,
+        "duration" : 11152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1678200544317,
+        "stop" : 1678200545563,
+        "duration" : 1246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8e95dcc27a5be34",
+      "name" : "Screenshot",
+      "source" : "8e95dcc27a5be34.png",
+      "type" : "image/png",
+      "size" : 2668624
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel."
+  }, {
+    "name" : "package",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "796a0d872864683e.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
