@@ -1,0 +1,106 @@
+{
+  "uid" : "6826386f70f1aa0f",
+  "name" : "TC278- Verify that user is shown  ‘No internet connection’ hello bar at all times inside the app if there’s no internet",
+  "fullName" : "Login Test Suite.TC278- Verify that user is shown  ‘No internet connection’ hello bar at all times inside the app if there’s no internet",
+  "historyId" : "fbdb1a14e2d21c77184e894ab214bbfa",
+  "time" : {
+    "start" : 1679150657762,
+    "stop" : 1679150724307,
+    "duration" : 66545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC278-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'android-sdk/platform-tools/adb -P 5037 -s 8CBX1LRDC shell settings get global wifi_on' exited with code 1'; Stderr: 'error: device '8CBX1LRDC' not found'; Code: '1'",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC278-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'android-sdk/platform-tools/adb -P 5037 -s 8CBX1LRDC shell settings get global wifi_on' exited with code 1'; Stderr: 'error: device '8CBX1LRDC' not found'; Code: '1'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:79:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC278-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'android-sdk/platform-tools/adb -P 5037 -s 8CBX1LRDC shell settings get global wifi_on' exited with code 1'; Stderr: 'error: device '8CBX1LRDC' not found'; Code: '1'",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC278-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'android-sdk/platform-tools/adb -P 5037 -s 8CBX1LRDC shell settings get global wifi_on' exited with code 1'; Stderr: 'error: device '8CBX1LRDC' not found'; Code: '1'\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:79:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1679150657762,
+        "stop" : 1679150669285,
+        "duration" : 11523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1679150724307,
+        "stop" : 1679150728714,
+        "duration" : 4407
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC278- Verify that user is shown  ‘No internet connection’ hello bar at all times inside the app if there’s no internet"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6826386f70f1aa0f.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
