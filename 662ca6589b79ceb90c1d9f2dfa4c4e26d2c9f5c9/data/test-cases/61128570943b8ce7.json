@@ -1,0 +1,98 @@
+{
+  "uid" : "61128570943b8ce7",
+  "name" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+  "fullName" : "Forward.TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+  "historyId" : "172b2e69c5a478ae659ab47944f038ff",
+  "time" : {
+    "start" : 1679503373739,
+    "stop" : 1679503415744,
+    "duration" : 42005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Forward",
+      "time" : {
+        "start" : 1679503373739,
+        "stop" : 1679503384930,
+        "duration" : 11191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Forward",
+      "time" : {
+        "start" : 1679503415744,
+        "stop" : 1679503417877,
+        "duration" : 2133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown."
+  }, {
+    "name" : "package",
+    "value" : "Forward"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61128570943b8ce7.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

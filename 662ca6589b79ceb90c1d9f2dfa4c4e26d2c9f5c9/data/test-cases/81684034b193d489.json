@@ -1,0 +1,112 @@
+{
+  "uid" : "81684034b193d489",
+  "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+  "fullName" : "Inbox Test Suite.TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+  "historyId" : "d37401c22fc8583cf95dcea43920ae52",
+  "time" : {
+    "start" : 1679499045785,
+    "stop" : 1679499124907,
+    "duration" : 79122
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC670-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC670-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:1010:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC670-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC670-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:1010:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1679499045786,
+        "stop" : 1679499057123,
+        "duration" : 11337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1679499124909,
+        "stop" : 1679499126067,
+        "duration" : 1158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "69e512e0687e34e0",
+      "name" : "Screenshot",
+      "source" : "69e512e0687e34e0.png",
+      "type" : "image/png",
+      "size" : 2662682
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "81684034b193d489.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

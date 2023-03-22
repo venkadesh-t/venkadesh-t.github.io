@@ -1,0 +1,112 @@
+{
+  "uid" : "bb5e70d2d9250af2",
+  "name" : "TC630- To verify long press on hiver logo, showing the popup for quick login",
+  "fullName" : "Login Test Suite.TC630- To verify long press on hiver logo, showing the popup for quick login",
+  "historyId" : "4e6bd5976067e2cf4cb35dc292f12bed",
+  "time" : {
+    "start" : 1679496322040,
+    "stop" : 1679496346308,
+    "duration" : 24268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:52:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC630-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:52:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1679496322040,
+        "stop" : 1679496333212,
+        "duration" : 11172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1679496346309,
+        "stop" : 1679496347442,
+        "duration" : 1133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5f42100f7a3658ac",
+      "name" : "Screenshot",
+      "source" : "5f42100f7a3658ac.png",
+      "type" : "image/png",
+      "size" : 2675008
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC630- To verify long press on hiver logo, showing the popup for quick login"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bb5e70d2d9250af2.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
