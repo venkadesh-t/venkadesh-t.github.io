@@ -1,0 +1,112 @@
+{
+  "uid" : "9a32e04ddbb60670",
+  "name" : "TC545 - To verify if search item updates when assignee/status/read-unread is updated from mobile or web",
+  "fullName" : "Conversation Search.TC545 - To verify if search item updates when assignee/status/read-unread is updated from mobile or web",
+  "historyId" : "a04fd5d1a395fa429c345fcdb1eb7786",
+  "time" : {
+    "start" : 1680019775520,
+    "stop" : 1680019836308,
+    "duration" : 60788
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC545-Failed-->Reason: Error: Can't call click on element with selector \"~backButton\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC545-Failed-->Reason: Error: Can't call click on element with selector \"~backButton\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:688:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC545-Failed-->Reason: Error: Can't call click on element with selector \"~backButton\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC545-Failed-->Reason: Error: Can't call click on element with selector \"~backButton\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:688:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Conversation Search",
+      "time" : {
+        "start" : 1680019775520,
+        "stop" : 1680019787017,
+        "duration" : 11497
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Conversation Search",
+      "time" : {
+        "start" : 1680019836308,
+        "stop" : 1680019837550,
+        "duration" : 1242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6f279ada327d911",
+      "name" : "Screenshot",
+      "source" : "6f279ada327d911.png",
+      "type" : "image/png",
+      "size" : 114771
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Conversation Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Conversation Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC545 - To verify if search item updates when assignee/status/read-unread is updated from mobile or web"
+  }, {
+    "name" : "package",
+    "value" : "Conversation Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9a32e04ddbb60670.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
