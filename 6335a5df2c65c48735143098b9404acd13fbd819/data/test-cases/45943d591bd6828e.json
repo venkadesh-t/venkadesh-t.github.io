@@ -1,0 +1,112 @@
+{
+  "uid" : "45943d591bd6828e",
+  "name" : "TC255 - Verify that user is able to compose and send an email with inline images",
+  "fullName" : "Left and Right Panel Test Suite.TC255 - Verify that user is able to compose and send an email with inline images",
+  "historyId" : "4b767091b297bc368c6b080c02281cc",
+  "time" : {
+    "start" : 1680188550094,
+    "stop" : 1680188625745,
+    "duration" : 75651
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC249-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC249-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:393:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC249-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC249-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:393:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1680188550094,
+        "stop" : 1680188561568,
+        "duration" : 11474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1680188625745,
+        "stop" : 1680188627122,
+        "duration" : 1377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7cc5f21d0c5de5ed",
+      "name" : "Screenshot",
+      "source" : "7cc5f21d0c5de5ed.png",
+      "type" : "image/png",
+      "size" : 196322
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC255 - Verify that user is able to compose and send an email with inline images"
+  }, {
+    "name" : "package",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "45943d591bd6828e.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
