@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.4.8' to equal 'v 2.4.6'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "922fbe68935d1978",
+        "parentUid" : "9bb9793173873d0b89ec08962ff296d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1682240608325,
+          "stop" : 1682240620764,
+          "duration" : 12439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9bb9793173873d0b89ec08962ff296d6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+        "uid" : "51e0845f0c45e4e0",
+        "parentUid" : "1476e4daf09b78224512eb576967f6bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682241297805,
+          "stop" : 1682241339431,
+          "duration" : 41626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1476e4daf09b78224512eb576967f6bf"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
