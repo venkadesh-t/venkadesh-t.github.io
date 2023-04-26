@@ -1,0 +1,112 @@
+{
+  "uid" : "b77ce32958d1037a",
+  "name" : "TC698 - To verify user should be able to delete an existing public permalink",
+  "fullName" : "Permalinks.TC698 - To verify user should be able to delete an existing public permalink",
+  "historyId" : "417e2fc41ac7baaab2fd6ebc41c59d94",
+  "time" : {
+    "start" : 1682519365089,
+    "stop" : 1682519438671,
+    "duration" : 73582
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC698-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC698-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1230:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC698-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC698-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@resource-id = \"permalinkDelete\"])\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1230:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalinks",
+      "time" : {
+        "start" : 1682519365090,
+        "stop" : 1682519376310,
+        "duration" : 11220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Permalinks",
+      "time" : {
+        "start" : 1682519438672,
+        "stop" : 1682519439825,
+        "duration" : 1153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "278921d8dc34d154",
+      "name" : "Screenshot",
+      "source" : "278921d8dc34d154.png",
+      "type" : "image/png",
+      "size" : 241569
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC698 - To verify user should be able to delete an existing public permalink"
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b77ce32958d1037a.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
