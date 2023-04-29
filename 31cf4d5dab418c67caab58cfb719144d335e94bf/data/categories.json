@@ -1,0 +1,421 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.4.9' to equal 'v 2.4.6'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "411f4d3ca8c90c26",
+        "parentUid" : "5c0b4781b9e5c6a043fac56e2a0433cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1682779410177,
+          "stop" : 1682779422691,
+          "duration" : 12514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5c0b4781b9e5c6a043fac56e2a0433cf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+        "uid" : "2e206c6cd15f289b",
+        "parentUid" : "2579f7cefd4126766be74277f962758f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682779825501,
+          "stop" : 1682779862577,
+          "duration" : 37076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2579f7cefd4126766be74277f962758f"
+    }, {
+      "name" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+        "uid" : "326a9aa0fefd6c4",
+        "parentUid" : "1476e4daf09b78224512eb576967f6bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682780123864,
+          "stop" : 1682780165251,
+          "duration" : 41387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1476e4daf09b78224512eb576967f6bf"
+    }, {
+      "name" : "TC642-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC642 - To verify thread count is shown beside each conversation if the count of mails present in the same is 2 or more than 2.",
+        "uid" : "1f852fd692242d5d",
+        "parentUid" : "f6e7a084b083b5f5d6c1bbd2e5cf2b9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682780655203,
+          "stop" : 1682780718581,
+          "duration" : 63378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f6e7a084b083b5f5d6c1bbd2e5cf2b9e"
+    }, {
+      "name" : "TC659-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC659 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "8035a4bf0ecc01da",
+        "parentUid" : "286f3c4e4310ebe7a3557913921a5ccc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682781983165,
+          "stop" : 1682782019498,
+          "duration" : 36333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "286f3c4e4310ebe7a3557913921a5ccc"
+    }, {
+      "name" : "TC565-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+        "uid" : "a2d754385ab4e724",
+        "parentUid" : "87c1513077559d81a1f60d6d25a3f637",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682783192952,
+          "stop" : 1682783254851,
+          "duration" : 61899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "87c1513077559d81a1f60d6d25a3f637"
+    }, {
+      "name" : "TC584-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC584 - To check the quoted text should not be the part of Shared Draft",
+        "uid" : "5d167aeb612d7133",
+        "parentUid" : "bacb3b804ef5bc36ce7586135c744d31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682783791321,
+          "stop" : 1682783840059,
+          "duration" : 48738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bacb3b804ef5bc36ce7586135c744d31"
+    }, {
+      "name" : "TC585-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC585 - To verify the cursor when attachments added to the compose screen",
+        "uid" : "352b05b1dc427ef2",
+        "parentUid" : "6b5f71485d8238fd57af78a85176e5a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682783841136,
+          "stop" : 1682783890266,
+          "duration" : 49130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b5f71485d8238fd57af78a85176e5a7"
+    }, {
+      "name" : "TC522-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC522 - To verify \"Search\" icon is visible in the homepage of the app.",
+        "uid" : "63602fb053d30cca",
+        "parentUid" : "8c6e12f3a615e782700dd79dbeea0367",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682783891344,
+          "stop" : 1682783917514,
+          "duration" : 26170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8c6e12f3a615e782700dd79dbeea0367"
+    }, {
+      "name" : "TC524-Failed-->Reason: Error: element (\"~allMailboxTab\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC524 - To verify that the separate search page contains switchable \"SM\" and All mailboxes\" tab.",
+        "uid" : "7d89572b67913975",
+        "parentUid" : "af5070a69752aae9562a3dcd8ff971ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682783945233,
+          "stop" : 1682783985969,
+          "duration" : 40736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "af5070a69752aae9562a3dcd8ff971ff"
+    }, {
+      "name" : "TC532-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC532 - To verify that name of the originator of the conversation is displayed in the search results.",
+        "uid" : "c66aaafb6c4cde70",
+        "parentUid" : "2962283c2df07e1fd65354f9116f0b11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784165253,
+          "stop" : 1682784202486,
+          "duration" : 37233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2962283c2df07e1fd65354f9116f0b11"
+    }, {
+      "name" : "TC533-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC533 - To verify \"Subject of the conversation, Snippet of the latest email on the conversation and Count of number of emails in the conversation\" are being displayed in the searched results or not.",
+        "uid" : "b6a74f04ca326fcd",
+        "parentUid" : "1bc6cafdd0639d3a443674563ffd0475",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784203544,
+          "stop" : 1682784241449,
+          "duration" : 37905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1bc6cafdd0639d3a443674563ffd0475"
+    }, {
+      "name" : "TC535-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC535 - To verify search result contains chips representing the first name of the \"Assignee\"  and \"Status\" of the conversation.",
+        "uid" : "7e49f52a177272f5",
+        "parentUid" : "a9d58488c5f29693be6db5ccb7ab2b19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784242476,
+          "stop" : 1682784283373,
+          "duration" : 40897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a9d58488c5f29693be6db5ccb7ab2b19"
+    }, {
+      "name" : "TC537-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC537 - To verify SM chip name is displayed under \"All mailbox\" tab in search result page.",
+        "uid" : "d83c78ff6e843b1b",
+        "parentUid" : "a6493a94f51eb291e00271c406267280",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784284434,
+          "stop" : 1682784324954,
+          "duration" : 40520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a6493a94f51eb291e00271c406267280"
+    }, {
+      "name" : "TC538-Failed-->Reason: Error: element (\"~search\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC538 - To verify the very first SM name chip is displayed in the \"All mailboxes\" search result under conversation if conversation is part of multiple SM's",
+        "uid" : "b72bd9896dcd27d2",
+        "parentUid" : "d3b0768e5a32b2704eb70e59fe03c85e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784361236,
+          "stop" : 1682784397861,
+          "duration" : 36625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d3b0768e5a32b2704eb70e59fe03c85e"
+    }, {
+      "name" : "TC550-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[2]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC550 - To verify search with some special characters",
+        "uid" : "343097fa8b74ab87",
+        "parentUid" : "a06e01e1306c06d9279aac962b496297",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784565163,
+          "stop" : 1682784603804,
+          "duration" : 38641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a06e01e1306c06d9279aac962b496297"
+    }, {
+      "name" : "TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+        "uid" : "fc133513f71a0f90",
+        "parentUid" : "053031081bd673e0941c679eebe10650",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784856994,
+          "stop" : 1682784922963,
+          "duration" : 65969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "053031081bd673e0941c679eebe10650"
+    }, {
+      "name" : "TC707-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+        "uid" : "4336367d3176cf3b",
+        "parentUid" : "5566f40d8d057c14ac817d4f1a1b8ebc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682784968866,
+          "stop" : 1682785034895,
+          "duration" : 66029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5566f40d8d057c14ac817d4f1a1b8ebc"
+    }, {
+      "name" : "TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+        "uid" : "2743bef5bb8bb45c",
+        "parentUid" : "f1200e703ef8aabc70f41e65f825c17a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682785116173,
+          "stop" : 1682785163255,
+          "duration" : 47082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f1200e703ef8aabc70f41e65f825c17a"
+    }, {
+      "name" : "TC716-Failed-->Reason: Error: The element 'By.xpath: //android.widget.EditText[@text=\"Select an email address\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+        "uid" : "a6527125d3c6ac3f",
+        "parentUid" : "2a140333cd9c05f55d848df86bcaae06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682785270786,
+          "stop" : 1682785383868,
+          "duration" : 113082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2a140333cd9c05f55d848df86bcaae06"
+    }, {
+      "name" : "TC60-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[@text = \"Delete\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC60- Verify that user is able to delete only their notes",
+        "uid" : "13770456b8d56b1e",
+        "parentUid" : "b5d7e3c60d2953e802ddb6a62bd84af2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682788623005,
+          "stop" : 1682788766308,
+          "duration" : 143303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b5d7e3c60d2953e802ddb6a62bd84af2"
+    }, {
+      "name" : "TC27-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+        "uid" : "8b2d627ba9e0fb40",
+        "parentUid" : "dcdc8b64aea2c58997410d83f78fb5fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682790233524,
+          "stop" : 1682790256520,
+          "duration" : 22996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "dcdc8b64aea2c58997410d83f78fb5fa"
+    }, {
+      "name" : "TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+        "uid" : "5686c3ee5190fce9",
+        "parentUid" : "1b52940d1677665f29ab0bf79a6c796c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682790256827,
+          "stop" : 1682790279678,
+          "duration" : 22851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1b52940d1677665f29ab0bf79a6c796c"
+    }, {
+      "name" : "TC434-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+        "uid" : "ea16656c6c7ddb30",
+        "parentUid" : "8f703be36290edb0c9d1b8e7211c4bcc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1682790279983,
+          "stop" : 1682790302643,
+          "duration" : 22660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8f703be36290edb0c9d1b8e7211c4bcc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

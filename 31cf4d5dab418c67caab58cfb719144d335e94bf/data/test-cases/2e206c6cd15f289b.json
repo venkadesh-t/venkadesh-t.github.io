@@ -1,0 +1,112 @@
+{
+  "uid" : "2e206c6cd15f289b",
+  "name" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+  "fullName" : "Left and Right Panel Test Suite.TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+  "historyId" : "d5d5170063a722fd1de50f6b1f673fb0",
+  "time" : {
+    "start" : 1682779825501,
+    "stop" : 1682779862577,
+    "duration" : 37076
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:207:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:207:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1682779825501,
+        "stop" : 1682779836584,
+        "duration" : 11083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1682779862577,
+        "stop" : 1682779863653,
+        "duration" : 1076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5b248f1e2a4c2a26",
+      "name" : "Screenshot",
+      "source" : "5b248f1e2a4c2a26.png",
+      "type" : "image/png",
+      "size" : 2670643
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button."
+  }, {
+    "name" : "package",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2e206c6cd15f289b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

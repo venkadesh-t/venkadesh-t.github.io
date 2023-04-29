@@ -1,0 +1,112 @@
+{
+  "uid" : "a2d754385ab4e724",
+  "name" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+  "fullName" : "Quoted Text.TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+  "historyId" : "1396b543c451900a9cb7321fc5a1de44",
+  "time" : {
+    "start" : 1682783192952,
+    "stop" : 1682783254851,
+    "duration" : 61899
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC565-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC565-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:134:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC565-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC565-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Hide quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:134:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Quoted Text",
+      "time" : {
+        "start" : 1682783192953,
+        "stop" : 1682783204085,
+        "duration" : 11132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Quoted Text",
+      "time" : {
+        "start" : 1682783254851,
+        "stop" : 1682783255862,
+        "duration" : 1011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9c54cc39f389226b",
+      "name" : "Screenshot",
+      "source" : "9c54cc39f389226b.png",
+      "type" : "image/png",
+      "size" : 2681278
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen."
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a2d754385ab4e724.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

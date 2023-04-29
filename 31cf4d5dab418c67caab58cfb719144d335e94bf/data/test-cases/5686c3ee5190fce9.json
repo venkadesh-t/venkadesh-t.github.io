@@ -1,0 +1,120 @@
+{
+  "uid" : "5686c3ee5190fce9",
+  "name" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+  "fullName" : "Assignee.TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+  "historyId" : "b158f82091ed5e8bc496365b7ba9b98a",
+  "time" : {
+    "start" : 1682790256827,
+    "stop" : 1682790279678,
+    "duration" : 22851
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:683:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:683:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Assignee",
+      "time" : {
+        "start" : 1682790256827,
+        "stop" : 1682790268426,
+        "duration" : 11599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Assignee",
+      "time" : {
+        "start" : 1682790279678,
+        "stop" : 1682790279978,
+        "duration" : 300
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6ad32a5b0ee2341b",
+      "name" : "Screenshot",
+      "source" : "6ad32a5b0ee2341b.png",
+      "type" : "image/png",
+      "size" : 135651
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1d7fdb4c9c5d0268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682789343455,
+        "stop" : 1682789375947,
+        "duration" : 32492
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5686c3ee5190fce9.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

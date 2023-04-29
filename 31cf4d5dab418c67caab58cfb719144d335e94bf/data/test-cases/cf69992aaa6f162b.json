@@ -1,0 +1,98 @@
+{
+  "uid" : "cf69992aaa6f162b",
+  "name" : "TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+  "fullName" : "Forward.TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+  "historyId" : "9206e03c24691d229436d0feee1b5768",
+  "time" : {
+    "start" : 1682786122989,
+    "stop" : 1682786200889,
+    "duration" : 77900
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Forward",
+      "time" : {
+        "start" : 1682786122990,
+        "stop" : 1682786134127,
+        "duration" : 11137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Forward",
+      "time" : {
+        "start" : 1682786200889,
+        "stop" : 1682786201982,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail."
+  }, {
+    "name" : "package",
+    "value" : "Forward"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf69992aaa6f162b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
