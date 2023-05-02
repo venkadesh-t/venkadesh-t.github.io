@@ -1,0 +1,98 @@
+{
+  "uid" : "c55f669d79d241ca",
+  "name" : "TC371 - To verify proper toast message is being displayed when conversation is being Unassigned from a particular user.",
+  "fullName" : "Assignee.TC371 - To verify proper toast message is being displayed when conversation is being Unassigned from a particular user.",
+  "historyId" : "e85658f0b4b3b3a735ba890e3fe64851",
+  "time" : {
+    "start" : 1683049492323,
+    "stop" : 1683049577853,
+    "duration" : 85530
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Assignee",
+      "time" : {
+        "start" : 1683049492324,
+        "stop" : 1683049503447,
+        "duration" : 11123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Assignee",
+      "time" : {
+        "start" : 1683049577854,
+        "stop" : 1683049579376,
+        "duration" : 1522
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC371 - To verify proper toast message is being displayed when conversation is being Unassigned from a particular user."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c55f669d79d241ca.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
