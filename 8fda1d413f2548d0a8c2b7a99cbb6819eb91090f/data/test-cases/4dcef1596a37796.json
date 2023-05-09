@@ -1,0 +1,106 @@
+{
+  "uid" : "4dcef1596a37796",
+  "name" : "TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable.",
+  "fullName" : "Quoted Text.TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable.",
+  "historyId" : "aec93fcee94e7793a9816d42450f0b81",
+  "time" : {
+    "start" : 1683646992838,
+    "stop" : 1683647024359,
+    "duration" : 31521
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC563-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC563-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:102:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC563-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC563-Failed-->Reason: Error: Appium error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:102:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Quoted Text",
+      "time" : {
+        "start" : 1683646992838,
+        "stop" : 1683647004167,
+        "duration" : 11329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Quoted Text",
+      "time" : {
+        "start" : 1683647024359,
+        "stop" : 1683647024728,
+        "duration" : 369
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable."
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4dcef1596a37796.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

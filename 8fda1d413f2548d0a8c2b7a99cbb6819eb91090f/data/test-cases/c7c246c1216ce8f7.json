@@ -1,0 +1,112 @@
+{
+  "uid" : "c7c246c1216ce8f7",
+  "name" : "TC60- Verify that user is able to delete only their notes",
+  "fullName" : "Activity Panel and Notes.TC60- Verify that user is able to delete only their notes",
+  "historyId" : "4b3e656a71c31cae89656400a7dd01ef",
+  "time" : {
+    "start" : 1683648998837,
+    "stop" : 1683649143485,
+    "duration" : 144648
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC60-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[@text = \"Delete\"]' does not exist in DOM anymore",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC60-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[@text = \"Delete\"]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:503:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC60-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[@text = \"Delete\"]' does not exist in DOM anymore",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC60-Failed-->Reason: Error: The element 'By.xpath: //android.widget.TextView[@text = \"Delete\"]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:503:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1683648998837,
+        "stop" : 1683649009947,
+        "duration" : 11110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1683649143485,
+        "stop" : 1683649144950,
+        "duration" : 1465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5b73b0e3aeb8b268",
+      "name" : "Screenshot",
+      "source" : "5b73b0e3aeb8b268.png",
+      "type" : "image/png",
+      "size" : 91412
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC60- Verify that user is able to delete only their notes"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7c246c1216ce8f7.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
