@@ -1,0 +1,112 @@
+{
+  "uid" : "2ab6ca7b9fa881bb",
+  "name" : "TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail.",
+  "fullName" : "Forward.TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail.",
+  "historyId" : "857ce712ab237d0fa58c67a230962920",
+  "time" : {
+    "start" : 1684600331675,
+    "stop" : 1684600357550,
+    "duration" : 25875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC594-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC594-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1385:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC594-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC594-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1385:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Forward",
+      "time" : {
+        "start" : 1684600331675,
+        "stop" : 1684600342786,
+        "duration" : 11111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Forward",
+      "time" : {
+        "start" : 1684600357550,
+        "stop" : 1684600358748,
+        "duration" : 1198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ada8e47548129f9e",
+      "name" : "Screenshot",
+      "source" : "ada8e47548129f9e.png",
+      "type" : "image/png",
+      "size" : 243399
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail."
+  }, {
+    "name" : "package",
+    "value" : "Forward"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2ab6ca7b9fa881bb.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

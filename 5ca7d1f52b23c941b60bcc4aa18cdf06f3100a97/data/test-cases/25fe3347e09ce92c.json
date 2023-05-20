@@ -1,0 +1,112 @@
+{
+  "uid" : "25fe3347e09ce92c",
+  "name" : "TC672 - To verify confirmation popup before removing the conversation",
+  "fullName" : "Inbox Test Suite.TC672 - To verify confirmation popup before removing the conversation",
+  "historyId" : "af412ff1c67e5a3f2dad25e9bbe8c1bb",
+  "time" : {
+    "start" : 1684596308714,
+    "stop" : 1684596337878,
+    "duration" : 29164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC672-Failed-->Reason: Error: The element 'By.xpath: //android.widget.EditText[@text=\"Select an email address\"]' does not exist in DOM anymore",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC672-Failed-->Reason: Error: The element 'By.xpath: //android.widget.EditText[@text=\"Select an email address\"]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:1040:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC672-Failed-->Reason: Error: The element 'By.xpath: //android.widget.EditText[@text=\"Select an email address\"]' does not exist in DOM anymore",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC672-Failed-->Reason: Error: The element 'By.xpath: //android.widget.EditText[@text=\"Select an email address\"]' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:1040:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1684596308714,
+        "stop" : 1684596319879,
+        "duration" : 11165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1684596337878,
+        "stop" : 1684596339021,
+        "duration" : 1143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "20217d8e9e0e6ed4",
+      "name" : "Screenshot",
+      "source" : "20217d8e9e0e6ed4.png",
+      "type" : "image/png",
+      "size" : 94534
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC672 - To verify confirmation popup before removing the conversation"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "25fe3347e09ce92c.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
