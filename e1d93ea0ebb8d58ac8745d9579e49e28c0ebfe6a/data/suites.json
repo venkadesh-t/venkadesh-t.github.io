@@ -1,0 +1,2749 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Login Test Suite",
+    "children" : [ {
+      "name" : "TC262- Verify that app version is shown on the login screen",
+      "uid" : "ea563ee09ba981b1",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1684680062802,
+        "stop" : 1684680077927,
+        "duration" : 15125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC629- To verify app able to login by long press on hiver logo",
+      "uid" : "96fb849d2af132f5",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680078965,
+        "stop" : 1684680100404,
+        "duration" : 21439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC630- To verify long press on hiver logo, showing the popup for quick login",
+      "uid" : "5469b328173f8f7b",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680101470,
+        "stop" : 1684680119560,
+        "duration" : 18090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+      "uid" : "a1f8301c7411494",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680120527,
+        "stop" : 1684680158418,
+        "duration" : 37891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC278- Verify that user is shown  ‘No internet connection’ hello bar at all times inside the app if there’s no internet",
+      "uid" : "4aefb7e45ce347ad",
+      "parentUid" : "6987f36ae2d7fc364278176c245ab12e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680159537,
+        "stop" : 1684680222108,
+        "duration" : 62571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "6987f36ae2d7fc364278176c245ab12e"
+  }, {
+    "name" : "Left and Right Panel Test Suite",
+    "children" : [ {
+      "name" : "TC724 - To verify profileAvatar.",
+      "uid" : "2d9a9fd856dcc89a",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680223255,
+        "stop" : 1684680245603,
+        "duration" : 22348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC725 - To verify right drawer panel  is accessible when user clicks on \"Profile Avatar\" in home page.",
+      "uid" : "e789384d3b491fb9",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680246675,
+        "stop" : 1684680272103,
+        "duration" : 25428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC726 - To verify \"Right Drawer\" panel is closed when user clicks on \"Close\" icon.",
+      "uid" : "158e4de476d455e8",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680273143,
+        "stop" : 1684680300265,
+        "duration" : 27122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC727 - To verify \"Right Drawer Panel\" is getting closed if user clicks anywhere outside the panel.",
+      "uid" : "7d7db192a8f50e82",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680301294,
+        "stop" : 1684680326275,
+        "duration" : 24981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+      "uid" : "95a651d316772396",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680327256,
+        "stop" : 1684680355368,
+        "duration" : 28112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC730 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+      "uid" : "6c81ce850ed7055f",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680356367,
+        "stop" : 1684680381338,
+        "duration" : 24971
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC731 - Verify that user is able to logout of the app using logout button.",
+      "uid" : "eaf5d54acfaad36e",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680383058,
+        "stop" : 1684680408662,
+        "duration" : 25604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC732 - Verify that user is able to access \" help & feedback\" even with no internet connection.",
+      "uid" : "1daad211403d367d",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680409950,
+        "stop" : 1684680438395,
+        "duration" : 28445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC733 - To verify user is able to \"Logout\" from app in \"No Internet\" scenario.",
+      "uid" : "6a1031bbcdb406dc",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680439559,
+        "stop" : 1684680465878,
+        "duration" : 26319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+      "uid" : "aa4800206b5869b8",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680466886,
+        "stop" : 1684680491552,
+        "duration" : 24666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC735 - To verify \"Compose\" page is displayed when clicked on \"Compose\" button in left drawer panel.",
+      "uid" : "8d4f765a607342e2",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680492570,
+        "stop" : 1684680520038,
+        "duration" : 27468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC736 - Verify that on Compose mail page , the \"From field\" is empty.",
+      "uid" : "449106cf40f40783",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680521187,
+        "stop" : 1684680548463,
+        "duration" : 27276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+      "uid" : "c9a8ee179bf48df3",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680549506,
+        "stop" : 1684680576603,
+        "duration" : 27097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC741 - Verify user should have the option to select any other SM email(or their alias) or my personal email in the From field",
+      "uid" : "77a33fb632f0b6d8",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680577648,
+        "stop" : 1684680605632,
+        "duration" : 27984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC742 - Verify that user gets an error message on trying to send an email with empty \"From\" field",
+      "uid" : "57d28ddb9a8b4e58",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680606855,
+        "stop" : 1684680640220,
+        "duration" : 33365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC743 - Verify user should be able to add Subject, To, Cc, Bcc fields",
+      "uid" : "9b04914efcf0b0df",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680641242,
+        "stop" : 1684680684198,
+        "duration" : 42956
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC744 - Verify that user is able to send the email successfully.",
+      "uid" : "4cc7c853ad08a7d1",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680685349,
+        "stop" : 1684680734698,
+        "duration" : 49349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+      "uid" : "caf65729d27479b8",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684680735752,
+        "stop" : 1684680774813,
+        "duration" : 39061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast.",
+      "uid" : "265eb88d98c42fa9",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680775872,
+        "stop" : 1684680825392,
+        "duration" : 49520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC749 - Verify if email is composed and sent via an SM alias, its behaviour should be same as web i.e it should be closed by default and not assign",
+      "uid" : "77ddbc8f0e225cee",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684680826464,
+        "stop" : 1684680854169,
+        "duration" : 27705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC752 - Verify that user is able to compose and send an email with large content",
+      "uid" : "da969dc2dfd35c4e",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684680855390,
+        "stop" : 1684680883489,
+        "duration" : 28099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC761 - Verify that user is able to access Compose and help&feedback even with no internet connection",
+      "uid" : "1bcf887fc32e11a",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680884728,
+        "stop" : 1684680911087,
+        "duration" : 26359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC255 - Verify that user is able to compose and send an email with inline images",
+      "uid" : "946ca2fa046ac6d8",
+      "parentUid" : "ef8aeb2c2be542d1c5f15f61230ef2ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680912135,
+        "stop" : 1684680954775,
+        "duration" : 42640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "ef8aeb2c2be542d1c5f15f61230ef2ae"
+  }, {
+    "name" : "Inbox Test Suite",
+    "children" : [ {
+      "name" : "TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login.",
+      "uid" : "70f5b485000796a7",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680955892,
+        "stop" : 1684680983662,
+        "duration" : 27770
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC632 - To verify users are able too see Default inbox type with the categories - Inbox, Primary, Social,Promotions,Updates,Forums",
+      "uid" : "241d5b72bcaa93a7",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684680984664,
+        "stop" : 1684681008670,
+        "duration" : 24006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\"",
+      "uid" : "35d73bc9befb3e13",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681009758,
+        "stop" : 1684681052048,
+        "duration" : 42290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC635 - To verify the \"Category View\" button for 5 default categories shows count of unread conversation present under them.",
+      "uid" : "ada22afa1d46b8cd",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681053165,
+        "stop" : 1684681076633,
+        "duration" : 23468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC638 - To verify that the time or date information on a conversation",
+      "uid" : "4715796d91a5137d",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681077620,
+        "stop" : 1684681099890,
+        "duration" : 22270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC639 - To verify that the \"Profile Letter\" of the user is shown who started the conversation under default inbox categories.",
+      "uid" : "99e93c237d522e31",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681100978,
+        "stop" : 1684681124381,
+        "duration" : 23403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC640 - To verify Subject line",
+      "uid" : "fced8bc549453095",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681125389,
+        "stop" : 1684681148726,
+        "duration" : 23337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC641 - To verify that snippet of last sent email is visible in the conversation list.",
+      "uid" : "3ca52294f4c05120",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681149807,
+        "stop" : 1684681182209,
+        "duration" : 32402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC642 - To verify thread count is shown beside each conversation if the count of mails present in the same is 2 or more than 2.",
+      "uid" : "c4aa1e7891b4f0d8",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684681183257,
+        "stop" : 1684681207028,
+        "duration" : 23771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC645 - To verify When the user enters into a conversation, all unread emails are expanded by default, and the rest are collapsed",
+      "uid" : "cce8ef1a558dbbe",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681208058,
+        "stop" : 1684681238824,
+        "duration" : 30766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC646 - To verify each mail in conversation should have the option to reply/reply all or forward",
+      "uid" : "2032a7613e2324f3",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681239998,
+        "stop" : 1684681266078,
+        "duration" : 26080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC647 - To verify each mail in conversation should have the option to reply/reply all or forward",
+      "uid" : "9e36faf95129b8d9",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681267088,
+        "stop" : 1684681292599,
+        "duration" : 25511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC648 - To verify users are not able to create \"Shared Draft\" using hiver menu present in compose section.",
+      "uid" : "2bbe084ea0326c11",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681293684,
+        "stop" : 1684681330049,
+        "duration" : 36365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC649 - To verify user are able to mark conversation as \"unread\" from the app.",
+      "uid" : "78c15022c8809952",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681331092,
+        "stop" : 1684681357220,
+        "duration" : 26128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC650 - To verify that \"Tag icon on top, tag chips, assignee, status and activity buttons\" are not part of the personal conversation thread list screen.",
+      "uid" : "750a4f2d8e336eae",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681358401,
+        "stop" : 1684681403899,
+        "duration" : 45498
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox.",
+      "uid" : "ac424227714c4b",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681405049,
+        "stop" : 1684681430203,
+        "duration" : 25154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC653 - To  verify user is able to switch between header tabs in the search screen.",
+      "uid" : "83d93084950347d8",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681431300,
+        "stop" : 1684681456055,
+        "duration" : 24755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+      "uid" : "e918b233abc8491",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681457119,
+        "stop" : 1684681486487,
+        "duration" : 29368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC658 - To verify when user is searching within Gmail inbox, the search results should only contain email exchange data",
+      "uid" : "37731c5f877cbdb6",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681487569,
+        "stop" : 1684681516366,
+        "duration" : 28797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC660 - To verify \"Gmail Inbox\" chip is displayed for personal conversation if user searches for conversation in \"All Inboxes\"",
+      "uid" : "cdf8bc1e1a71b5cd",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681517341,
+        "stop" : 1684681545780,
+        "duration" : 28439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC662 - To verify proper chips are being displayed for the conversation part of both \"SMs and Inbox\" present in searched results",
+      "uid" : "82df20ae5a95102b",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681546921,
+        "stop" : 1684681574604,
+        "duration" : 27683
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC663 - To verify users are able to open the conversation from the searched results for \"Gmail Inbox\".",
+      "uid" : "3c72b1abed4c8927",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681575682,
+        "stop" : 1684681608540,
+        "duration" : 32858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC664 -To verify proper error message is displayed if user searches for conversation using wrong keywords.",
+      "uid" : "841d45cf2ad2decd",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681609667,
+        "stop" : 1684681635840,
+        "duration" : 26173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+      "uid" : "4ea73dbc2996e9d0",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681636863,
+        "stop" : 1684681662858,
+        "duration" : 25995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC669 - To verify there is an option to add the conversation to a shared mailbox for the mails present under \"gmail inbox\"",
+      "uid" : "c72028cb574ac4b8",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681663878,
+        "stop" : 1684681737158,
+        "duration" : 73280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+      "uid" : "f2f2ca393c19704a",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681738224,
+        "stop" : 1684681817340,
+        "duration" : 79116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC676 - To verify conversation is not getting added to SM if user \"Cancels\" the confirmation.",
+      "uid" : "d4586e43d66d2a28",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681818376,
+        "stop" : 1684681915185,
+        "duration" : 96809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft.",
+      "uid" : "80a042190fb26d40",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681916171,
+        "stop" : 1684681995086,
+        "duration" : 78915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC687 - To verify the Gmail inbox conversation list view with shared conversation mails",
+      "uid" : "1432f82e92df2531",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684681996048,
+        "stop" : 1684682090554,
+        "duration" : 94506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+      "uid" : "86fd279b92760d68",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682091621,
+        "stop" : 1684682122327,
+        "duration" : 30706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation.",
+      "uid" : "24accc909cc7bf64",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682123389,
+        "stop" : 1684682203949,
+        "duration" : 80560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC655 - To verify users will be able to see all the SMs to which the conversation belongs to.",
+      "uid" : "b3cc858966853e72",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682205012,
+        "stop" : 1684682252192,
+        "duration" : 47180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC656 - To verify users can switch to a different SM on the conversation thread screen",
+      "uid" : "fca31a49c7579eb3",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682253327,
+        "stop" : 1684682282233,
+        "duration" : 28906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+      "uid" : "6b9fef01697333f0",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682283255,
+        "stop" : 1684682363090,
+        "duration" : 79835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC659 - To verify users can switch to different SMs and able to see the assignee and other informations",
+      "uid" : "f7cfd07145f97177",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682364130,
+        "stop" : 1684682390021,
+        "duration" : 25891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+      "uid" : "6e036b1f24d961a1",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682391111,
+        "stop" : 1684682470221,
+        "duration" : 79110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+      "uid" : "31d974ffa9273523",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682471238,
+        "stop" : 1684682551480,
+        "duration" : 80242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC672 - To verify confirmation popup before removing the conversation",
+      "uid" : "325de65ece28d2f4",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682552525,
+        "stop" : 1684682634567,
+        "duration" : 82042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC673 - To verify remove the conversation from SM",
+      "uid" : "aed52e2309a65bd1",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682635596,
+        "stop" : 1684682722652,
+        "duration" : 87056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC675 - To verify cancel option on the confirmation popup",
+      "uid" : "ca31ff73d64b8eeb",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682723764,
+        "stop" : 1684682806748,
+        "duration" : 82984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC677 - To verify confirmation popup should not show once the user checks the \"don’t show again\" option",
+      "uid" : "7b355b6739e05cf0",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682807701,
+        "stop" : 1684682918189,
+        "duration" : 110488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC678 - To verify remove conversation from <SM name>”",
+      "uid" : "9c099724f6171086",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684682919402,
+        "stop" : 1684682948260,
+        "duration" : 28858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC97 - Verify that user is able to see subject line of the conversation",
+      "uid" : "4581211365b34a70",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682949545,
+        "stop" : 1684682974917,
+        "duration" : 25372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC99 - Verify that if any email is unread in the conversation, it should expand automatically for the user to read.",
+      "uid" : "947a5e14325c46e0",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684682975924,
+        "stop" : 1684683023950,
+        "duration" : 48026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC104 - Verify that user can see the attachement icon in the list view of mail.",
+      "uid" : "6d48b8f709bf9a90",
+      "parentUid" : "9f5c6f6a60651ee303c3c4cf5cd88035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683025013,
+        "stop" : 1684683047939,
+        "duration" : 22926
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "9f5c6f6a60651ee303c3c4cf5cd88035"
+  }, {
+    "name" : "Quoted Text",
+    "children" : [ {
+      "name" : "TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page.",
+      "uid" : "8503d5b5173687a7",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684683207528,
+        "stop" : 1684683232179,
+        "duration" : 24651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+      "uid" : "1fc0da57867d2648",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683233346,
+        "stop" : 1684683267385,
+        "duration" : 34039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
+      "uid" : "5f3011e78cca413a",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683268570,
+        "stop" : 1684683303462,
+        "duration" : 34892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC563 - To verify \"Show Quoted Text\" is visible in \"Compose\" screen as well and is clickable.",
+      "uid" : "878ce1a2b05a33da",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683304672,
+        "stop" : 1684683338481,
+        "duration" : 33809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC564 - To verify \"Hide Quoted Text\" and \"Remove\" link is visible when user has expanded the quoted text in compose screen.",
+      "uid" : "2f4fc1fb75b287b7",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683339650,
+        "stop" : 1684683376329,
+        "duration" : 36679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC565 - To verify user is able to collapse the quoted text by clicking on \"Hide Quoted Text\" link in compose screen.",
+      "uid" : "aba7fa9beddebed2",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683377456,
+        "stop" : 1684683413342,
+        "duration" : 35886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC566 - To verify quoted text gets removed/deleted from the compose screen if user clicks on \"Remove\" link in compose screen",
+      "uid" : "b7ca757bc4d7f639",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683414493,
+        "stop" : 1684683452190,
+        "duration" : 37697
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC567 - To verify click on the \"Reply\" or \"Reply all\" quoted text will automatically be attached",
+      "uid" : "d2e06d79aed0f656",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683453291,
+        "stop" : 1684683487508,
+        "duration" : 34217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC571 - To verify the quoted in the Shared Draft screen",
+      "uid" : "a715d746a65680e5",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683488569,
+        "stop" : 1684683539909,
+        "duration" : 51340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC572 - To verify the quoted text with new recipient",
+      "uid" : "7babdb89d947f018",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683541058,
+        "stop" : 1684683619821,
+        "duration" : 78763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC573 - To verify the removed quoted text in the Gmail conversation",
+      "uid" : "37c9a3f50c57f464",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683620966,
+        "stop" : 1684683689789,
+        "duration" : 68823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC574 - To verify the quoted text should be collapsed by default",
+      "uid" : "58d1e3505cccf3a6",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683690931,
+        "stop" : 1684683720752,
+        "duration" : 29821
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC576 - To verify the removed quoted text in the Gmail conversation",
+      "uid" : "de3f968eaeb12641",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683721861,
+        "stop" : 1684683764549,
+        "duration" : 42688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC577 - To verify the quoted text with no internet",
+      "uid" : "cb24d1d8d7d85f11",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683765767,
+        "stop" : 1684683803733,
+        "duration" : 37966
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC579 - To verify quoted text with dark mode",
+      "uid" : "9ce877aba84b67bf",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683804824,
+        "stop" : 1684683845963,
+        "duration" : 41139
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC598 - To verify the focus/cusor when user removes the attachment in compose screen",
+      "uid" : "421e02304741e94a",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683847189,
+        "stop" : 1684683905049,
+        "duration" : 57860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC581 - To verify the quoted received by the new recipient",
+      "uid" : "6818a3745697327c",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683906187,
+        "stop" : 1684683942490,
+        "duration" : 36303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC582 - To check the quoted text is removed in both sender and receiver side",
+      "uid" : "b481a589d131e8c1",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683943610,
+        "stop" : 1684683985724,
+        "duration" : 42114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC583 - To verify the date format and email address in the quoted text",
+      "uid" : "970a75e3e5ee11e1",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684683986850,
+        "stop" : 1684684028355,
+        "duration" : 41505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC584 - To check the quoted text should not be the part of Shared Draft",
+      "uid" : "d8466b33d00d003e",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684684029530,
+        "stop" : 1684684080281,
+        "duration" : 50751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC585 - To verify the cursor when attachments added to the compose screen",
+      "uid" : "22be55b5978a371e",
+      "parentUid" : "78284db157815e4c3709a02b5a4539a7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684684081496,
+        "stop" : 1684684132598,
+        "duration" : 51102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "78284db157815e4c3709a02b5a4539a7"
+  }, {
+    "name" : "Conversation Search",
+    "children" : [ {
+      "name" : "TC522 - To verify \"Search\" icon is visible in the homepage of the app.",
+      "uid" : "e213952010c8ac8d",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684133822,
+        "stop" : 1684684163014,
+        "duration" : 29192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC523 - To verify user is taken to separate \"Search\" page when he clicks on the \"Search\" icon.",
+      "uid" : "3d4b2b31a5c0b58a",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684164156,
+        "stop" : 1684684190503,
+        "duration" : 26347
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC524 - To verify that the separate search page contains switchable \"SM\" and All mailboxes\" tab.",
+      "uid" : "4ad6b2f053bc010f",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684191640,
+        "stop" : 1684684224611,
+        "duration" : 32971
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC526 - To verify if user clicks on the \"Close\" icon in search field, the keyboard should not dismiss.",
+      "uid" : "ac1ac8f045535659",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684225797,
+        "stop" : 1684684253264,
+        "duration" : 27467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC525 - To verify whether \"Cancel\"  button in the search page takes user back to home page of the app or not.",
+      "uid" : "be9e53fdb50b39de",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684254427,
+        "stop" : 1684684281723,
+        "duration" : 27296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC527 - To verify search results are based on \"Start with\" search across \"BODY\" and \"SUBJECT\" of the email.",
+      "uid" : "59be9a1a9e5d749",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684282844,
+        "stop" : 1684684313821,
+        "duration" : 30977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC528 - To verify the search results are displayed under \"All Mailboxes\" apart from chosen SM.",
+      "uid" : "4921af1d4b4e1a7c",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684314951,
+        "stop" : 1684684346079,
+        "duration" : 31128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC530 - To verify that the search results are displayed according to the recent email activity done for conversations.",
+      "uid" : "302aa4766e888fd7",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684347202,
+        "stop" : 1684684375804,
+        "duration" : 28602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC531 - To verify that the search results are displayed according to the recent email activity done for conversations.",
+      "uid" : "792d16acfa464452",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684377113,
+        "stop" : 1684684409771,
+        "duration" : 32658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC532 - To verify that name of the originator of the conversation is displayed in the search results.",
+      "uid" : "482868b305805a90",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684410853,
+        "stop" : 1684684443150,
+        "duration" : 32297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC533 - To verify \"Subject of the conversation, Snippet of the latest email on the conversation and Count of number of emails in the conversation\" are being displayed in the searched results or not.",
+      "uid" : "4cc3858d57152b8c",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684444298,
+        "stop" : 1684684476592,
+        "duration" : 32294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC535 - To verify search result contains chips representing the first name of the \"Assignee\"  and \"Status\" of the conversation.",
+      "uid" : "c9ebb628179b60ae",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684684477865,
+        "stop" : 1684684520880,
+        "duration" : 43015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC537 - To verify SM chip name is displayed under \"All mailbox\" tab in search result page.",
+      "uid" : "e5dee6bd41d5467e",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684684522079,
+        "stop" : 1684684565281,
+        "duration" : 43202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC539 - To verify email address of the person is displayed when the name of the originator for the conversation is not present.",
+      "uid" : "1964f79b6df091c1",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684566608,
+        "stop" : 1684684602513,
+        "duration" : 35905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC538 - To verify the very first SM name chip is displayed in the \"All mailboxes\" search result under conversation if conversation is part of multiple SM's",
+      "uid" : "9987eb9978133ad2",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684684603660,
+        "stop" : 1684684647290,
+        "duration" : 43630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC540 - To verify \"No internet\" hello bar is being displayed in search screen if there is not internet.",
+      "uid" : "78d344d5282cec9",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684648521,
+        "stop" : 1684684678116,
+        "duration" : 29595
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC541 - To verify empty screen along with proper error message is being displayed when user searches using invalid keywords.",
+      "uid" : "e7decc9814c6e375",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684679275,
+        "stop" : 1684684706884,
+        "duration" : 27609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC543 - To verify search results are displayed even when user puts the app in background and comes back again.",
+      "uid" : "6bee4c3b20652a2c",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684708060,
+        "stop" : 1684684747760,
+        "duration" : 39700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC544 - To verify user is able to scroll the search result.",
+      "uid" : "ef2907906e381097",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684748914,
+        "stop" : 1684684779891,
+        "duration" : 30977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC545 - To verify if search item updates when assignee/status/read-unread is updated from mobile or web",
+      "uid" : "3372f764f8d9dd3c",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684781016,
+        "stop" : 1684684822810,
+        "duration" : 41794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC550 - To verify search with some special characters",
+      "uid" : "661acab4784429d8",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684684824067,
+        "stop" : 1684684865336,
+        "duration" : 41269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC557 - Search with unicodes",
+      "uid" : "6a60bf9dc3a39ff6",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684866551,
+        "stop" : 1684684896983,
+        "duration" : 30432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC558 - Search with other languages",
+      "uid" : "ea7cb19b0138d7d5",
+      "parentUid" : "9f5608b3e918b2d9aed0cfc752556418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684898187,
+        "stop" : 1684684928657,
+        "duration" : 30470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "9f5608b3e918b2d9aed0cfc752556418"
+  }, {
+    "name" : "Permalinks",
+    "children" : [ {
+      "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+      "uid" : "6c1604d6c030800f",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684684929794,
+        "stop" : 1684685016020,
+        "duration" : 86226
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC691 - To verify \"Permalink icon\" is visible/present for conversation belonging to SM/ Inbox + SM",
+      "uid" : "5c3d6d529ffdbbdd",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685017229,
+        "stop" : 1684685048519,
+        "duration" : 31290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+      "uid" : "df9443c8a4c1404b",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685049635,
+        "stop" : 1684685082090,
+        "duration" : 32455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC693 - To verify if user is able to copy \"Private Permalink\" or not.",
+      "uid" : "82d84ac992355df1",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685083288,
+        "stop" : 1684685115120,
+        "duration" : 31832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+      "uid" : "ebf7f04612cfad0a",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685116462,
+        "stop" : 1684685162942,
+        "duration" : 46480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC706 - To verify \"Private Permalink\" is easily distinguishable between normal text and public permalink created both in dark and lite mode.",
+      "uid" : "eb3e332d674b04df",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685164097,
+        "stop" : 1684685210917,
+        "duration" : 46820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+      "uid" : "bac5e7c7c3980aaa",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685212117,
+        "stop" : 1684685248588,
+        "duration" : 36471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC709 - To verify user is able to access \"Private Permalink\" from Activities/Notes if user is part of same SM",
+      "uid" : "977d77963ab2b5b5",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685249850,
+        "stop" : 1684685287790,
+        "duration" : 37940
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC712 - To verify user is able to access \"Private Permalink\" from \"Quoted Text\" if user is still part of same SM.",
+      "uid" : "d06d584a52c30d65",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685289095,
+        "stop" : 1684685336243,
+        "duration" : 47148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+      "uid" : "62684e60658fbd18",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685337390,
+        "stop" : 1684685378520,
+        "duration" : 41130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC714 - To verify user is able to access the \"Private Permalink\" sent over other apps if he s part of same SM for which permalink is generated.",
+      "uid" : "d424ae4e64d93c91",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685379694,
+        "stop" : 1684685412823,
+        "duration" : 33129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC756 - To verify the if the app will show a restricted page stating that the user does not have access to the conversation.",
+      "uid" : "386c35c3541c9e85",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685414054,
+        "stop" : 1684685455345,
+        "duration" : 41291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+      "uid" : "9c17bec0ed7f51c1",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685456600,
+        "stop" : 1684685490124,
+        "duration" : 33524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+      "uid" : "f78bff168f815d4",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685491254,
+        "stop" : 1684685679173,
+        "duration" : 187919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
+      "uid" : "6b22d2e43338843b",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685680367,
+        "stop" : 1684685725526,
+        "duration" : 45159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+      "uid" : "d3034b8ce4953823",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685726722,
+        "stop" : 1684685764172,
+        "duration" : 37450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC720 - To verify Non-SM user is able to access the public permalink shared.",
+      "uid" : "4a3075e5f8205c97",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685765427,
+        "stop" : 1684685803704,
+        "duration" : 38277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC721 - To verify the creation of a public permalink is reflected in the activity panel.",
+      "uid" : "f35239265f2895f8",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685804927,
+        "stop" : 1684685901198,
+        "duration" : 96271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC758 - To verify if user clicks on the \"Public Permalink\", he/she taken to the webpage even if the app is installed.",
+      "uid" : "6792a3e7b6883224",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685902275,
+        "stop" : 1684685939752,
+        "duration" : 37477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC694 - To verify the link, refresh and delete icon is visible/present once after the public permalink generated",
+      "uid" : "6ae0ae28b7df71aa",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684685941635,
+        "stop" : 1684686030731,
+        "duration" : 89096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC689 - To verify user should be able to refresh an existing public permalink",
+      "uid" : "db01cc4fa8479716",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686031966,
+        "stop" : 1684686063982,
+        "duration" : 32016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+      "uid" : "c0bf55375f63f6dd",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686065098,
+        "stop" : 1684686099386,
+        "duration" : 34288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC696 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+      "uid" : "299ade0c5e32b642",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686100631,
+        "stop" : 1684686192220,
+        "duration" : 91589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC697 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+      "uid" : "6c3bf37232e24d70",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686193416,
+        "stop" : 1684686282967,
+        "duration" : 89551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC698 - To verify user should be able to delete an existing public permalink",
+      "uid" : "985dfe34a4d09ee3",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686284126,
+        "stop" : 1684686318478,
+        "duration" : 34352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+      "uid" : "cb0dbd454f8b09ca",
+      "parentUid" : "982f9f462b089f523060b69b29f0f4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686319657,
+        "stop" : 1684686358366,
+        "duration" : 38709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "982f9f462b089f523060b69b29f0f4f8"
+  }, {
+    "name" : "Forward",
+    "children" : [ {
+      "name" : "TC587 - To verify users are able to \"Forward\" the entire conversation present in the thread.",
+      "uid" : "d9d89d648d82561d",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686359547,
+        "stop" : 1684686410400,
+        "duration" : 50853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC589 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+      "uid" : "c53ebf26820f8272",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686411643,
+        "stop" : 1684686438283,
+        "duration" : 26640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC586 -To verify user is able to see \"Forward\" button at the bottom in the conversation list page.",
+      "uid" : "7f083ba4023729aa",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686439396,
+        "stop" : 1684686470863,
+        "duration" : 31467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC588 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+      "uid" : "a50b5b679bff7a44",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686472050,
+        "stop" : 1684686553347,
+        "duration" : 81297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC590 - To verify that the cursor lands on \"To\" field in \"Compose Page\" when user is forwarding/forwards a mail",
+      "uid" : "610d41cdd3e51ff7",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686554466,
+        "stop" : 1684686581362,
+        "duration" : 26896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC591 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+      "uid" : "d180089798d5e665",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686582530,
+        "stop" : 1684686618394,
+        "duration" : 35864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC593 - To verify if mail is forwarded to wrong/invalid recipients, proper error message is thrown.",
+      "uid" : "7970aa26f1f43753",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686619527,
+        "stop" : 1684686660530,
+        "duration" : 41003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail.",
+      "uid" : "e1db0a097c97a92d",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686661650,
+        "stop" : 1684686724744,
+        "duration" : 63094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC596 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail.",
+      "uid" : "a1197767c9710e5d",
+      "parentUid" : "fc2c02c6db4fbdb3551860427daeccc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684686725955,
+        "stop" : 1684686755946,
+        "duration" : 29991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "fc2c02c6db4fbdb3551860427daeccc2"
+  }, {
+    "name" : "Activity Panel and Notes",
+    "children" : [ {
+      "name" : "TC28- Verify that the app remembers the last accessed section between Notes/Activities in conversation footer",
+      "uid" : "1f634b9331adfb6",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684687227108,
+        "stop" : 1684687265217,
+        "duration" : 38109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC29- Verify if the user has switched from Notes to Activity or vice versa on Activities Panel, panel should maintain the same state when the user visits the same screen next time.",
+      "uid" : "4aa76282b15e469d",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687266304,
+        "stop" : 1684687335827,
+        "duration" : 69523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+      "uid" : "ddc4ddf2937706b8",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687336963,
+        "stop" : 1684687365562,
+        "duration" : 28599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC31- Verify that the app remembers the last accessed section between Notes/Activities in conversation footer.",
+      "uid" : "b458e4813841382f",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687366665,
+        "stop" : 1684687407555,
+        "duration" : 40890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC32- Verify that user can swipe left from All Activities and come to conversation screen",
+      "uid" : "e0c2a1dd9e61c8e3",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687408703,
+        "stop" : 1684687460236,
+        "duration" : 51533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC33- Verify that user can swipe right from conversation screen to All Activities/Notes screen",
+      "uid" : "c31224b9617ef916",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687461329,
+        "stop" : 1684687502095,
+        "duration" : 40766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC37- Verify that user is able to add a new note or reply to existing note",
+      "uid" : "537519ac9b26500a",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687503143,
+        "stop" : 1684687565173,
+        "duration" : 62030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC38- Verify that user is able to select between All Activities/Notes",
+      "uid" : "ccce17d7dd90893e",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687566198,
+        "stop" : 1684687617521,
+        "duration" : 51323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC39- Verify that user is able to see the count of notes on the footer of the conversation as well as on Activity Panel.",
+      "uid" : "6651c1b43fa17799",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687618548,
+        "stop" : 1684687682535,
+        "duration" : 63987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC40- Verify that user is able to see all the conversations including the users own conversations in Activity Panel",
+      "uid" : "15b6dd54b0d14aab",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687683534,
+        "stop" : 1684687725105,
+        "duration" : 41571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
+      "uid" : "db3cff4cbbbd4ee2",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687726261,
+        "stop" : 1684687806028,
+        "duration" : 79767
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC44- Verify that user should see only 2 lines of parent notes and the commentors name for context",
+      "uid" : "47fea2ebf6bfdbc1",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687807134,
+        "stop" : 1684687888703,
+        "duration" : 81569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC45- Verify that if a note is longer than a particular height  it should be truncated with a cue ‘See more’ which can be tapped on to view the entire note ",
+      "uid" : "3022699ee32527ca",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687889824,
+        "stop" : 1684687968573,
+        "duration" : 78749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC55- Verify that user is able to add a new note or reply to an existing note",
+      "uid" : "22e8d3a9de9edafc",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684687969675,
+        "stop" : 1684688046529,
+        "duration" : 76854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC56- Verify that user is able to @mention people on note",
+      "uid" : "bdf5f91ea76baf94",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688047529,
+        "stop" : 1684688124360,
+        "duration" : 76831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC52- Edited Note: Verify that whenever a note is edited, user can see the relevant message",
+      "uid" : "42296e2c46e334f",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688125324,
+        "stop" : 1684688208179,
+        "duration" : 82855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC57- Verify that note goes to pending if the internet goes off",
+      "uid" : "168d68b4fa8dd24e",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688209212,
+        "stop" : 1684688267318,
+        "duration" : 58106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC51- Delete Note: Verify that whenever a note gets deleted, relevant message is shown to the user",
+      "uid" : "353c9ac3c38d9773",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684688268327,
+        "stop" : 1684688358477,
+        "duration" : 90150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC61- Verify that placeholder text is shown after deleting notes",
+      "uid" : "f46e2b0b0bc4669d",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684688359478,
+        "stop" : 1684688450592,
+        "duration" : 91114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC65- Verify that user is able to edit their own notes",
+      "uid" : "63c9337289ccb251",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688451660,
+        "stop" : 1684688556782,
+        "duration" : 105122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC287- Verify that if the user has switched to Notes in Activity Screen, Conversation footer should contain Notes count",
+      "uid" : "14ee00b159d2c32",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688557791,
+        "stop" : 1684688622406,
+        "duration" : 64615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC285- Verify that count of activity gets updated on changing status of an email",
+      "uid" : "efd3051edf4eb77f",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688623393,
+        "stop" : 1684688713607,
+        "duration" : 90214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC284- Verify that count of activity gets updated on sending a note from activity screen and then on swiping right",
+      "uid" : "51a0ef5d151789ff",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688714571,
+        "stop" : 1684688802970,
+        "duration" : 88399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC72- Verify that user can add any notes with special character",
+      "uid" : "9794fb7056074fbb",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688804053,
+        "stop" : 1684688881734,
+        "duration" : 77681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC75- Verify that user can mark the notification as unread/read in notification centre",
+      "uid" : "d99de0e210036d1",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688882792,
+        "stop" : 1684688925623,
+        "duration" : 42831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC60- Verify that user is able to delete only their notes",
+      "uid" : "3b67647857bbbc79",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684688926632,
+        "stop" : 1684689065051,
+        "duration" : 138419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC63- Verify that notification of @mention note is update if the note is deleted",
+      "uid" : "4c86e633016534f3",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684689066208,
+        "stop" : 1684689200907,
+        "duration" : 134699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC70- Verify that if any \"new\" user is mentioned as a part of an edit, the user must be notified",
+      "uid" : "cba435413df04dfe",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689202028,
+        "stop" : 1684689340441,
+        "duration" : 138413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity",
+      "uid" : "d4df5b2a8c3a5a55",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689341414,
+        "stop" : 1684689467297,
+        "duration" : 125883
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC74- Verify that notification is sent to the user if anyone replies to the note of that user",
+      "uid" : "e43798d4f0a1b50a",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689468216,
+        "stop" : 1684689525018,
+        "duration" : 56802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC71- Verify that content of notification is changed when the note is edited",
+      "uid" : "7ca79fb848c3ad3",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689526041,
+        "stop" : 1684689578236,
+        "duration" : 52195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC283- Verify that user is able to swipe to conversation screen from activity screen",
+      "uid" : "4020e86d0f1a9cc6",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689579254,
+        "stop" : 1684689631348,
+        "duration" : 52094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+      "uid" : "5419430c481170ba",
+      "parentUid" : "1e7258badfd157448b8545e0a6bbbd34",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684690495600,
+        "stop" : 1684690518550,
+        "duration" : 22950
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "1e7258badfd157448b8545e0a6bbbd34"
+  }, {
+    "name" : "Assignee",
+    "children" : [ {
+      "name" : "TC367 - To verify \"Unassign\" tag is not being displayed when mail/mails are not assigned.",
+      "uid" : "e897c0e302323544",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689666193,
+        "stop" : 1684689697604,
+        "duration" : 31411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC368 - To verify on tapping \"ME(Current user name)\", the conversation should be assigned to current user.",
+      "uid" : "1f2458b6dd069d3",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689698646,
+        "stop" : 1684689729800,
+        "duration" : 31154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC369 - To verify if user clicks on \"Unassign\" , the conversation should get unassigned from the current user.",
+      "uid" : "2713448fdd0e0163",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689730818,
+        "stop" : 1684689780667,
+        "duration" : 49849
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC371 - To verify proper toast message is being displayed when conversation is being Unassigned from a particular user.",
+      "uid" : "a2aac9f439ba8d2e",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689781729,
+        "stop" : 1684689863636,
+        "duration" : 81907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC372 - To verify keyboard is popped up when user clicks on the \"Search starts with\" text field in \"Assign to\" drop down/popup",
+      "uid" : "321b352e251e9a8f",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689864673,
+        "stop" : 1684689897324,
+        "duration" : 32651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC374 - To verify that dropdown list is closed if user clicks outside the list of \"Assign to\" usernames.",
+      "uid" : "828c3da8fa425e99",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689898444,
+        "stop" : 1684689934862,
+        "duration" : 36418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC376 - To verify name of the user to whom mail is conversation is assigned is displayed in the conversation page.",
+      "uid" : "1082997a274ed42d",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689935861,
+        "stop" : 1684689967581,
+        "duration" : 31720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC377 - To verify search results are displayed when user enters valid username in the \"Assign to\" search field.",
+      "uid" : "9e5ed451aaa8f55d",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684689968566,
+        "stop" : 1684690001555,
+        "duration" : 32989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC378 - To verify search result are displayed if the list contains valid characters given as inputs in search field.",
+      "uid" : "4b37517de147fa8e",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690002628,
+        "stop" : 1684690036461,
+        "duration" : 33833
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC379 - To verify proper error message is displayed when user tries to search with invalid input.",
+      "uid" : "5243671c4b27b47f",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690037454,
+        "stop" : 1684690069629,
+        "duration" : 32175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC380 - To verify user is able to search and fetch results using \"First Name\" of the username.",
+      "uid" : "fa5281affe2096f5",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690070804,
+        "stop" : 1684690106486,
+        "duration" : 35682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC381 - To verify user is able to search and fetch results using \"Last Name\" of the username.",
+      "uid" : "8ba8817dbde5da6c",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690107539,
+        "stop" : 1684690141124,
+        "duration" : 33585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC441 - To verify user is able to search and fetch results using \"Last Name\" of the username.",
+      "uid" : "6b2ba9a6bbd79d1d",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690142135,
+        "stop" : 1684690175265,
+        "duration" : 33130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+      "uid" : "e4f205960d4b3663",
+      "parentUid" : "020b2b3b1b5366abce8f31243d3e75a4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684690518593,
+        "stop" : 1684690540830,
+        "duration" : 22237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "020b2b3b1b5366abce8f31243d3e75a4"
+  }, {
+    "name" : "Status & Views",
+    "children" : [ {
+      "name" : "TC435 - To verify user is able to see all the other \"Views\" option present when he clicks on the view floater button",
+      "uid" : "984faf2db756cc2c",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684690203626,
+        "stop" : 1684690240722,
+        "duration" : 37096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC436 - To verify user is able to switch between the views of the particular SM.",
+      "uid" : "6819bbd668dcc5d9",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684690241805,
+        "stop" : 1684690278688,
+        "duration" : 36883
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC438 - To verify if user switches between the SM, the views list and count should be according the SM chosen",
+      "uid" : "289bd432b6d5d4eb",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690279705,
+        "stop" : 1684690307892,
+        "duration" : 28187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC442 - To verify the default status of the new mail added to SM is \"Open\".",
+      "uid" : "a4487dde141b78a5",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690309037,
+        "stop" : 1684690339269,
+        "duration" : 30232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC443 - To verify user is able to expand the \"Status\" module by clicking on the same in conversation thread list page.",
+      "uid" : "8efa7e1769b18932",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690340237,
+        "stop" : 1684690371455,
+        "duration" : 31218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+      "uid" : "a72efbd02430a527",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690372624,
+        "stop" : 1684690409746,
+        "duration" : 37122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC445 - To verify user is able to change the status of the mail added to SM from any of the views present.",
+      "uid" : "309413db7dfa9e85",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690410780,
+        "stop" : 1684690443217,
+        "duration" : 32437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC447 - To verify the \"Status\" modal is still in expanded state if user closes the app or puts the app in background and opens the app again..",
+      "uid" : "160475413ef681e",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1684690444200,
+        "stop" : 1684690475576,
+        "duration" : 31376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    }, {
+      "name" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+      "uid" : "ac8f7bae5089aadb",
+      "parentUid" : "830d7d3accb9b2c16b633dd7d118b2c0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1684690540871,
+        "stop" : 1684690563015,
+        "duration" : 22144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "google pixel 3-9.0" ]
+    } ],
+    "uid" : "830d7d3accb9b2c16b633dd7d118b2c0"
+  } ],
+  "name" : "suites"
+}
