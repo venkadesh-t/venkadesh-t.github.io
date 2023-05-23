@@ -1,0 +1,112 @@
+{
+  "uid" : "bd5e60c25e102809",
+  "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+  "fullName" : "Permalinks.TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+  "historyId" : "eaa4e4f885c0ed2cf55d501ed2dffb21",
+  "time" : {
+    "start" : 1684858721388,
+    "stop" : 1684858790002,
+    "duration" : 68614
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:818:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:818:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalinks",
+      "time" : {
+        "start" : 1684858721388,
+        "stop" : 1684858732497,
+        "duration" : 11109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Permalinks",
+      "time" : {
+        "start" : 1684858790002,
+        "stop" : 1684858791118,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "77b36b06c31489a7",
+      "name" : "Screenshot",
+      "source" : "77b36b06c31489a7.png",
+      "type" : "image/png",
+      "size" : 199571
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bd5e60c25e102809.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
