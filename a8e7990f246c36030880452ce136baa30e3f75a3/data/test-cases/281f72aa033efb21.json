@@ -1,0 +1,112 @@
+{
+  "uid" : "281f72aa033efb21",
+  "name" : "TC376 - To verify name of the user to whom mail is conversation is assigned is displayed in the conversation page.",
+  "fullName" : "Assignee.TC376 - To verify name of the user to whom mail is conversation is assigned is displayed in the conversation page.",
+  "historyId" : "458dded54c125c168e61b2b50eb8df1c",
+  "time" : {
+    "start" : 1685036230668,
+    "stop" : 1685036302769,
+    "duration" : 72101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC374-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Heyuser1 S\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC374-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Heyuser1 S\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:782:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC374-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Heyuser1 S\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC374-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Heyuser1 S\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:782:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Assignee",
+      "time" : {
+        "start" : 1685036230669,
+        "stop" : 1685036241708,
+        "duration" : 11039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Assignee",
+      "time" : {
+        "start" : 1685036302769,
+        "stop" : 1685036303713,
+        "duration" : 944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fa6e4e1e0e2f6c6d",
+      "name" : "Screenshot",
+      "source" : "fa6e4e1e0e2f6c6d.png",
+      "type" : "image/png",
+      "size" : 241183
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC376 - To verify name of the user to whom mail is conversation is assigned is displayed in the conversation page."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "281f72aa033efb21.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

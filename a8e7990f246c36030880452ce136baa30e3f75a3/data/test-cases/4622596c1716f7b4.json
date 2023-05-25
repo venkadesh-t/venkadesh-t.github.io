@@ -1,0 +1,120 @@
+{
+  "uid" : "4622596c1716f7b4",
+  "name" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+  "fullName" : "Status & Views.TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+  "historyId" : "dfd4d42b4ad929a5fe023d27969b331a",
+  "time" : {
+    "start" : 1685037180629,
+    "stop" : 1685037242902,
+    "duration" : 62273
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC444-Failed-->Reason: Error: element (\"~status\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC444-Failed-->Reason: Error: element (\"~status\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:968:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC444-Failed-->Reason: Error: element (\"~status\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC444-Failed-->Reason: Error: element (\"~status\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:968:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685037180630,
+        "stop" : 1685037191690,
+        "duration" : 11060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685037242903,
+        "stop" : 1685037243941,
+        "duration" : 1038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6a0f38f86b6ba117",
+      "name" : "Screenshot",
+      "source" : "6a0f38f86b6ba117.png",
+      "type" : "image/png",
+      "size" : 240607
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c30c243aa196aeb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685033452427,
+        "stop" : 1685033491739,
+        "duration" : 39312
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4622596c1716f7b4.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

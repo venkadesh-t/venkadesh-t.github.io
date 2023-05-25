@@ -1,0 +1,112 @@
+{
+  "uid" : "6d62d30963874860",
+  "name" : "TC381 - To verify user is able to search and fetch results using \"Last Name\" of the username.",
+  "fullName" : "Assignee.TC381 - To verify user is able to search and fetch results using \"Last Name\" of the username.",
+  "historyId" : "73a3ec3695c1fa35ebbe5e8a3aa6fe9c",
+  "time" : {
+    "start" : 1685036639288,
+    "stop" : 1685036722135,
+    "duration" : 82847
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC381-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC381-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:852:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC381-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC381-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:852:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Assignee",
+      "time" : {
+        "start" : 1685036639289,
+        "stop" : 1685036650358,
+        "duration" : 11069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Assignee",
+      "time" : {
+        "start" : 1685036722135,
+        "stop" : 1685036723199,
+        "duration" : 1064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fc241abab4a72470",
+      "name" : "Screenshot",
+      "source" : "fc241abab4a72470.png",
+      "type" : "image/png",
+      "size" : 240617
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC381 - To verify user is able to search and fetch results using \"Last Name\" of the username."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6d62d30963874860.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
