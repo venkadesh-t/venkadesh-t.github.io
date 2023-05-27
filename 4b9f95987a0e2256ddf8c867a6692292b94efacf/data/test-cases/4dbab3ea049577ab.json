@@ -1,0 +1,112 @@
+{
+  "uid" : "4dbab3ea049577ab",
+  "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+  "fullName" : "Permalinks.TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+  "historyId" : "bc1f822f67f3f1e01c86c32e32d367cc",
+  "time" : {
+    "start" : 1685203990053,
+    "stop" : 1685204055826,
+    "duration" : 65773
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC707-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC707-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:851:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC707-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC707-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:851:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalinks",
+      "time" : {
+        "start" : 1685203990053,
+        "stop" : 1685204001167,
+        "duration" : 11114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Permalinks",
+      "time" : {
+        "start" : 1685204055827,
+        "stop" : 1685204056829,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bea5091f332b23fe",
+      "name" : "Screenshot",
+      "source" : "bea5091f332b23fe.png",
+      "type" : "image/png",
+      "size" : 201773
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4dbab3ea049577ab.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

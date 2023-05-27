@@ -1,0 +1,107 @@
+{
+  "uid" : "872af5e7b38b98ce",
+  "name" : "TC436 - To verify user is able to switch between the views of the particular SM.",
+  "fullName" : "Status & Views.TC436 - To verify user is able to switch between the views of the particular SM.",
+  "historyId" : "4eb82dac419237faa6fead35e1122a65",
+  "time" : {
+    "start" : 1685209013774,
+    "stop" : 1685209042595,
+    "duration" : 28821
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685209013775,
+        "stop" : 1685209024931,
+        "duration" : 11156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685209042595,
+        "stop" : 1685209043735,
+        "duration" : 1140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC436 - To verify user is able to switch between the views of the particular SM."
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fee1261422f36b6b",
+      "status" : "broken",
+      "statusDetails" : "TC436-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1685205535677,
+        "stop" : 1685205573394,
+        "duration" : 37717
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "872af5e7b38b98ce.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

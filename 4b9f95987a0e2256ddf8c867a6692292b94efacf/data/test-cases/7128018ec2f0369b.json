@@ -1,0 +1,128 @@
+{
+  "uid" : "7128018ec2f0369b",
+  "name" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+  "fullName" : "Status & Views.TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+  "historyId" : "1a776db72a7ad0108c4876ba1afd9f7d",
+  "time" : {
+    "start" : 1685209317749,
+    "stop" : 1685209340052,
+    "duration" : 22303
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC434-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC434-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:889:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC434-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC434-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:889:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685209317750,
+        "stop" : 1685209329309,
+        "duration" : 11559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685209340053,
+        "stop" : 1685209340103,
+        "duration" : 50
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d86afa4bad1da152",
+      "name" : "Screenshot",
+      "source" : "d86afa4bad1da152.png",
+      "type" : "image/png",
+      "size" : 135032
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26f8b7307ba9bd5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685208947249,
+        "stop" : 1685208974599,
+        "duration" : 27350
+      }
+    }, {
+      "uid" : "3c561abe6b0f7ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685205468222,
+        "stop" : 1685205494854,
+        "duration" : 26632
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7128018ec2f0369b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

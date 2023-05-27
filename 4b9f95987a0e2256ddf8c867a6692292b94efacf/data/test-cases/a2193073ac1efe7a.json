@@ -1,0 +1,107 @@
+{
+  "uid" : "a2193073ac1efe7a",
+  "name" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+  "fullName" : "Status & Views.TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+  "historyId" : "dfd4d42b4ad929a5fe023d27969b331a",
+  "time" : {
+    "start" : 1685209146108,
+    "stop" : 1685209182733,
+    "duration" : 36625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685209146108,
+        "stop" : 1685209157275,
+        "duration" : 11167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685209182734,
+        "stop" : 1685209183744,
+        "duration" : 1010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "68da4a109dacbfbf",
+      "status" : "broken",
+      "statusDetails" : "TC444-Failed-->Reason: Error: element (\"~status\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1685205682624,
+        "stop" : 1685205720182,
+        "duration" : 37558
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2193073ac1efe7a.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,112 @@
+{
+  "uid" : "f724d2e70ebb5cf5",
+  "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+  "fullName" : "Left and Right Panel Test Suite.TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+  "historyId" : "60106a0dd75434cf9eb2b12cd1981416",
+  "time" : {
+    "start" : 1685199264461,
+    "stop" : 1685199305298,
+    "duration" : 40837
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:313:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:313:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1685199264461,
+        "stop" : 1685199275642,
+        "duration" : 11181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1685199305299,
+        "stop" : 1685199306698,
+        "duration" : 1399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "323b3e034caa0666",
+      "name" : "Screenshot",
+      "source" : "323b3e034caa0666.png",
+      "type" : "image/png",
+      "size" : 104391
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )"
+  }, {
+    "name" : "package",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f724d2e70ebb5cf5.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

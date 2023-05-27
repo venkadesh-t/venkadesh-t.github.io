@@ -1,0 +1,98 @@
+{
+  "uid" : "172a51bd4628559b",
+  "name" : "TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail.",
+  "fullName" : "Forward.TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail.",
+  "historyId" : "857ce712ab237d0fa58c67a230962920",
+  "time" : {
+    "start" : 1685205375996,
+    "stop" : 1685205436768,
+    "duration" : 60772
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Forward",
+      "time" : {
+        "start" : 1685205375996,
+        "stop" : 1685205387138,
+        "duration" : 11142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Forward",
+      "time" : {
+        "start" : 1685205436770,
+        "stop" : 1685205437823,
+        "duration" : 1053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC594 - To verify \"From\" address is being picked up from gmail settings by default if user is forwarding a mail."
+  }, {
+    "name" : "package",
+    "value" : "Forward"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "172a51bd4628559b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

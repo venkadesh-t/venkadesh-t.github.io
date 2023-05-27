@@ -1,0 +1,106 @@
+{
+  "uid" : "fee1261422f36b6b",
+  "name" : "TC436 - To verify user is able to switch between the views of the particular SM.",
+  "fullName" : "Status & Views.TC436 - To verify user is able to switch between the views of the particular SM.",
+  "historyId" : "4eb82dac419237faa6fead35e1122a65",
+  "time" : {
+    "start" : 1685205535677,
+    "stop" : 1685205573394,
+    "duration" : 37717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC436-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC436-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1444:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC436-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC436-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite2.spec.js:1444:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685205535677,
+        "stop" : 1685205546775,
+        "duration" : 11098
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1685205573394,
+        "stop" : 1685205575158,
+        "duration" : 1764
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ce864cfb26746048",
+      "name" : "Screenshot",
+      "source" : "ce864cfb26746048.png",
+      "type" : "image/png",
+      "size" : 213884
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC436 - To verify user is able to switch between the views of the particular SM."
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fee1261422f36b6b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
