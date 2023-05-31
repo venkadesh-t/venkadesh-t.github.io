@@ -1,0 +1,1148 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.4.9' to equal 'v 2.4.6'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "1a7e48345d03d775",
+        "parentUid" : "5c0b4781b9e5c6a043fac56e2a0433cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1685544501242,
+          "stop" : 1685544513615,
+          "duration" : 12373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5c0b4781b9e5c6a043fac56e2a0433cf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+        "uid" : "dc7db47af53cf5bb",
+        "parentUid" : "1476e4daf09b78224512eb576967f6bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685545194459,
+          "stop" : 1685545235597,
+          "duration" : 41138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1476e4daf09b78224512eb576967f6bf"
+    }, {
+      "name" : "TC642-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC642 - To verify thread count is shown beside each conversation if the count of mails present in the same is 2 or more than 2.",
+        "uid" : "e96a00cef5788530",
+        "parentUid" : "f6e7a084b083b5f5d6c1bbd2e5cf2b9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685545749016,
+          "stop" : 1685545794744,
+          "duration" : 45728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f6e7a084b083b5f5d6c1bbd2e5cf2b9e"
+    }, {
+      "name" : "TC559-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page.",
+        "uid" : "8194f85b02def953",
+        "parentUid" : "300dbedc0c8b383461bc7f563964b0e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685548156280,
+          "stop" : 1685548262615,
+          "duration" : 106335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "300dbedc0c8b383461bc7f563964b0e9"
+    }, {
+      "name" : "TC579-Failed-->Reason: Error: Can't call click on element with selector \"//android.widget.Button[@content-desc=\"Close modal\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC579 - To verify quoted text with dark mode",
+        "uid" : "be536159f7657835",
+        "parentUid" : "7fdafd41ce9a8689a5f631cef00d6493",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685548977169,
+          "stop" : 1685549004495,
+          "duration" : 27326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "7fdafd41ce9a8689a5f631cef00d6493"
+    }, {
+      "name" : "TC584-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC584 - To check the quoted text should not be the part of Shared Draft",
+        "uid" : "d30ec5db33c8844d",
+        "parentUid" : "bacb3b804ef5bc36ce7586135c744d31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685549213381,
+          "stop" : 1685549271920,
+          "duration" : 58539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "bacb3b804ef5bc36ce7586135c744d31"
+    }, {
+      "name" : "TC585-Failed-->Reason: Error: element (\"~SDTitle\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC585 - To verify the cursor when attachments added to the compose screen",
+        "uid" : "83bc914febd75228",
+        "parentUid" : "6b5f71485d8238fd57af78a85176e5a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685549274102,
+          "stop" : 1685549338013,
+          "duration" : 63911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b5f71485d8238fd57af78a85176e5a7"
+    }, {
+      "name" : "TC535-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC535 - To verify search result contains chips representing the first name of the \"Assignee\"  and \"Status\" of the conversation.",
+        "uid" : "8dfc2b95736d7437",
+        "parentUid" : "a9d58488c5f29693be6db5ccb7ab2b19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685549740923,
+          "stop" : 1685549792023,
+          "duration" : 51100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a9d58488c5f29693be6db5ccb7ab2b19"
+    }, {
+      "name" : "TC537-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC537 - To verify SM chip name is displayed under \"All mailbox\" tab in search result page.",
+        "uid" : "c5352585b2644e46",
+        "parentUid" : "a6493a94f51eb291e00271c406267280",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685549794396,
+          "stop" : 1685549854955,
+          "duration" : 60559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a6493a94f51eb291e00271c406267280"
+    }, {
+      "name" : "TC538-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[1]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC538 - To verify the very first SM name chip is displayed in the \"All mailboxes\" search result under conversation if conversation is part of multiple SM's",
+        "uid" : "305434836141e832",
+        "parentUid" : "ee662d78a047dee20c8e2ddb824707be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685549908891,
+          "stop" : 1685549962317,
+          "duration" : 53426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "ee662d78a047dee20c8e2ddb824707be"
+    }, {
+      "name" : "TC550-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"conversationTop[0]\"]/android.view.ViewGroup[2]/android.view.ViewGroup[2]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC550 - To verify search with some special characters",
+        "uid" : "4f40cf8bd7f44f36",
+        "parentUid" : "a06e01e1306c06d9279aac962b496297",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685550175347,
+          "stop" : 1685550221877,
+          "duration" : 46530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a06e01e1306c06d9279aac962b496297"
+    }, {
+      "name" : "TC27-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+        "uid" : "8a43c9a1eb901976",
+        "parentUid" : "fca615ce1f8757dc6da28b0fb5af6a47",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680301,
+          "stop" : 1685553680313,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "fca615ce1f8757dc6da28b0fb5af6a47"
+    }, {
+      "name" : "TC28-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC28- Verify that the app remembers the last accessed section between Notes/Activities in conversation footer",
+        "uid" : "afa76570cdd05199",
+        "parentUid" : "b669effcd3d08fa8f7b49e7b426906e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680317,
+          "stop" : 1685553680325,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b669effcd3d08fa8f7b49e7b426906e0"
+    }, {
+      "name" : "TC29-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC29- Verify if the user has switched from Notes to Activity or vice versa on Activities Panel, panel should maintain the same state when the user visits the same screen next time.",
+        "uid" : "f7e7f181b1ddb9d3",
+        "parentUid" : "ee56e10a6c5d2d55e9bb5c302f38f1b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680330,
+          "stop" : 1685553680337,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "ee56e10a6c5d2d55e9bb5c302f38f1b2"
+    }, {
+      "name" : "TC30-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+        "uid" : "fabee3b48be347d4",
+        "parentUid" : "39b6f3accbc6a3545507c865fae60d51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680343,
+          "stop" : 1685553680350,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "39b6f3accbc6a3545507c865fae60d51"
+    }, {
+      "name" : "TC31-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC31- Verify that the app remembers the last accessed section between Notes/Activities in conversation footer.",
+        "uid" : "3bc98b62ea7a4759",
+        "parentUid" : "64d41c1371ed717296e73826ee6e2919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680355,
+          "stop" : 1685553680361,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "64d41c1371ed717296e73826ee6e2919"
+    }, {
+      "name" : "TC32-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC32- Verify that user can swipe left from All Activities and come to conversation screen",
+        "uid" : "17bbf327e73c360c",
+        "parentUid" : "33c6dd96a113652abc3b419832bbb02e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680366,
+          "stop" : 1685553680374,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "33c6dd96a113652abc3b419832bbb02e"
+    }, {
+      "name" : "TC33-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC33- Verify that user can swipe right from conversation screen to All Activities/Notes screen",
+        "uid" : "975b79c17264935a",
+        "parentUid" : "a36fe8b5b4652e044199e142aa276cdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680385,
+          "stop" : 1685553680392,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a36fe8b5b4652e044199e142aa276cdf"
+    }, {
+      "name" : "TC37-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC37- Verify that user is able to add a new note or reply to existing note",
+        "uid" : "cabad4fb1fec84f7",
+        "parentUid" : "6041c799d4c40e80a0e087d8d74bde9c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680402,
+          "stop" : 1685553680412,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6041c799d4c40e80a0e087d8d74bde9c"
+    }, {
+      "name" : "TC38-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC38- Verify that user is able to select between All Activities/Notes",
+        "uid" : "a92bc3f29910d613",
+        "parentUid" : "08d46cf6d5f5faa5ce9455245c4e4cf0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680420,
+          "stop" : 1685553680431,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "08d46cf6d5f5faa5ce9455245c4e4cf0"
+    }, {
+      "name" : "TC39-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC39- Verify that user is able to see the count of notes on the footer of the conversation as well as on Activity Panel.",
+        "uid" : "35136768f80e1154",
+        "parentUid" : "a01b253c538b3fb6ee410218481c2778",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680436,
+          "stop" : 1685553680441,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a01b253c538b3fb6ee410218481c2778"
+    }, {
+      "name" : "TC40-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC40- Verify that user is able to see all the conversations including the users own conversations in Activity Panel",
+        "uid" : "4f044fbfd982e3f2",
+        "parentUid" : "8e603f0b187e98776200c21498557f15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680450,
+          "stop" : 1685553680458,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8e603f0b187e98776200c21498557f15"
+    }, {
+      "name" : "TC43-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
+        "uid" : "7c1eacefe7c65102",
+        "parentUid" : "75cb6adcbd3220bdd4ce5624dd6beeb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680465,
+          "stop" : 1685553680471,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "75cb6adcbd3220bdd4ce5624dd6beeb3"
+    }, {
+      "name" : "TC44-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC44- Verify that user should see only 2 lines of parent notes and the commentors name for context",
+        "uid" : "b66deefc1d53963f",
+        "parentUid" : "7cc05f0534073050478a0d3173cadf43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680475,
+          "stop" : 1685553680480,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "7cc05f0534073050478a0d3173cadf43"
+    }, {
+      "name" : "TC45-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC45- Verify that if a note is longer than a particular height  it should be truncated with a cue ‘See more’ which can be tapped on to view the entire note ",
+        "uid" : "b23c126d35492fd7",
+        "parentUid" : "9231652c5e10f823fd206a713991465e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680486,
+          "stop" : 1685553680494,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9231652c5e10f823fd206a713991465e"
+    }, {
+      "name" : "TC55-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC55- Verify that user is able to add a new note or reply to an existing note",
+        "uid" : "97b2412ad0e6efcb",
+        "parentUid" : "410111ff243a3d222e549b40554a7d1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680499,
+          "stop" : 1685553680503,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "410111ff243a3d222e549b40554a7d1b"
+    }, {
+      "name" : "TC56-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC56- Verify that user is able to @mention people on note",
+        "uid" : "b6bf6b2ced0e284",
+        "parentUid" : "2b72a3241d9a7a3c64e82fee63318ba6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680509,
+          "stop" : 1685553680514,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "2b72a3241d9a7a3c64e82fee63318ba6"
+    }, {
+      "name" : "TC52-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC52- Edited Note: Verify that whenever a note is edited, user can see the relevant message",
+        "uid" : "59decc58cef38ca5",
+        "parentUid" : "27b938e652301edc8b381de90396f9e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680519,
+          "stop" : 1685553680524,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "27b938e652301edc8b381de90396f9e7"
+    }, {
+      "name" : "TC57-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC57- Verify that note goes to pending if the internet goes off",
+        "uid" : "6d061a97f8e779b3",
+        "parentUid" : "c04d7ca68e45d5c54f9d831e2efd8532",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680529,
+          "stop" : 1685553680534,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c04d7ca68e45d5c54f9d831e2efd8532"
+    }, {
+      "name" : "TC51-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC51- Delete Note: Verify that whenever a note gets deleted, relevant message is shown to the user",
+        "uid" : "e9d0c9b57833886e",
+        "parentUid" : "a623f3d3fed08dea5367bad97cbf35c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680537,
+          "stop" : 1685553680541,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "a623f3d3fed08dea5367bad97cbf35c2"
+    }, {
+      "name" : "TC61-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC61- Verify that placeholder text is shown after deleting notes",
+        "uid" : "eee24a036f3599a8",
+        "parentUid" : "b955b361bb99274f81decff4be947e27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680546,
+          "stop" : 1685553680553,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b955b361bb99274f81decff4be947e27"
+    }, {
+      "name" : "TC65-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC65- Verify that user is able to edit their own notes",
+        "uid" : "142cc3e14a97caec",
+        "parentUid" : "455adc34bff28f570c9849a47bd87556",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680566,
+          "stop" : 1685553680578,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "455adc34bff28f570c9849a47bd87556"
+    }, {
+      "name" : "TC287-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC287- Verify that if the user has switched to Notes in Activity Screen, Conversation footer should contain Notes count",
+        "uid" : "84347d35045907cc",
+        "parentUid" : "21fed558040616ffddd662eb5e4f0f3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680591,
+          "stop" : 1685553680600,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "21fed558040616ffddd662eb5e4f0f3c"
+    }, {
+      "name" : "TC285-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC285- Verify that count of activity gets updated on changing status of an email",
+        "uid" : "75d80be41e7a9aa3",
+        "parentUid" : "e6fd43075de2588b1905c6789d036e3b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680610,
+          "stop" : 1685553680616,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e6fd43075de2588b1905c6789d036e3b"
+    }, {
+      "name" : "TC284-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC284- Verify that count of activity gets updated on sending a note from activity screen and then on swiping right",
+        "uid" : "92079f3226fba4b4",
+        "parentUid" : "c368fb208ec2419ec5555fb518e9b5d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680622,
+          "stop" : 1685553680627,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c368fb208ec2419ec5555fb518e9b5d8"
+    }, {
+      "name" : "TC72-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC72- Verify that user can add any notes with special character",
+        "uid" : "56a3b549b5cef853",
+        "parentUid" : "85e9255d701eca9d78a9b4b2e70eaab0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680633,
+          "stop" : 1685553680640,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "85e9255d701eca9d78a9b4b2e70eaab0"
+    }, {
+      "name" : "TC75-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC75- Verify that user can mark the notification as unread/read in notification centre",
+        "uid" : "fc6f2741e2de673f",
+        "parentUid" : "65a46347fc068599992599fc9c7fe24f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680648,
+          "stop" : 1685553680655,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "65a46347fc068599992599fc9c7fe24f"
+    }, {
+      "name" : "TC60-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC60- Verify that user is able to delete only their notes",
+        "uid" : "bccefe44c9cdef75",
+        "parentUid" : "33004648dd6892195341720a8b4ab7a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680660,
+          "stop" : 1685553680670,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "33004648dd6892195341720a8b4ab7a2"
+    }, {
+      "name" : "TC63-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC63- Verify that notification of @mention note is update if the note is deleted",
+        "uid" : "e4b2f13cc833af8b",
+        "parentUid" : "4ba03e4472369da0efcb8cda37131e94",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680680,
+          "stop" : 1685553680687,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "4ba03e4472369da0efcb8cda37131e94"
+    }, {
+      "name" : "TC70-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC70- Verify that if any \"new\" user is mentioned as a part of an edit, the user must be notified",
+        "uid" : "79c9ed427d507726",
+        "parentUid" : "b2fa5cb20e2341d37cab1fcf49080640",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680694,
+          "stop" : 1685553680698,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b2fa5cb20e2341d37cab1fcf49080640"
+    }, {
+      "name" : "TC289-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity",
+        "uid" : "bbc9cb7472ff814",
+        "parentUid" : "b93d6b755517101ea3d8684af8a7a741",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680705,
+          "stop" : 1685553680710,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "b93d6b755517101ea3d8684af8a7a741"
+    }, {
+      "name" : "TC74-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC74- Verify that notification is sent to the user if anyone replies to the note of that user",
+        "uid" : "b5499d2e0b286d0e",
+        "parentUid" : "c533a062896ce0c9f52498a7a093a208",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680716,
+          "stop" : 1685553680723,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "c533a062896ce0c9f52498a7a093a208"
+    }, {
+      "name" : "TC71-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC71- Verify that content of notification is changed when the note is edited",
+        "uid" : "cd994ba52824bdb8",
+        "parentUid" : "e473e0c562983dd124b473898a54f49a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680731,
+          "stop" : 1685553680740,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e473e0c562983dd124b473898a54f49a"
+    }, {
+      "name" : "TC283-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC283- Verify that user is able to swipe to conversation screen from activity screen",
+        "uid" : "c79d3af3386d51f4",
+        "parentUid" : "6b942a8ebeb27ef6fb165f1893493902",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680751,
+          "stop" : 1685553680756,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "6b942a8ebeb27ef6fb165f1893493902"
+    }, {
+      "name" : "TC366-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+        "uid" : "a4e08c042f793be4",
+        "parentUid" : "0c1247bad942359f81b30bd9de47efe1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680789,
+          "stop" : 1685553680793,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "0c1247bad942359f81b30bd9de47efe1"
+    }, {
+      "name" : "TC367-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC367 - To verify \"Unassign\" tag is not being displayed when mail/mails are not assigned.",
+        "uid" : "69fbbe26b101ff76",
+        "parentUid" : "e70ae0e47f5c645bbbdb105c5db6e70a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680800,
+          "stop" : 1685553680804,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e70ae0e47f5c645bbbdb105c5db6e70a"
+    }, {
+      "name" : "TC368-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC368 - To verify on tapping \"ME(Current user name)\", the conversation should be assigned to current user.",
+        "uid" : "be6131f380773bec",
+        "parentUid" : "81074934fb95ecb9455540f115aba05e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680809,
+          "stop" : 1685553680813,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "81074934fb95ecb9455540f115aba05e"
+    }, {
+      "name" : "TC369-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC369 - To verify if user clicks on \"Unassign\" , the conversation should get unassigned from the current user.",
+        "uid" : "8bd6eea40e72b730",
+        "parentUid" : "d1330cc0ea7cd563786616a4c0b1c7ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680816,
+          "stop" : 1685553680820,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d1330cc0ea7cd563786616a4c0b1c7ee"
+    }, {
+      "name" : "TC371-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC371 - To verify proper toast message is being displayed when conversation is being Unassigned from a particular user.",
+        "uid" : "dbcbf468c219c8f6",
+        "parentUid" : "e7a633e283e43bb114d72eaf6b03ea3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680822,
+          "stop" : 1685553680826,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e7a633e283e43bb114d72eaf6b03ea3a"
+    }, {
+      "name" : "TC372-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC372 - To verify keyboard is popped up when user clicks on the \"Search starts with\" text field in \"Assign to\" drop down/popup",
+        "uid" : "4605e22920bf88c9",
+        "parentUid" : "0802c09f36d6ea57f9da437b57f8ce12",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680830,
+          "stop" : 1685553680835,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "0802c09f36d6ea57f9da437b57f8ce12"
+    }, {
+      "name" : "TC374-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC374 - To verify that dropdown list is closed if user clicks outside the list of \"Assign to\" usernames.",
+        "uid" : "54eeef955204c256",
+        "parentUid" : "50360cdf166c8bb23028b9a005e22122",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680843,
+          "stop" : 1685553680848,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      }, {
+        "name" : "TC376 - To verify name of the user to whom mail is conversation is assigned is displayed in the conversation page.",
+        "uid" : "dad323f67873c60",
+        "parentUid" : "50360cdf166c8bb23028b9a005e22122",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680853,
+          "stop" : 1685553680859,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "50360cdf166c8bb23028b9a005e22122"
+    }, {
+      "name" : "TC377-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC377 - To verify search results are displayed when user enters valid username in the \"Assign to\" search field.",
+        "uid" : "ee89c2f054b2dad",
+        "parentUid" : "3358a9b2ee5a32ebebfecb7817bdbbb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680865,
+          "stop" : 1685553680870,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "3358a9b2ee5a32ebebfecb7817bdbbb4"
+    }, {
+      "name" : "TC378-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC378 - To verify search result are displayed if the list contains valid characters given as inputs in search field.",
+        "uid" : "b0620876a20536a0",
+        "parentUid" : "873fdf445aebf3bf3cf7d3e1b2f9a608",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680875,
+          "stop" : 1685553680879,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "873fdf445aebf3bf3cf7d3e1b2f9a608"
+    }, {
+      "name" : "TC379-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC379 - To verify proper error message is displayed when user tries to search with invalid input.",
+        "uid" : "201a8c530116f64b",
+        "parentUid" : "7210e5773ca3b28d7fac443157d6f3ed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680883,
+          "stop" : 1685553680888,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "7210e5773ca3b28d7fac443157d6f3ed"
+    }, {
+      "name" : "TC380-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC380 - To verify user is able to search and fetch results using \"First Name\" of the username.",
+        "uid" : "fa22d3fa6750c025",
+        "parentUid" : "98a7835d183f2411a0210a9468b9beb7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680894,
+          "stop" : 1685553680899,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "98a7835d183f2411a0210a9468b9beb7"
+    }, {
+      "name" : "TC381-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC381 - To verify user is able to search and fetch results using \"Last Name\" of the username.",
+        "uid" : "3c3fd9bd2cbb9f6d",
+        "parentUid" : "9df14ee9584c9bda037854327efc5ec8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680905,
+          "stop" : 1685553680912,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9df14ee9584c9bda037854327efc5ec8"
+    }, {
+      "name" : "TC441-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC441 - To verify user is able to search and fetch results using \"Last Name\" of the username.",
+        "uid" : "7363ac1925c63e91",
+        "parentUid" : "ea1cb149e836d71cfdd0be3b308413fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680918,
+          "stop" : 1685553680927,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "ea1cb149e836d71cfdd0be3b308413fd"
+    }, {
+      "name" : "TC434-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+        "uid" : "5b884d7f64e298a6",
+        "parentUid" : "71b718a04a38eafc1c43dc83310142fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680952,
+          "stop" : 1685553680959,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "71b718a04a38eafc1c43dc83310142fa"
+    }, {
+      "name" : "TC435-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC435 - To verify user is able to see all the other \"Views\" option present when he clicks on the view floater button",
+        "uid" : "9f7bc83697975bc8",
+        "parentUid" : "16b64c1198f63630f5d3d747814beeee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680965,
+          "stop" : 1685553680969,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "16b64c1198f63630f5d3d747814beeee"
+    }, {
+      "name" : "TC436-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC436 - To verify user is able to switch between the views of the particular SM.",
+        "uid" : "35bcbdd5f0fa24d7",
+        "parentUid" : "168767b6de26cd9cfa4e1921942646cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680974,
+          "stop" : 1685553680981,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "168767b6de26cd9cfa4e1921942646cc"
+    }, {
+      "name" : "TC438-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC438 - To verify if user switches between the SM, the views list and count should be according the SM chosen",
+        "uid" : "570fc9c2ba3066f4",
+        "parentUid" : "d9b34c5e4330ff34ab6df7c032e80574",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680983,
+          "stop" : 1685553680988,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d9b34c5e4330ff34ab6df7c032e80574"
+    }, {
+      "name" : "TC442-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC442 - To verify the default status of the new mail added to SM is \"Open\".",
+        "uid" : "4e97498dcf670379",
+        "parentUid" : "d8fad8422b2294413ffcff9438ceef8e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553680992,
+          "stop" : 1685553680997,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "d8fad8422b2294413ffcff9438ceef8e"
+    }, {
+      "name" : "TC443-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC443 - To verify user is able to expand the \"Status\" module by clicking on the same in conversation thread list page.",
+        "uid" : "2a4b143642f2e887",
+        "parentUid" : "e4efdf819329b6f371015236b12d06f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553681001,
+          "stop" : 1685553681005,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "e4efdf819329b6f371015236b12d06f9"
+    }, {
+      "name" : "TC444-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+        "uid" : "c368c0f3a97c4ad9",
+        "parentUid" : "90d03bcff52cc9f7bd5bb6f07cf5b42c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553681008,
+          "stop" : 1685553681013,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "90d03bcff52cc9f7bd5bb6f07cf5b42c"
+    }, {
+      "name" : "TC445-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC445 - To verify user is able to change the status of the mail added to SM from any of the views present.",
+        "uid" : "143b4916dad1009c",
+        "parentUid" : "f35d70367841a67c0051676373472c28",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553681016,
+          "stop" : 1685553681021,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "f35d70367841a67c0051676373472c28"
+    }, {
+      "name" : "TC447-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "children" : [ {
+        "name" : "TC447 - To verify the \"Status\" modal is still in expanded state if user closes the app or puts the app in background and opens the app again..",
+        "uid" : "a1c3b84a974588c0",
+        "parentUid" : "9d0a2bbdfaf0c4d6521b0a616a8db5c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685553681025,
+          "stop" : 1685553681033,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9d0a2bbdfaf0c4d6521b0a616a8db5c3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
