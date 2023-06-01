@@ -1,0 +1,200 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TC262-Failed-->Reason: AssertionError: expected 'v 2.4.9' to equal 'v 2.4.6'",
+      "children" : [ {
+        "name" : "TC262- Verify that app version is shown on the login screen",
+        "uid" : "bba214fffeb3b407",
+        "parentUid" : "5c0b4781b9e5c6a043fac56e2a0433cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1685630572755,
+          "stop" : 1685630585555,
+          "duration" : 12800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "5c0b4781b9e5c6a043fac56e2a0433cf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC743-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC743 - Verify user should be able to add Subject, To, Cc, Bcc fields",
+        "uid" : "8f99d6125b8715b5",
+        "parentUid" : "16cc9fef0c840b5fd764650d09e7db69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685631201648,
+          "stop" : 1685631227374,
+          "duration" : 25726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "16cc9fef0c840b5fd764650d09e7db69"
+    }, {
+      "name" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Mobile Test Email Template (1)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+        "uid" : "7b3668cd1e87c5cd",
+        "parentUid" : "1476e4daf09b78224512eb576967f6bf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685631286014,
+          "stop" : 1685631327749,
+          "duration" : 41735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1476e4daf09b78224512eb576967f6bf"
+    }, {
+      "name" : "TC653-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC653 - To  verify user is able to switch between header tabs in the search screen.",
+        "uid" : "fe0d3c7c754e28a2",
+        "parentUid" : "364a37302375314af12b9f49d77a8725",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685632151070,
+          "stop" : 1685632176986,
+          "duration" : 25916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "364a37302375314af12b9f49d77a8725"
+    }, {
+      "name" : "TC561-Failed-->Reason: invalid session id: A session is either terminated or not started",
+      "children" : [ {
+        "name" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
+        "uid" : "5da8e11e907ccc5e",
+        "parentUid" : "1f5614eb3311878ee9c1717280809a78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685634320864,
+          "stop" : 1685634356961,
+          "duration" : 36097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1f5614eb3311878ee9c1717280809a78"
+    }, {
+      "name" : "TC29-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Notes\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC29- Verify if the user has switched from Notes to Activity or vice versa on Activities Panel, panel should maintain the same state when the user visits the same screen next time.",
+        "uid" : "e2a45d3059cd2b26",
+        "parentUid" : "1923d112c74a7023b80e5186374d8c90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685634613395,
+          "stop" : 1685634696903,
+          "duration" : 83508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1923d112c74a7023b80e5186374d8c90"
+    }, {
+      "name" : "TC52-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC52- Edited Note: Verify that whenever a note is edited, user can see the relevant message",
+        "uid" : "d62004bcb3f92734",
+        "parentUid" : "22a5f60dc71ebeb63c02ffbcdd19cee6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685635588775,
+          "stop" : 1685635614891,
+          "duration" : 26116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "22a5f60dc71ebeb63c02ffbcdd19cee6"
+    }, {
+      "name" : "TC284-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC284- Verify that count of activity gets updated on sending a note from activity screen and then on swiping right",
+        "uid" : "3aab267f6f4d469",
+        "parentUid" : "9cba7f0bbb88689d33996fc1be6da8f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685636166019,
+          "stop" : 1685636209316,
+          "duration" : 43297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "9cba7f0bbb88689d33996fc1be6da8f0"
+    }, {
+      "name" : "TC27-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+        "uid" : "b07bb973d4533ec9",
+        "parentUid" : "dcdc8b64aea2c58997410d83f78fb5fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685638095338,
+          "stop" : 1685638119174,
+          "duration" : 23836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "dcdc8b64aea2c58997410d83f78fb5fa"
+    }, {
+      "name" : "TC366-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC366 - To verify \"Search\" tab opens on click of \"Assign to\" text in Conversation page.",
+        "uid" : "7d24909520c7da9b",
+        "parentUid" : "1b52940d1677665f29ab0bf79a6c796c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685638119461,
+          "stop" : 1685638142930,
+          "duration" : 23469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "1b52940d1677665f29ab0bf79a6c796c"
+    }, {
+      "name" : "TC434-Failed-->Reason: Error: Can't call touchAction on element with selector \"//android.widget.TextView[contains(@text,\"v 2.\")]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+        "uid" : "2c8a4df8f59429c2",
+        "parentUid" : "8f703be36290edb0c9d1b8e7211c4bcc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1685638143199,
+          "stop" : 1685638167382,
+          "duration" : 24183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 3-9.0" ]
+      } ],
+      "uid" : "8f703be36290edb0c9d1b8e7211c4bcc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
