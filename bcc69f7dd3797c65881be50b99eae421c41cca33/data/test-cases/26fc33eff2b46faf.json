@@ -1,0 +1,106 @@
+{
+  "uid" : "26fc33eff2b46faf",
+  "name" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+  "fullName" : "Login Test Suite.TC261- Verify that user gets a screen which information about what hiver will access in Google account",
+  "historyId" : "bd46ce2e21c839e7bc2a9198b0dc26b",
+  "time" : {
+    "start" : 1685717083261,
+    "stop" : 1685717112364,
+    "duration" : 29103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC261-Failed-->Reason: Error: waitUntil condition failed with the following reason: Session not started or terminated",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC261-Failed-->Reason: Error: waitUntil condition failed with the following reason: Session not started or terminated\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:65:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC261-Failed-->Reason: Error: waitUntil condition failed with the following reason: Session not started or terminated",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC261-Failed-->Reason: Error: waitUntil condition failed with the following reason: Session not started or terminated\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:65:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1685717083262,
+        "stop" : 1685717095582,
+        "duration" : 12320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Login Test Suite",
+      "time" : {
+        "start" : 1685717112364,
+        "stop" : 1685717112620,
+        "duration" : 256
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC261- Verify that user gets a screen which information about what hiver will access in Google account"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "26fc33eff2b46faf.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
