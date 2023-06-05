@@ -1,0 +1,112 @@
+{
+  "uid" : "4f97759e184fb978",
+  "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+  "fullName" : "Inbox Test Suite.TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+  "historyId" : "3370fd0eb4c477cc2c9bce6e58a421de",
+  "time" : {
+    "start" : 1685978515223,
+    "stop" : 1685978681219,
+    "duration" : 165996
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC674-Failed-->Reason: RequestError: read ECONNRESET",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC674-Failed-->Reason: RequestError: read ECONNRESET\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:771:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC674-Failed-->Reason: RequestError: read ECONNRESET",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC674-Failed-->Reason: RequestError: read ECONNRESET\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:771:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1685978515223,
+        "stop" : 1685978526488,
+        "duration" : 11265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Inbox Test Suite",
+      "time" : {
+        "start" : 1685978681219,
+        "stop" : 1685978682481,
+        "duration" : 1262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6b908d6d6ab137c9",
+      "name" : "Screenshot",
+      "source" : "6b908d6d6ab137c9.png",
+      "type" : "image/png",
+      "size" : 87812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4f97759e184fb978.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
