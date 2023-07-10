@@ -1,0 +1,112 @@
+{
+  "uid" : "17c8588dc27f9b52",
+  "name" : "TC742 - Verify that user gets an error message on trying to send an email with empty \"From\" field",
+  "fullName" : "Left and Right Panel Test Suite.TC742 - Verify that user gets an error message on trying to send an email with empty \"From\" field",
+  "historyId" : "89f1d1af5dae362b85c3ed3ae553d926",
+  "time" : {
+    "start" : 1688973130571,
+    "stop" : 1688973177523,
+    "duration" : 46952
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC742-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"From field can’t be empty\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC742-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"From field can’t be empty\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:267:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC742-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"From field can’t be empty\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC742-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"From field can’t be empty\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite.spec.js:267:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1688973130571,
+        "stop" : 1688973142105,
+        "duration" : 11534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook for Left and Right Panel Test Suite",
+      "time" : {
+        "start" : 1688973177523,
+        "stop" : 1688973178776,
+        "duration" : 1253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6399ffd9694b464",
+      "name" : "Screenshot",
+      "source" : "6399ffd9694b464.png",
+      "type" : "image/png",
+      "size" : 69176
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC742 - Verify that user gets an error message on trying to send an email with empty \"From\" field"
+  }, {
+    "name" : "package",
+    "value" : "Left and Right Panel Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "17c8588dc27f9b52.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
