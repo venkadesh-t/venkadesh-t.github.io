@@ -1,0 +1,112 @@
+{
+  "uid" : "153b5e46409360e7",
+  "name" : "TC61- Verify that placeholder text is shown after deleting notes",
+  "fullName" : "Activity Panel and Notes.TC61- Verify that placeholder text is shown after deleting notes",
+  "historyId" : "e976446e818e71a2ff45318591c91b27",
+  "time" : {
+    "start" : 1689440640531,
+    "stop" : 1689440730250,
+    "duration" : 89719
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC61-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Delete\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC61-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Delete\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:368:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC61-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Delete\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC61-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Delete\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:368:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689440640532,
+        "stop" : 1689440651715,
+        "duration" : 11183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689440730250,
+        "stop" : 1689440731302,
+        "duration" : 1052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "981c14a682728cb1",
+      "name" : "Screenshot",
+      "source" : "981c14a682728cb1.png",
+      "type" : "image/png",
+      "size" : 114512
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC61- Verify that placeholder text is shown after deleting notes"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "153b5e46409360e7.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

@@ -1,0 +1,120 @@
+{
+  "uid" : "d0a2fe5cb4a977e2",
+  "name" : "TC438 - To verify if user switches between the SM, the views list and count should be according the SM chosen",
+  "fullName" : "Status & Views.TC438 - To verify if user switches between the SM, the views list and count should be according the SM chosen",
+  "historyId" : "95fe2744956584d3da914e5d64ceb4f1",
+  "time" : {
+    "start" : 1689442423457,
+    "stop" : 1689442460666,
+    "duration" : 37209
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC438-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC438-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:928:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC438-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC438-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"ALL VIEWS\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:928:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1689442423457,
+        "stop" : 1689442434528,
+        "duration" : 11071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1689442460666,
+        "stop" : 1689442461818,
+        "duration" : 1152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8199492ee66b7846",
+      "name" : "Screenshot",
+      "source" : "8199492ee66b7846.png",
+      "type" : "image/png",
+      "size" : 208843
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC438 - To verify if user switches between the SM, the views list and count should be according the SM chosen"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a0dee6476af40ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1689439175062,
+        "stop" : 1689439205900,
+        "duration" : 30838
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d0a2fe5cb4a977e2.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

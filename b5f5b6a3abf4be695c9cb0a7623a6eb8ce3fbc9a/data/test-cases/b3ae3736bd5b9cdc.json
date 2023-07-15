@@ -1,0 +1,112 @@
+{
+  "uid" : "b3ae3736bd5b9cdc",
+  "name" : "TC65- Verify that user is able to edit their own notes",
+  "fullName" : "Activity Panel and Notes.TC65- Verify that user is able to edit their own notes",
+  "historyId" : "2eb98a9aa94e7b94b5fece740a672161",
+  "time" : {
+    "start" : 1689440731302,
+    "stop" : 1689440820292,
+    "duration" : 88990
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC65-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC65-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:389:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC65-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC65-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:389:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689440731302,
+        "stop" : 1689440742730,
+        "duration" : 11428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689440820293,
+        "stop" : 1689440821365,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "102485c9f170b2c5",
+      "name" : "Screenshot",
+      "source" : "102485c9f170b2c5.png",
+      "type" : "image/png",
+      "size" : 113649
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC65- Verify that user is able to edit their own notes"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b3ae3736bd5b9cdc.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
