@@ -1,0 +1,112 @@
+{
+  "uid" : "be8082ad3a6a4eda",
+  "name" : "TC52- Edited Note: Verify that whenever a note is edited, user can see the relevant message",
+  "fullName" : "Activity Panel and Notes.TC52- Edited Note: Verify that whenever a note is edited, user can see the relevant message",
+  "historyId" : "ee32e869ca4230332c706e8d47e5bf54",
+  "time" : {
+    "start" : 1689526786758,
+    "stop" : 1689526855599,
+    "duration" : 68841
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC52-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC52-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:308:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC52-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC52-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Edit\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:308:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689526786759,
+        "stop" : 1689526797987,
+        "duration" : 11228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689526855600,
+        "stop" : 1689526856686,
+        "duration" : 1086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "485edaaff36ae6fe",
+      "name" : "Screenshot",
+      "source" : "485edaaff36ae6fe.png",
+      "type" : "image/png",
+      "size" : 157523
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC52- Edited Note: Verify that whenever a note is edited, user can see the relevant message"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be8082ad3a6a4eda.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}

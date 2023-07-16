@@ -1,0 +1,112 @@
+{
+  "uid" : "e9096cdba3d2719b",
+  "name" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
+  "fullName" : "Activity Panel and Notes.TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
+  "historyId" : "61c03a5d41af93e44241c91db2346bfb",
+  "time" : {
+    "start" : 1689526411087,
+    "stop" : 1689526477707,
+    "duration" : 66620
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC43-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC43-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:219:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC43-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC43-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Reply\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:219:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689526411088,
+        "stop" : 1689526422340,
+        "duration" : 11252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Activity Panel and Notes",
+      "time" : {
+        "start" : 1689526477708,
+        "stop" : 1689526478786,
+        "duration" : 1078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1e066bff8a9e935",
+      "name" : "Screenshot",
+      "source" : "1e066bff8a9e935.png",
+      "type" : "image/png",
+      "size" : 69411
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading "
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e9096cdba3d2719b.json",
+  "parameterValues" : [ "google pixel 3-9.0" ]
+}
