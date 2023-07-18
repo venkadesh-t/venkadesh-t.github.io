@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC690-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+        "uid" : "71f8efc1b5ff7a56",
+        "parentUid" : "d27c05da8f47b59c89ece102955ee2ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689672010969,
+          "stop" : 1689672113111,
+          "duration" : 102142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "d27c05da8f47b59c89ece102955ee2ee"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "dfc889e9357725168468b4aeb86dc513" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5313356c851ed2e0",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1689672114283,
+        "stop" : 0,
+        "duration" : -1689672114283
+      }
+    } ]
+  },
+  "68d1f250db7b0a9af00a97cb0df73db6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71f8efc1b5ff7a56",
+      "status" : "broken",
+      "statusDetails" : "TC690-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1689672010969,
+        "stop" : 1689672113111,
+        "duration" : 102142
+      }
+    } ]
+  }
+}
