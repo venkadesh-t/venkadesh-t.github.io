@@ -1,0 +1,230 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+        "uid" : "4c6e8a614d391211",
+        "parentUid" : "f1200e703ef8aabc70f41e65f825c17a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689856769958,
+          "stop" : 1689856834804,
+          "duration" : 64846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "f1200e703ef8aabc70f41e65f825c17a"
+    }, {
+      "name" : "TC756-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC756 - To verify the if the app will show a restricted page stating that the user does not have access to the conversation.",
+        "uid" : "bbefdf1fc1a100da",
+        "parentUid" : "29a1ca897272b33890e9d8c614ce2b6e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689856885456,
+          "stop" : 1689856949756,
+          "duration" : 64300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "29a1ca897272b33890e9d8c614ce2b6e"
+    }, {
+      "name" : "TC716-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+        "uid" : "c3ab4a9ed2a91ac1",
+        "parentUid" : "9915b8842750fb674a76589396eb1800",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689856998601,
+          "stop" : 1689857222276,
+          "duration" : 223675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "9915b8842750fb674a76589396eb1800"
+    }, {
+      "name" : "TC718-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
+        "uid" : "88ec8d838f37faba",
+        "parentUid" : "4a26e361501087abb6a8b70e36f067b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857223390,
+          "stop" : 1689857300801,
+          "duration" : 77411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "4a26e361501087abb6a8b70e36f067b3"
+    }, {
+      "name" : "TC719-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+        "uid" : "14d156cddfd67307",
+        "parentUid" : "b00c21434390f2f96014b17076a84ba1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857302017,
+          "stop" : 1689857378447,
+          "duration" : 76430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "b00c21434390f2f96014b17076a84ba1"
+    }, {
+      "name" : "TC720-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC720 - To verify Non-SM user is able to access the public permalink shared.",
+        "uid" : "14e9b5c671ae6f8a",
+        "parentUid" : "c6a5c2eaeda60c2f94db77e8ce016a23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857379597,
+          "stop" : 1689857455897,
+          "duration" : 76300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "c6a5c2eaeda60c2f94db77e8ce016a23"
+    }, {
+      "name" : "TC721-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC721 - To verify the creation of a public permalink is reflected in the activity panel.",
+        "uid" : "4ddf7e0e04fb09d0",
+        "parentUid" : "318bba30fefb9a5c2ec479e552e0b410",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857457179,
+          "stop" : 1689857567749,
+          "duration" : 110570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "318bba30fefb9a5c2ec479e552e0b410"
+    }, {
+      "name" : "TC758-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC758 - To verify if user clicks on the \"Public Permalink\", he/she taken to the webpage even if the app is installed.",
+        "uid" : "72c38e1b80893a5c",
+        "parentUid" : "f1ab1b47cca6f3fa97d131561ffa1740",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857568821,
+          "stop" : 1689857645920,
+          "duration" : 77099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "f1ab1b47cca6f3fa97d131561ffa1740"
+    }, {
+      "name" : "TC694-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC694 - To verify the link, refresh and delete icon is visible/present once after the public permalink generated",
+        "uid" : "c22658167886c90f",
+        "parentUid" : "699da0e97cce571c87fc9169bb730dee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857647087,
+          "stop" : 1689857757784,
+          "duration" : 110697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "699da0e97cce571c87fc9169bb730dee"
+    }, {
+      "name" : "TC689-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC689 - To verify user should be able to refresh an existing public permalink",
+        "uid" : "73f95d7186ae28e",
+        "parentUid" : "c5c5f734bf3dbe59c1356d12d532683c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857758779,
+          "stop" : 1689857815686,
+          "duration" : 56907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "c5c5f734bf3dbe59c1356d12d532683c"
+    }, {
+      "name" : "TC695-Failed-->Reason: Error: element (\"(//android.view.ViewGroup[@resource-id = \"permalinkRefresh\"])\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+        "uid" : "ab3c1c29d483639e",
+        "parentUid" : "26d3f71519b510f0f8bceca4b8ffdd95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857816691,
+          "stop" : 1689857873328,
+          "duration" : 56637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "26d3f71519b510f0f8bceca4b8ffdd95"
+    }, {
+      "name" : "TC696-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC696 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+        "uid" : "47298c83067728b7",
+        "parentUid" : "bfb11a7109c0ef09d0c94f74e1b82cae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857874486,
+          "stop" : 1689857985495,
+          "duration" : 111009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "bfb11a7109c0ef09d0c94f74e1b82cae"
+    }, {
+      "name" : "TC697-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC697 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+        "uid" : "72a60ef1e276dc1",
+        "parentUid" : "2c89082a0d903417d23752b0d60b97d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689857986733,
+          "stop" : 1689858099008,
+          "duration" : 112275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "2c89082a0d903417d23752b0d60b97d7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
