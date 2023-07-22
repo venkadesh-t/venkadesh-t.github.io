@@ -1,0 +1,343 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+    "uid" : "c1cbd1d1d6529742",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690036883626,
+      "stop" : 1690037017838,
+      "duration" : 134212
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC691 - To verify \"Permalink icon\" is visible/present for conversation belonging to SM/ Inbox + SM",
+    "uid" : "9b0326a72b0af083",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037018922,
+      "stop" : 1690037062732,
+      "duration" : 43810
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+    "uid" : "31937e157221f9ac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037063723,
+      "stop" : 1690037110078,
+      "duration" : 46355
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC693 - To verify if user is able to copy \"Private Permalink\" or not.",
+    "uid" : "d5feba1ff8c53d87",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037111118,
+      "stop" : 1690037156653,
+      "duration" : 45535
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+    "uid" : "29a9b8a026026dc2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037157714,
+      "stop" : 1690037216918,
+      "duration" : 59204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC706 - To verify \"Private Permalink\" is easily distinguishable between normal text and public permalink created both in dark and lite mode.",
+    "uid" : "cd859bad1026d039",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037218059,
+      "stop" : 1690037277148,
+      "duration" : 59089
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+    "uid" : "f311733a09e2b551",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037278165,
+      "stop" : 1690037331081,
+      "duration" : 52916
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC709 - To verify user is able to access \"Private Permalink\" from Activities/Notes if user is part of same SM",
+    "uid" : "240244fa96b14175",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037332128,
+      "stop" : 1690037384747,
+      "duration" : 52619
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC712 - To verify user is able to access \"Private Permalink\" from \"Quoted Text\" if user is still part of same SM.",
+    "uid" : "43b5c0ecc3421497",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037385891,
+      "stop" : 1690037445389,
+      "duration" : 59498
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+    "uid" : "2a8b017da71688f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1690037446653,
+      "stop" : 1690037511605,
+      "duration" : 64952
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC714 - To verify user is able to access the \"Private Permalink\" sent over other apps if he s part of same SM for which permalink is generated.",
+    "uid" : "1504302b0be7903a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037512786,
+      "stop" : 1690037559077,
+      "duration" : 46291
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC756 - To verify the if the app will show a restricted page stating that the user does not have access to the conversation.",
+    "uid" : "633add78aa030c16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037560298,
+      "stop" : 1690037616315,
+      "duration" : 56017
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+    "uid" : "f5803c54c6db880",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037617315,
+      "stop" : 1690037663556,
+      "duration" : 46241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+    "uid" : "be3efe510d6c664e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037664762,
+      "stop" : 1690037877751,
+      "duration" : 212989
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
+    "uid" : "eac728e4199362ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037878889,
+      "stop" : 1690037940870,
+      "duration" : 61981
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC719 - To verify \"Public Permalink\" shared is accessible to user part of same SM.",
+    "uid" : "1a4f9f6a968ad67",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037942022,
+      "stop" : 1690037995180,
+      "duration" : 53158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC720 - To verify Non-SM user is able to access the public permalink shared.",
+    "uid" : "dcfda85d8dd4e1d6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690037996829,
+      "stop" : 1690038049146,
+      "duration" : 52317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC721 - To verify the creation of a public permalink is reflected in the activity panel.",
+    "uid" : "957150e63c6d60f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038050381,
+      "stop" : 1690038158350,
+      "duration" : 107969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC758 - To verify if user clicks on the \"Public Permalink\", he/she taken to the webpage even if the app is installed.",
+    "uid" : "6c6d9cc8cc39c2e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038159382,
+      "stop" : 1690038212458,
+      "duration" : 53076
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC694 - To verify the link, refresh and delete icon is visible/present once after the public permalink generated",
+    "uid" : "2a1cf2661e0078f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038213840,
+      "stop" : 1690038317197,
+      "duration" : 103357
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC689 - To verify user should be able to refresh an existing public permalink",
+    "uid" : "95cb0c2ecf3853a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038318297,
+      "stop" : 1690038363394,
+      "duration" : 45097
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC695 - To verify creates and updates of a public permalink should be reflected in the activity panel",
+    "uid" : "58002a30bedf9236",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038364516,
+      "stop" : 1690038412802,
+      "duration" : 48286
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC696 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+    "uid" : "5901f9502228feb5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038413906,
+      "stop" : 1690038517748,
+      "duration" : 103842
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC697 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+    "uid" : "41ced893fda1304d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038518877,
+      "stop" : 1690038623580,
+      "duration" : 104703
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC698 - To verify user should be able to delete an existing public permalink",
+    "uid" : "2242cfc6f87017f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038624608,
+      "stop" : 1690038671101,
+      "duration" : 46493
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  }, {
+    "name" : "TC700 - To verify the deletion of a public permalink should be reflected in the activity panel",
+    "uid" : "9554057b18353f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1690038672250,
+      "stop" : 1690038718984,
+      "duration" : 46734
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "google pixel 5-11.0" ]
+  } ]
+}
