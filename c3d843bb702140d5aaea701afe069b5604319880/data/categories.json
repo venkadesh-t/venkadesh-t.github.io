@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(This conversation is part of multiple mailboxes, of which at least one has public links disabled)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+        "uid" : "c96e2068646c6b7c",
+        "parentUid" : "495b3705966c2b69f315532852ce67b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1690556045003,
+          "stop" : 1690556101772,
+          "duration" : 56769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "495b3705966c2b69f315532852ce67b2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
