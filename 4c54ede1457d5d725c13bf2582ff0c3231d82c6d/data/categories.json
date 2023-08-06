@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+        "uid" : "b0c3e7daf1631764",
+        "parentUid" : "053031081bd673e0941c679eebe10650",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691333236718,
+          "stop" : 1691333319600,
+          "duration" : 82882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "053031081bd673e0941c679eebe10650"
+    }, {
+      "name" : "TC709-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Add a note\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC709 - To verify user is able to access \"Private Permalink\" from Activities/Notes if user is part of same SM",
+        "uid" : "77dd9de7c2006db1",
+        "parentUid" : "554ff69ecaab71a367f2bb19aeaa8f3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691333429433,
+          "stop" : 1691333511563,
+          "duration" : 82130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "554ff69ecaab71a367f2bb19aeaa8f3c"
+    }, {
+      "name" : "TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+        "uid" : "a8f6519a192bcb76",
+        "parentUid" : "f1200e703ef8aabc70f41e65f825c17a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691333571259,
+          "stop" : 1691333632835,
+          "duration" : 61576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "f1200e703ef8aabc70f41e65f825c17a"
+    }, {
+      "name" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(This conversation is part of multiple mailboxes, of which at least one has public links disabled)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+        "uid" : "c88a36889dac4d75",
+        "parentUid" : "495b3705966c2b69f315532852ce67b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691333736351,
+          "stop" : 1691333791324,
+          "duration" : 54973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "495b3705966c2b69f315532852ce67b2"
+    }, {
+      "name" : "TC697-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Updated by\")]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC697 - To verify the first name of the SM member who is created the public permalink is displayed below the popup modal",
+        "uid" : "bfc6e57b56d2daea",
+        "parentUid" : "64b5b782e05111721fcdf6accd22ee9a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1691334617823,
+          "stop" : 1691334728742,
+          "duration" : 110919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "64b5b782e05111721fcdf6accd22ee9a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
