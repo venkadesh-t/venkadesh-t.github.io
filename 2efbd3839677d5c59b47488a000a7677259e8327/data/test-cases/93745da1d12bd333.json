@@ -1,0 +1,112 @@
+{
+  "uid" : "93745da1d12bd333",
+  "name" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+  "fullName" : "Permalinks.TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same.",
+  "historyId" : "8ce24cd64d04663d55d4e0cf54babd9e",
+  "time" : {
+    "start" : 1692111059194,
+    "stop" : 1692111121676,
+    "duration" : 62482
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/permalinks.spec.js:181:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC713-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Sorry! You do not have access to this conversation.\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/permalinks.spec.js:181:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Permalinks",
+      "time" : {
+        "start" : 1692111059194,
+        "stop" : 1692111096148,
+        "duration" : 36954
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Permalinks",
+      "time" : {
+        "start" : 1692111121678,
+        "stop" : 1692111122848,
+        "duration" : 1170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b71deeb5c483cfc0",
+      "name" : "Screenshot",
+      "source" : "b71deeb5c483cfc0.png",
+      "type" : "image/png",
+      "size" : 147831
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC713 - To verify proper error message is thrown if user edits the private permalink and tries accessing the same."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "93745da1d12bd333.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
