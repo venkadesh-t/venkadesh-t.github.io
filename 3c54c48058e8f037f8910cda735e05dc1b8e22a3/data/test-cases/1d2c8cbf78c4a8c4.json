@@ -1,0 +1,86 @@
+{
+  "uid" : "1d2c8cbf78c4a8c4",
+  "name" : "TC744 - Verify that user is able to send the email successfully.",
+  "fullName" : "leftAndRightPanel.TC744 - Verify that user is able to send the email successfully.",
+  "historyId" : "3dbdfe542efd77c554b4ebeabe61932e",
+  "time" : {
+    "start" : 1692790894228,
+    "stop" : 1692790923010,
+    "duration" : 28782
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC744-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC744-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:313:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC744-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC744-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:313:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d29a621011ccd533",
+      "name" : "Screenshot",
+      "source" : "d29a621011ccd533.png",
+      "type" : "image/png",
+      "size" : 74582
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC744 - Verify that user is able to send the email successfully."
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1d2c8cbf78c4a8c4.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

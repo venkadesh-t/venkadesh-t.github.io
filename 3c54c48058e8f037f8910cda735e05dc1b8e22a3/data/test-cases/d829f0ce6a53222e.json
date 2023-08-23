@@ -1,0 +1,86 @@
+{
+  "uid" : "d829f0ce6a53222e",
+  "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+  "fullName" : "Quoted Text.TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+  "historyId" : "a03a6fc385b0eaadf9c3232d2b8cd3c4",
+  "time" : {
+    "start" : 1692792029933,
+    "stop" : 1692792043045,
+    "duration" : 13112
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC560-Failed-->Reason: ReferenceError: ActionHelper is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC560-Failed-->Reason: ReferenceError: ActionHelper is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1039:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC560-Failed-->Reason: ReferenceError: ActionHelper is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC560-Failed-->Reason: ReferenceError: ActionHelper is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1039:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b7af2fe2b31d0e",
+      "name" : "Screenshot",
+      "source" : "9b7af2fe2b31d0e.png",
+      "type" : "image/png",
+      "size" : 106415
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page."
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d829f0ce6a53222e.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

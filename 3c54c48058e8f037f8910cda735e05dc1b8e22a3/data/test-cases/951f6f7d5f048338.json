@@ -1,0 +1,86 @@
+{
+  "uid" : "951f6f7d5f048338",
+  "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+  "fullName" : "Permalinks.TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+  "historyId" : "68d1f250db7b0a9af00a97cb0df73db6",
+  "time" : {
+    "start" : 1692790409963,
+    "stop" : 1692790439269,
+    "duration" : 29306
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC690-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC690-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC690-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC690-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:51:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b7fda4ba5905c11a",
+      "name" : "Screenshot",
+      "source" : "b7fda4ba5905c11a.png",
+      "type" : "image/png",
+      "size" : 74567
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "951f6f7d5f048338.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "82cb11f05e1c0c70",
+  "name" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
+  "fullName" : "Quoted Text.TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
+  "historyId" : "6a655e49bfee06ff9009e79a60b7d7c3",
+  "time" : {
+    "start" : 1692792043046,
+    "stop" : 1692792070579,
+    "duration" : 27533
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1054:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1054:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7786784875e6b162",
+      "name" : "Screenshot",
+      "source" : "7786784875e6b162.png",
+      "type" : "image/png",
+      "size" : 171694
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testClass",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same"
+  }, {
+    "name" : "package",
+    "value" : "Quoted Text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "82cb11f05e1c0c70.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
