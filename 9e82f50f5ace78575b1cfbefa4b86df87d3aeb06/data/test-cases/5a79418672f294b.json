@@ -1,0 +1,86 @@
+{
+  "uid" : "5a79418672f294b",
+  "name" : "TC678 - To verify remove conversation from <SM name>”",
+  "fullName" : "Inbox Suite.TC678 - To verify remove conversation from <SM name>”",
+  "historyId" : "173f5872e12f83431223b11981560a2e",
+  "time" : {
+    "start" : 1692766853228,
+    "stop" : 1692766853815,
+    "duration" : 587
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC678-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC678-Failed-->Reason: TypeError: signInPage.lauchApp is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:779:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC678-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC678-Failed-->Reason: TypeError: signInPage.lauchApp is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:779:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc618ddd8b32bb99",
+      "name" : "Screenshot",
+      "source" : "dc618ddd8b32bb99.png",
+      "type" : "image/png",
+      "size" : 253194
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC678 - To verify remove conversation from <SM name>”"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a79418672f294b.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

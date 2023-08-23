@@ -1,0 +1,86 @@
+{
+  "uid" : "91442f8bef26167a",
+  "name" : "TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox.",
+  "fullName" : "Inbox Suite.TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox.",
+  "historyId" : "4cb3fe229395a3dba259de1a078db2ad",
+  "time" : {
+    "start" : 1692766846756,
+    "stop" : 1692766847283,
+    "duration" : 527
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC652-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC652-Failed-->Reason: TypeError: signInPage.lauchApp is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:474:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC652-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC652-Failed-->Reason: TypeError: signInPage.lauchApp is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:474:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9be06d83bc9e1d7",
+      "name" : "Screenshot",
+      "source" : "c9be06d83bc9e1d7.png",
+      "type" : "image/png",
+      "size" : 253194
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "91442f8bef26167a.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

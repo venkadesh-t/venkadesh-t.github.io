@@ -1,0 +1,757 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(This conversation is part of multiple mailboxes, of which at least one has public links disabled)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+        "uid" : "86358dd8ba7ae2fc",
+        "parentUid" : "495b3705966c2b69f315532852ce67b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766666851,
+          "stop" : 1692766695524,
+          "duration" : 28673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "495b3705966c2b69f315532852ce67b2"
+    }, {
+      "name" : "TC716-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+        "uid" : "9da1e4082f77677b",
+        "parentUid" : "5d9d66f3d7c59546a0af50a2ff20418f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766695524,
+          "stop" : 1692766748461,
+          "duration" : 52937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "5d9d66f3d7c59546a0af50a2ff20418f"
+    }, {
+      "name" : "TC718-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
+        "uid" : "b4b12562aca06abc",
+        "parentUid" : "4a26e361501087abb6a8b70e36f067b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766748461,
+          "stop" : 1692766796410,
+          "duration" : 47949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "4a26e361501087abb6a8b70e36f067b3"
+    }, {
+      "name" : "TC727-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+        "uid" : "b5b6d043459a894e",
+        "parentUid" : "6d498c34f51ca57aef696274e861f424",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766836912,
+          "stop" : 1692766837378,
+          "duration" : 466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "6d498c34f51ca57aef696274e861f424"
+    }, {
+      "name" : "TC730-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC730 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+        "uid" : "f2a0b91fad5b44ee",
+        "parentUid" : "8920e97fb19afd4577463238ea93914b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766837378,
+          "stop" : 1692766837864,
+          "duration" : 486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      }, {
+        "name" : "TC731 - Verify that user is able to logout of the app using logout button.",
+        "uid" : "5918a23c58331db8",
+        "parentUid" : "8920e97fb19afd4577463238ea93914b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766837864,
+          "stop" : 1692766838355,
+          "duration" : 491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "8920e97fb19afd4577463238ea93914b"
+    }, {
+      "name" : "TC734-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+        "uid" : "f93c55d7d108e194",
+        "parentUid" : "740d1ede0a57b40f600e79472218e96e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766838355,
+          "stop" : 1692766838863,
+          "duration" : 508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "740d1ede0a57b40f600e79472218e96e"
+    }, {
+      "name" : "TC735-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC735 - To verify \"Compose\" page is displayed when clicked on \"Compose\" button in left drawer panel.",
+        "uid" : "c724a5940d5920fe",
+        "parentUid" : "2af4c253220483cd598bbd30e849706f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766838864,
+          "stop" : 1692766839414,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "2af4c253220483cd598bbd30e849706f"
+    }, {
+      "name" : "TC738-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+        "uid" : "abaed31a2e123a83",
+        "parentUid" : "b6d8a04c6ad2901be55c364f166d1cda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766839414,
+          "stop" : 1692766839964,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "b6d8a04c6ad2901be55c364f166d1cda"
+    }, {
+      "name" : "TC743-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC743 - Verify user should be able to add Subject, To, Cc, Bcc fields",
+        "uid" : "8c94722d418b4086",
+        "parentUid" : "bcfd765362f6a7872cb6dd812f611c41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766839964,
+          "stop" : 1692766840474,
+          "duration" : 510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "bcfd765362f6a7872cb6dd812f611c41"
+    }, {
+      "name" : "TC744-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC744 - Verify that user is able to send the email successfully.",
+        "uid" : "35e94f120d3739c3",
+        "parentUid" : "e186853b4bf2c55be210c0d85a6d52fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766840475,
+          "stop" : 1692766841031,
+          "duration" : 556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "e186853b4bf2c55be210c0d85a6d52fc"
+    }, {
+      "name" : "TC746-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+        "uid" : "6f90e65595f1ecf6",
+        "parentUid" : "131c0d9aa47f7e99fe51dba658faf525",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766841031,
+          "stop" : 1692766841592,
+          "duration" : 561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      }, {
+        "name" : "TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast.",
+        "uid" : "1a73723ea3fbd223",
+        "parentUid" : "131c0d9aa47f7e99fe51dba658faf525",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766841592,
+          "stop" : 1692766842074,
+          "duration" : 482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "131c0d9aa47f7e99fe51dba658faf525"
+    }, {
+      "name" : "TC631-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login.",
+        "uid" : "3f54f1993d601cfb",
+        "parentUid" : "63dc6099ba5f87420abcc266ef4eed70",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766842081,
+          "stop" : 1692766842711,
+          "duration" : 630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "63dc6099ba5f87420abcc266ef4eed70"
+    }, {
+      "name" : "TC632-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\"",
+        "uid" : "14e3a9f6c4c3f63e",
+        "parentUid" : "9536ecd09e21eb06121eecb705f8e156",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766842711,
+          "stop" : 1692766843228,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "9536ecd09e21eb06121eecb705f8e156"
+    }, {
+      "name" : "TC635-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC635 - To verify the \"Category View\" button for 5 default categories shows count of unread conversation present under them.",
+        "uid" : "fe7f24633631da5",
+        "parentUid" : "68758b5defab25ffc4708f2e3443bca1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766843229,
+          "stop" : 1692766843762,
+          "duration" : 533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "68758b5defab25ffc4708f2e3443bca1"
+    }, {
+      "name" : "TC638-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC638 - To verify that the time or date information on a conversation",
+        "uid" : "72cf38885587e436",
+        "parentUid" : "5c1bc35936b00191ba8dd0aed56a53f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766843763,
+          "stop" : 1692766844250,
+          "duration" : 487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "5c1bc35936b00191ba8dd0aed56a53f8"
+    }, {
+      "name" : "TC639-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC639 - To verify that the \"Profile Letter\" of the user is shown who started the conversation under default inbox categories.",
+        "uid" : "7d707f5c63b6d50c",
+        "parentUid" : "940414a9f321531150fcaa8acc5e1031",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766844250,
+          "stop" : 1692766844783,
+          "duration" : 533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "940414a9f321531150fcaa8acc5e1031"
+    }, {
+      "name" : "TC640-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC640 - To verify Subject line",
+        "uid" : "3da4787cfdbff80b",
+        "parentUid" : "9a0ab48f8054397fa93a399a91667391",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766844783,
+          "stop" : 1692766845248,
+          "duration" : 465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "9a0ab48f8054397fa93a399a91667391"
+    }, {
+      "name" : "TC641-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC641 - To verify that snippet of last sent email is visible in the conversation list.",
+        "uid" : "e236016f6cc5a23c",
+        "parentUid" : "ff11e39a28516bbc7f7c0ccebc8b7fbf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766845248,
+          "stop" : 1692766845714,
+          "duration" : 466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "ff11e39a28516bbc7f7c0ccebc8b7fbf"
+    }, {
+      "name" : "TC646-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC646 - To verify each mail in conversation should have the option to reply/reply all or forward",
+        "uid" : "fbaf75c3642347fc",
+        "parentUid" : "591f6cb11b44da3dc3390276637241c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766845714,
+          "stop" : 1692766846211,
+          "duration" : 497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "591f6cb11b44da3dc3390276637241c2"
+    }, {
+      "name" : "TC649-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC649 - To verify user are able to mark conversation as \"unread\" from the app.",
+        "uid" : "f2dd423f0c64e8b9",
+        "parentUid" : "49eeab13cbc82587a7772d6157fabcdc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766846211,
+          "stop" : 1692766846755,
+          "duration" : 544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "49eeab13cbc82587a7772d6157fabcdc"
+    }, {
+      "name" : "TC652-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC652 - To verify user is able to navigate to search screen from default categories present under Gmail Inbox.",
+        "uid" : "91442f8bef26167a",
+        "parentUid" : "61ede225d1292491a554211e5761034c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766846756,
+          "stop" : 1692766847283,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "61ede225d1292491a554211e5761034c"
+    }, {
+      "name" : "TC653-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC653 - To  verify user is able to switch between header tabs in the search screen.",
+        "uid" : "d82bcd2415f1901b",
+        "parentUid" : "7dba67392b1a88bd508ff9089169c138",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766847284,
+          "stop" : 1692766847806,
+          "duration" : 522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "7dba67392b1a88bd508ff9089169c138"
+    }, {
+      "name" : "TC654-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC654 - To verify user is able to search for the conversation present in \"Gmail Inbox\" from search screen",
+        "uid" : "97727c6eacc01890",
+        "parentUid" : "5f2e6a60f442fb8e6da0d9767a3dc52b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766847807,
+          "stop" : 1692766848292,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "5f2e6a60f442fb8e6da0d9767a3dc52b"
+    }, {
+      "name" : "TC666-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+        "uid" : "3b738d52ddc2b5e3",
+        "parentUid" : "9e20d3a136615b4aaed555bf06592f14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766848292,
+          "stop" : 1692766848785,
+          "duration" : 493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "9e20d3a136615b4aaed555bf06592f14"
+    }, {
+      "name" : "TC674-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC674 - To verify user is able to add conversations under \"Gmail inbox\" to SM he is part of.",
+        "uid" : "355329b114c7d10c",
+        "parentUid" : "3970e23b56fff83e9f23e6d461f90af6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766848785,
+          "stop" : 1692766849254,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "3970e23b56fff83e9f23e6d461f90af6"
+    }, {
+      "name" : "TC686-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft.",
+        "uid" : "29ae749986e702d6",
+        "parentUid" : "bc28d61a9e57661e9af699ee01ea2d51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766849254,
+          "stop" : 1692766849760,
+          "duration" : 506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "bc28d61a9e57661e9af699ee01ea2d51"
+    }, {
+      "name" : "TC647-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+        "uid" : "76ddaf95af25e697",
+        "parentUid" : "40586f54ed85b33b31e5989206b857e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766849760,
+          "stop" : 1692766850251,
+          "duration" : 491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "40586f54ed85b33b31e5989206b857e8"
+    }, {
+      "name" : "TC651-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation.",
+        "uid" : "b8d92975a3505faa",
+        "parentUid" : "ffbf10e5c28c3b058d144b1fb71eaac0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766850251,
+          "stop" : 1692766850753,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "ffbf10e5c28c3b058d144b1fb71eaac0"
+    }, {
+      "name" : "TC657-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC657 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "e8584e24955ed622",
+        "parentUid" : "7e9b4bb807dd7df86724a91ac321677c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766850754,
+          "stop" : 1692766851195,
+          "duration" : 441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "7e9b4bb807dd7df86724a91ac321677c"
+    }, {
+      "name" : "TC659-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC659 - To verify users can switch to different SMs and able to see the assignee and other informations",
+        "uid" : "6c12a5ba546af0f1",
+        "parentUid" : "67786d955e147bcf0ebc787cbf1e5d52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766851195,
+          "stop" : 1692766851699,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "67786d955e147bcf0ebc787cbf1e5d52"
+    }, {
+      "name" : "TC668-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC668 - To verify app will not support to add another SM when the conversation already added to one particular SM",
+        "uid" : "4e652c2279407a4a",
+        "parentUid" : "6b39dd55a8b324cb857e2f8a6a614649",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766851699,
+          "stop" : 1692766852189,
+          "duration" : 490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "6b39dd55a8b324cb857e2f8a6a614649"
+    }, {
+      "name" : "TC670-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "b240c0d97593508",
+        "parentUid" : "f0364df92e76583b055a18a773091302",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766852190,
+          "stop" : 1692766852749,
+          "duration" : 559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "f0364df92e76583b055a18a773091302"
+    }, {
+      "name" : "TC673-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC673 - To verify remove the conversation from SM",
+        "uid" : "fbf3a66cfbde9cb4",
+        "parentUid" : "98432a6e71872aa5064308bb71c76f26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766852749,
+          "stop" : 1692766853228,
+          "duration" : 479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "98432a6e71872aa5064308bb71c76f26"
+    }, {
+      "name" : "TC678-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+      "children" : [ {
+        "name" : "TC678 - To verify remove conversation from <SM name>”",
+        "uid" : "5a79418672f294b",
+        "parentUid" : "26528edfd1bff0034c7770571a9813b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1692766853228,
+          "stop" : 1692766853815,
+          "duration" : 587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "26528edfd1bff0034c7770571a9813b5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

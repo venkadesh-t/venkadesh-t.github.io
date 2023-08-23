@@ -1,0 +1,86 @@
+{
+  "uid" : "b5b6d043459a894e",
+  "name" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+  "fullName" : "leftAndRightPanel.TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+  "historyId" : "23ba7e1bde0c70f7e182fb0f9c0cb1ec",
+  "time" : {
+    "start" : 1692766836912,
+    "stop" : 1692766837378,
+    "duration" : 466
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC727-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: TypeError: signInPage.lauchApp is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:218:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC727-Failed-->Reason: TypeError: signInPage.lauchApp is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC727-Failed-->Reason: TypeError: signInPage.lauchApp is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:218:36)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56ef1f40c55141e0",
+      "name" : "Screenshot",
+      "source" : "56ef1f40c55141e0.png",
+      "type" : "image/png",
+      "size" : 253194
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field"
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b5b6d043459a894e.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
