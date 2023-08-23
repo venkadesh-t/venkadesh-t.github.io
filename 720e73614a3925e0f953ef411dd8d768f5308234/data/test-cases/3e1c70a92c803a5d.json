@@ -1,0 +1,123 @@
+{
+  "uid" : "3e1c70a92c803a5d",
+  "name" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+  "fullName" : "Status & Views.TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default",
+  "historyId" : "b44bbad71e22e50eaf8468a84ed48e7c",
+  "time" : {
+    "start" : 1692807215202,
+    "stop" : 1692807215206,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC434-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC434-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:889:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC434-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC434-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:889:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1692807215203,
+        "stop" : 1692807215205,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1692807215208,
+        "stop" : 1692807215209,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC434 - To verify Unassigned \"View\" floater button is present along with the views count when user logs in the app every time by default"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d6064276c3820666",
+      "status" : "broken",
+      "statusDetails" : "TC434-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "time" : {
+        "start" : 1692807195178,
+        "stop" : 1692807195180,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b089cb38ff27034a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692805465514,
+        "stop" : 1692805493266,
+        "duration" : 27752
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e1c70a92c803a5d.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

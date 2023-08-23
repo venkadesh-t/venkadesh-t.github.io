@@ -1,0 +1,123 @@
+{
+  "uid" : "b06e2a3b0c92a1e0",
+  "name" : "TC436 - To verify user is able to switch between the views of the particular SM.",
+  "fullName" : "Status & Views.TC436 - To verify user is able to switch between the views of the particular SM.",
+  "historyId" : "7d1368312bf254ab84579b80a3ea4464",
+  "time" : {
+    "start" : 1692807215214,
+    "stop" : 1692807215217,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC436-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC436-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:914:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC436-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC436-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:914:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1692807215215,
+        "stop" : 1692807215216,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1692807215218,
+        "stop" : 1692807215218,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC436 - To verify user is able to switch between the views of the particular SM."
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51b9223e5f7bef4",
+      "status" : "broken",
+      "statusDetails" : "TC436-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "time" : {
+        "start" : 1692807195193,
+        "stop" : 1692807195197,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ef60fa2005d5ff26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1692805524233,
+        "stop" : 1692805552147,
+        "duration" : 27914
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b06e2a3b0c92a1e0.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

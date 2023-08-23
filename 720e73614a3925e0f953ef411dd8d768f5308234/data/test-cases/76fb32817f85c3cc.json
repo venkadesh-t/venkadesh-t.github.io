@@ -1,0 +1,115 @@
+{
+  "uid" : "76fb32817f85c3cc",
+  "name" : "TC369 - To verify if user clicks on \"Unassign\" , the conversation should get unassigned from the current user.",
+  "fullName" : "Assignee.TC369 - To verify if user clicks on \"Unassign\" , the conversation should get unassigned from the current user.",
+  "historyId" : "2ee08ea9ebc9f5a0dc6f44222e6418a",
+  "time" : {
+    "start" : 1692807215139,
+    "stop" : 1692807215141,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC369-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC369-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:724:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC369-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC369-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:724:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Assignee",
+      "time" : {
+        "start" : 1692807215139,
+        "stop" : 1692807215140,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Assignee",
+      "time" : {
+        "start" : 1692807215143,
+        "stop" : 1692807215143,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC369 - To verify if user clicks on \"Unassign\" , the conversation should get unassigned from the current user."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be079a23f5bc4233",
+      "status" : "broken",
+      "statusDetails" : "TC369-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+      "time" : {
+        "start" : 1692807195127,
+        "stop" : 1692807195129,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "76fb32817f85c3cc.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

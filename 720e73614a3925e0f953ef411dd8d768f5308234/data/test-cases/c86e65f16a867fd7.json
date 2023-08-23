@@ -1,0 +1,100 @@
+{
+  "uid" : "c86e65f16a867fd7",
+  "name" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+  "fullName" : "Status & Views.TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen",
+  "historyId" : "b5e44c3391785c7f39f65e8c94c770ab",
+  "time" : {
+    "start" : 1692807195209,
+    "stop" : 1692807195212,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC444-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC444-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:968:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC444-Failed-->Reason: TypeError: $(...).touchAction is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC444-Failed-->Reason: TypeError: $(...).touchAction is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/completeTestSuite3.spec.js:968:32)\n                    at Context.executeAsync (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/shim.js:101:25)\n                    at Context.exports.testFrameworkFnWrapper (/Users/vagrant/git/Mobile-Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:18:32)",
+    "steps" : [ {
+      "name" : "\"before each\" hook for Status & Views",
+      "time" : {
+        "start" : 1692807195210,
+        "stop" : 1692807195211,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook for Status & Views",
+      "time" : {
+        "start" : 1692807195212,
+        "stop" : 1692807195213,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testClass",
+    "value" : "Status & Views"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC444 - To verify the \"Status\" drop up modal in expanded state is closed if user clicks outside the expanded state anywhere on the screen"
+  }, {
+    "name" : "package",
+    "value" : "Status & Views"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c86e65f16a867fd7.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
