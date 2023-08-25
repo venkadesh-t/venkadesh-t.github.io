@@ -1,0 +1,86 @@
+{
+  "uid" : "14280830f0656e0b",
+  "name" : "TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\"",
+  "fullName" : "Inbox Suite.TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\"",
+  "historyId" : "7d772a42b6ad293840d3f6f2c62720ed",
+  "time" : {
+    "start" : 1692955715968,
+    "stop" : 1692955741446,
+    "duration" : 25478
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC632-Failed-->Reason: Error: element (\"~Primary\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: element (\"~Primary\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:379:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC632-Failed-->Reason: Error: element (\"~Primary\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC632-Failed-->Reason: Error: element (\"~Primary\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:379:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4e1f74aa32000d0",
+      "name" : "Screenshot",
+      "source" : "c4e1f74aa32000d0.png",
+      "type" : "image/png",
+      "size" : 146752
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC633 - To verify users are able to switch between the categories present for \"Gmail Inbox\""
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "14280830f0656e0b.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

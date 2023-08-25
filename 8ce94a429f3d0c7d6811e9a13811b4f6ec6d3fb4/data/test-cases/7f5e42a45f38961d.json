@@ -1,0 +1,86 @@
+{
+  "uid" : "7f5e42a45f38961d",
+  "name" : "TC335 - To verify email templates are inserted into the mail body if user fills details for placeholders.\".",
+  "fullName" : "Email Templates.TC335 - To verify email templates are inserted into the mail body if user fills details for placeholders.\".",
+  "historyId" : "862eb12a91a1142c37848b0472548264",
+  "time" : {
+    "start" : 1692956720506,
+    "stop" : 1692956756368,
+    "duration" : 35862
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC335-Failed-->Reason: Error: Can't call addValue on element with selector \"(//android.widget.EditText)[6]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC335-Failed-->Reason: Error: Can't call addValue on element with selector \"(//android.widget.EditText)[6]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:999:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC335-Failed-->Reason: Error: Can't call addValue on element with selector \"(//android.widget.EditText)[6]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC335-Failed-->Reason: Error: Can't call addValue on element with selector \"(//android.widget.EditText)[6]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:999:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad9849c2f2027e24",
+      "name" : "Screenshot",
+      "source" : "ad9849c2f2027e24.png",
+      "type" : "image/png",
+      "size" : 138552
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC335 - To verify email templates are inserted into the mail body if user fills details for placeholders.\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7f5e42a45f38961d.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
