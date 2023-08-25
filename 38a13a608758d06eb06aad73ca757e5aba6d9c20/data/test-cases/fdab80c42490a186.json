@@ -1,0 +1,86 @@
+{
+  "uid" : "fdab80c42490a186",
+  "name" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+  "fullName" : "Permalinks.TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+  "historyId" : "3e25e608b6dc80e54feef9f92063641f",
+  "time" : {
+    "start" : 1692949505924,
+    "stop" : 1692949552146,
+    "duration" : 46222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Share this conversation\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Share this conversation\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:75:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Share this conversation\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Share this conversation\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:75:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b8f778652ef33f4",
+      "name" : "Screenshot",
+      "source" : "5b8f778652ef33f4.png",
+      "type" : "image/png",
+      "size" : 271321
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM"
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fdab80c42490a186.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

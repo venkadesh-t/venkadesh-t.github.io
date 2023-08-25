@@ -1,0 +1,86 @@
+{
+  "uid" : "5f2dfaae2f83b25d",
+  "name" : "TC372 - To verify keyboard is popped up when user clicks on the \"Search starts with\" text field in \"Assign to\" drop down/popup",
+  "fullName" : "Assignee.TC372 - To verify keyboard is popped up when user clicks on the \"Search starts with\" text field in \"Assign to\" drop down/popup",
+  "historyId" : "bd0ab2367c499b497e079e52a032d1c8",
+  "time" : {
+    "start" : 1692950765100,
+    "stop" : 1692950809243,
+    "duration" : 44143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC372-Failed-->Reason: ReferenceError: ActionHelper is not defined",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC372-Failed-->Reason: ReferenceError: ActionHelper is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:856:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC372-Failed-->Reason: ReferenceError: ActionHelper is not defined",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC372-Failed-->Reason: ReferenceError: ActionHelper is not defined\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:856:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ca47230600bb2ebd",
+      "name" : "Screenshot",
+      "source" : "ca47230600bb2ebd.png",
+      "type" : "image/png",
+      "size" : 154850
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC372 - To verify keyboard is popped up when user clicks on the \"Search starts with\" text field in \"Assign to\" drop down/popup"
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5f2dfaae2f83b25d.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

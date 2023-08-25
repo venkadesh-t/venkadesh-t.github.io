@@ -1,0 +1,86 @@
+{
+  "uid" : "37d05ee91fdfb1a4",
+  "name" : "TC639 - To verify that the \"Profile Letter\" of the user is shown who started the conversation under default inbox categories.",
+  "fullName" : "Inbox Suite.TC639 - To verify that the \"Profile Letter\" of the user is shown who started the conversation under default inbox categories.",
+  "historyId" : "4834eb2c27afcb9f08ee7730ae866e89",
+  "time" : {
+    "start" : 1692950102909,
+    "stop" : 1692950125474,
+    "duration" : 22565
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC639-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"profilePic[0]\"]/android.view.ViewGroup/android.widget.TextView\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC639-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"profilePic[0]\"]/android.view.ViewGroup/android.widget.TextView\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:410:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC639-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"profilePic[0]\"]/android.view.ViewGroup/android.widget.TextView\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC639-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"profilePic[0]\"]/android.view.ViewGroup/android.widget.TextView\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:410:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bde75825eda72f98",
+      "name" : "Screenshot",
+      "source" : "bde75825eda72f98.png",
+      "type" : "image/png",
+      "size" : 274670
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC639 - To verify that the \"Profile Letter\" of the user is shown who started the conversation under default inbox categories."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "37d05ee91fdfb1a4.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
