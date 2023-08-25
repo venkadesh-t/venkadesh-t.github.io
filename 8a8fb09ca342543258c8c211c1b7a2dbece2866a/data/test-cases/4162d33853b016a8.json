@@ -1,0 +1,86 @@
+{
+  "uid" : "4162d33853b016a8",
+  "name" : "TC641 - To verify that snippet of last sent email is visible in the conversation list.",
+  "fullName" : "Inbox Suite.TC641 - To verify that snippet of last sent email is visible in the conversation list.",
+  "historyId" : "8bfc3a79ef8837330d240c0bf5bb4c6a",
+  "time" : {
+    "start" : 1692966176530,
+    "stop" : 1692966206199,
+    "duration" : 29669
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC641-Failed-->Reason: Error: Can't call click on element with selector \"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC641-Failed-->Reason: Error: Can't call click on element with selector \"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:435:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC641-Failed-->Reason: Error: Can't call click on element with selector \"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC641-Failed-->Reason: Error: Can't call click on element with selector \"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:435:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ad4c931c7faa40e",
+      "name" : "Screenshot",
+      "source" : "3ad4c931c7faa40e.png",
+      "type" : "image/png",
+      "size" : 171056
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC641 - To verify that snippet of last sent email is visible in the conversation list."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4162d33853b016a8.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

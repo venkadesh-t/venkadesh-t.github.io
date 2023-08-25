@@ -1,0 +1,86 @@
+{
+  "uid" : "28a621ca5feb5d70",
+  "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+  "fullName" : "Permalinks.TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+  "historyId" : "71efc445d3a1f580d08806d7615e297f",
+  "time" : {
+    "start" : 1692965631178,
+    "stop" : 1692965667005,
+    "duration" : 35827
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC705-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC705-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:104:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC705-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC705-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"sendMail\"]/android.view.ViewGroup\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:104:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b89f7164f6d158ae",
+      "name" : "Screenshot",
+      "source" : "b89f7164f6d158ae.png",
+      "type" : "image/png",
+      "size" : 171729
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "28a621ca5feb5d70.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

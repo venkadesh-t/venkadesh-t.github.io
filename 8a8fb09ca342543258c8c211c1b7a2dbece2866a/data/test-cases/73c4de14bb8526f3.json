@@ -1,0 +1,86 @@
+{
+  "uid" : "73c4de14bb8526f3",
+  "name" : "TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation.",
+  "fullName" : "Inbox Suite.TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation.",
+  "historyId" : "a54c5ca8d7303996230a14defae9fffb",
+  "time" : {
+    "start" : 1692966407922,
+    "stop" : 1692966436922,
+    "duration" : 29000
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC651-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC651-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:614:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC651-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC651-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"To:\"]/following-sibling::android.widget.EditText[1]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:614:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7709d7cd72ce98ec",
+      "name" : "Screenshot",
+      "source" : "7709d7cd72ce98ec.png",
+      "type" : "image/png",
+      "size" : 74679
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC651 - To verify when user open any shared conversation (from Inbox/SM listview), he/she should be able to view SM info (assignee, staus,tags etc) on this conversation."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "73c4de14bb8526f3.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

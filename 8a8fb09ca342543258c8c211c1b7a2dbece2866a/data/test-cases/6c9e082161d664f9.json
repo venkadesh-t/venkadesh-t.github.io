@@ -1,0 +1,86 @@
+{
+  "uid" : "6c9e082161d664f9",
+  "name" : "TC379 - To verify proper error message is displayed when user tries to search with invalid input.",
+  "fullName" : "Assignee.TC379 - To verify proper error message is displayed when user tries to search with invalid input.",
+  "historyId" : "d53ab211223d61b68baeda6a188ff075",
+  "time" : {
+    "start" : 1692966901386,
+    "stop" : 1692966955755,
+    "duration" : 54369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC379-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC379-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:888:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC379-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC379-Failed-->Reason: Error: element (\"//android.widget.EditText[contains(@text,\"Search\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:888:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7bfd9d9bbea9ab0d",
+      "name" : "Screenshot",
+      "source" : "7bfd9d9bbea9ab0d.png",
+      "type" : "image/png",
+      "size" : 155919
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Assignee"
+  }, {
+    "name" : "testClass",
+    "value" : "Assignee"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC379 - To verify proper error message is displayed when user tries to search with invalid input."
+  }, {
+    "name" : "package",
+    "value" : "Assignee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6c9e082161d664f9.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
