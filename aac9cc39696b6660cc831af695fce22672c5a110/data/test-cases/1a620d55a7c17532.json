@@ -1,0 +1,86 @@
+{
+  "uid" : "1a620d55a7c17532",
+  "name" : "TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast.",
+  "fullName" : "leftAndRightPanel.TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast.",
+  "historyId" : "c91caef0eace51c5b861e6dad795100a",
+  "time" : {
+    "start" : 1693285578289,
+    "stop" : 1693285619789,
+    "duration" : 41500
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC746-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC746-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:351:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC746-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC746-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:351:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecc671154fb66daf",
+      "name" : "Screenshot",
+      "source" : "ecc671154fb66daf.png",
+      "type" : "image/png",
+      "size" : 85095
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC748 - Verify that after sending an email through compose, user should be landed back to preserved SM-View state with the sending toast & sent toast."
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1a620d55a7c17532.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

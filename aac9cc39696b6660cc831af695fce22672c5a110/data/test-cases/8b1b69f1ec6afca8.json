@@ -1,0 +1,86 @@
+{
+  "uid" : "8b1b69f1ec6afca8",
+  "name" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+  "fullName" : "Inbox Suite.TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page.",
+  "historyId" : "b7d2609ba16281b3f912ba2deca0d1d5",
+  "time" : {
+    "start" : 1693286120720,
+    "stop" : 1693286162217,
+    "duration" : 41497
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC666-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC666-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:542:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC666-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC666-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:542:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "93c76bf6eb084e0b",
+      "name" : "Screenshot",
+      "source" : "93c76bf6eb084e0b.png",
+      "type" : "image/png",
+      "size" : 86895
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC666 - To verify user is taken back to \"Gmail List\" view screen/page by clicking \"Cancel\" button in search screen/page."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8b1b69f1ec6afca8.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "3802655bed53421",
+  "name" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+  "fullName" : "leftAndRightPanel.TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\"",
+  "historyId" : "742951d79b9dbbc3d6669b9c5ad68e97",
+  "time" : {
+    "start" : 1693285431549,
+    "stop" : 1693285452878,
+    "duration" : 21329
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC738-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC738-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:287:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC738-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC738-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:287:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8b32dc08ba79f94",
+      "name" : "Screenshot",
+      "source" : "d8b32dc08ba79f94.png",
+      "type" : "image/png",
+      "size" : 85025
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC738 - To verify user lands on respective SM/Inbox chosen from \"Left Drawer Panel\""
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3802655bed53421.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

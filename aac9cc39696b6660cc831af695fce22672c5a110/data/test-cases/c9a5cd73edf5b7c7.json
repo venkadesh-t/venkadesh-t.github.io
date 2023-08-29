@@ -1,0 +1,86 @@
+{
+  "uid" : "c9a5cd73edf5b7c7",
+  "name" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+  "fullName" : "leftAndRightPanel.TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button.",
+  "historyId" : "5fee686c51d5494ee641327ff760076c",
+  "time" : {
+    "start" : 1693285388937,
+    "stop" : 1693285410269,
+    "duration" : 21332
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:264:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC734-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:264:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "495a651888635c5a",
+      "name" : "Screenshot",
+      "source" : "495a651888635c5a.png",
+      "type" : "image/png",
+      "size" : 85503
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC734 - To verify \"Left Drawer Panel\" is displayed if user clicks on \"Left Menu\" button."
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c9a5cd73edf5b7c7.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

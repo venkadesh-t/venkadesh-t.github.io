@@ -1,0 +1,86 @@
+{
+  "uid" : "fdc42fd8974a806e",
+  "name" : "TC591 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+  "fullName" : "Forward.TC591 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail.",
+  "historyId" : "b1117abf9014c0b33b9c0fb868218234",
+  "time" : {
+    "start" : 1693288173459,
+    "stop" : 1693288204753,
+    "duration" : 31294
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC591-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC591-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1276:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC591-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC591-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1276:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "77640c5086e911db",
+      "name" : "Screenshot",
+      "source" : "77640c5086e911db.png",
+      "type" : "image/png",
+      "size" : 84663
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC591 - To verify \"Forwarded\" mail becomes part of the original thread for the user who is forwarding the mail."
+  }, {
+    "name" : "package",
+    "value" : "Forward"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fdc42fd8974a806e.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

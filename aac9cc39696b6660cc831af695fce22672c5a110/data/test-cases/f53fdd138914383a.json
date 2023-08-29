@@ -1,0 +1,86 @@
+{
+  "uid" : "f53fdd138914383a",
+  "name" : "TC29- Verify if the user has switched from Notes to Activity or vice versa on Activities Panel, panel should maintain the same state when the user visits the same screen next time.",
+  "fullName" : "Activity Panel and Notes.TC29- Verify if the user has switched from Notes to Activity or vice versa on Activities Panel, panel should maintain the same state when the user visits the same screen next time.",
+  "historyId" : "4ca15835b4d9f1e094bf032cc5d1be4e",
+  "time" : {
+    "start" : 1693288340401,
+    "stop" : 1693288392176,
+    "duration" : 51775
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC29-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Notes\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC29-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Notes\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1337:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC29-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Notes\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC29-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Notes\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1337:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32155bd9e66073eb",
+      "name" : "Screenshot",
+      "source" : "32155bd9e66073eb.png",
+      "type" : "image/png",
+      "size" : 85500
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC29- Verify if the user has switched from Notes to Activity or vice versa on Activities Panel, panel should maintain the same state when the user visits the same screen next time."
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f53fdd138914383a.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

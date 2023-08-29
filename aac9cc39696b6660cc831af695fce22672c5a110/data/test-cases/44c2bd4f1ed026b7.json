@@ -1,0 +1,86 @@
+{
+  "uid" : "44c2bd4f1ed026b7",
+  "name" : "TC726 - To verify \"Right Drawer\" panel is closed when user clicks on \"Close\" icon.",
+  "fullName" : "leftAndRightPanel.TC726 - To verify \"Right Drawer\" panel is closed when user clicks on \"Close\" icon.",
+  "historyId" : "c7dc9ba299ca85cc699afd3f1d84a174",
+  "time" : {
+    "start" : 1693285303608,
+    "stop" : 1693285324897,
+    "duration" : 21289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC726-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC726-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:218:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC726-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC726-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:218:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a036f36cb543bf4b",
+      "name" : "Screenshot",
+      "source" : "a036f36cb543bf4b.png",
+      "type" : "image/png",
+      "size" : 85243
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC726 - To verify \"Right Drawer\" panel is closed when user clicks on \"Close\" icon."
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44c2bd4f1ed026b7.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

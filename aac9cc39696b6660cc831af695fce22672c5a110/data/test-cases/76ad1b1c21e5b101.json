@@ -1,0 +1,86 @@
+{
+  "uid" : "76ad1b1c21e5b101",
+  "name" : "TC587 - To verify users are able to \"Forward\" the entire conversation present in the thread.",
+  "fullName" : "Forward.TC587 - To verify users are able to \"Forward\" the entire conversation present in the thread.",
+  "historyId" : "d82a4368e6b2cd10069a8522baee22e3",
+  "time" : {
+    "start" : 1693287967720,
+    "stop" : 1693288019271,
+    "duration" : 51551
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC587-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC587-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1211:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC587-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC587-Failed-->Reason: Error: element (\"~Forward\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1211:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3fdf731d10878efa",
+      "name" : "Screenshot",
+      "source" : "3fdf731d10878efa.png",
+      "type" : "image/png",
+      "size" : 85718
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Forward"
+  }, {
+    "name" : "testClass",
+    "value" : "Forward"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC587 - To verify users are able to \"Forward\" the entire conversation present in the thread."
+  }, {
+    "name" : "package",
+    "value" : "Forward"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "76ad1b1c21e5b101.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
