@@ -3,37 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
-        "uid" : "fb709d1e0d40b564",
-        "parentUid" : "053031081bd673e0941c679eebe10650",
-        "status" : "broken",
-        "time" : {
-          "start" : 1693807592444,
-          "stop" : 1693807623443,
-          "duration" : 30999
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "google pixel 5-11.0" ]
-      } ],
-      "uid" : "053031081bd673e0941c679eebe10650"
-    }, {
       "name" : "TC716-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
-        "uid" : "78539ab1226d008e",
+        "uid" : "22636febaeb9e995",
         "parentUid" : "9915b8842750fb674a76589396eb1800",
         "status" : "broken",
         "time" : {
-          "start" : 1693807669795,
-          "stop" : 1693807738197,
-          "duration" : 68402
+          "start" : 1693811433646,
+          "stop" : 1693811499491,
+          "duration" : 65845
         },
         "flaky" : false,
         "newFailed" : false,
@@ -48,13 +27,13 @@
       "name" : "TC718-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
-        "uid" : "f82cc49c6b87b6a7",
+        "uid" : "931c16e871deb245",
         "parentUid" : "4a26e361501087abb6a8b70e36f067b3",
         "status" : "broken",
         "time" : {
-          "start" : 1693807738198,
-          "stop" : 1693807787937,
-          "duration" : 49739
+          "start" : 1693811499494,
+          "stop" : 1693811547648,
+          "duration" : 48154
         },
         "flaky" : false,
         "newFailed" : false,
@@ -66,16 +45,16 @@
       } ],
       "uid" : "4a26e361501087abb6a8b70e36f067b3"
     }, {
-      "name" : "TC659-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+      "name" : "TC659-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.accessibilityId: smName' does not exist in DOM anymore",
       "children" : [ {
         "name" : "TC659 - To verify users can switch to different SMs and able to see the assignee and other informations",
-        "uid" : "6702edfebca2f9a3",
-        "parentUid" : "286f3c4e4310ebe7a3557913921a5ccc",
+        "uid" : "eb9f8c166c9d98d9",
+        "parentUid" : "8c2c82931ffcb3314d21f41a15fb5674",
         "status" : "broken",
         "time" : {
-          "start" : 1693808672939,
-          "stop" : 1693808701476,
-          "duration" : 28537
+          "start" : 1693812390068,
+          "stop" : 1693812415939,
+          "duration" : 25871
         },
         "flaky" : false,
         "newFailed" : false,
@@ -85,18 +64,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "google pixel 5-11.0" ]
       } ],
-      "uid" : "286f3c4e4310ebe7a3557913921a5ccc"
+      "uid" : "8c2c82931ffcb3314d21f41a15fb5674"
     }, {
       "name" : "TC559-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC559 - To verify \"Show Quoted Text\" is visible in the conversation thread list page.",
-        "uid" : "d9ff27a0287544cc",
+        "uid" : "4a4c6fca4838de5b",
         "parentUid" : "300dbedc0c8b383461bc7f563964b0e9",
         "status" : "broken",
         "time" : {
-          "start" : 1693809346008,
-          "stop" : 1693809377845,
-          "duration" : 31837
+          "start" : 1693813026933,
+          "stop" : 1693813062079,
+          "duration" : 35146
         },
         "flaky" : false,
         "newFailed" : false,
@@ -111,13 +90,13 @@
       "name" : "TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
-        "uid" : "2fb264404f7d6094",
+        "uid" : "1d225f03e1e32082",
         "parentUid" : "2ea701bb88286b4d7d430b44e418c382",
         "status" : "broken",
         "time" : {
-          "start" : 1693809377846,
-          "stop" : 1693809406819,
-          "duration" : 28973
+          "start" : 1693813062081,
+          "stop" : 1693813091289,
+          "duration" : 29208
         },
         "flaky" : false,
         "newFailed" : false,
@@ -132,13 +111,13 @@
       "name" : "TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
-        "uid" : "db16b898097ec3e4",
+        "uid" : "944f80e3ea786492",
         "parentUid" : "5207cce1383724e6eac580524f7385f6",
         "status" : "broken",
         "time" : {
-          "start" : 1693809406820,
-          "stop" : 1693809436258,
-          "duration" : 29438
+          "start" : 1693813091290,
+          "stop" : 1693813119891,
+          "duration" : 28601
         },
         "flaky" : false,
         "newFailed" : false,
@@ -153,13 +132,13 @@
       "name" : "TC571-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC571 - To verify the quoted in the Shared Draft screen",
-        "uid" : "e6af105345a158b2",
+        "uid" : "d672ff0df421380e",
         "parentUid" : "5417d23e119dd493ddfc444bfd297d98",
         "status" : "broken",
         "time" : {
-          "start" : 1693809557551,
-          "stop" : 1693809590049,
-          "duration" : 32498
+          "start" : 1693813239465,
+          "stop" : 1693813269546,
+          "duration" : 30081
         },
         "flaky" : false,
         "newFailed" : false,
@@ -174,13 +153,13 @@
       "name" : "TC30-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"All Activity\")]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
-        "uid" : "9debc74c24397b78",
+        "uid" : "707060fc6b2a3e2f",
         "parentUid" : "e9d8d7e0aeafea10246c4e2e271ed473",
         "status" : "broken",
         "time" : {
-          "start" : 1693809863361,
-          "stop" : 1693809903610,
-          "duration" : 40249
+          "start" : 1693813538287,
+          "stop" : 1693813577984,
+          "duration" : 39697
         },
         "flaky" : false,
         "newFailed" : false,
@@ -195,13 +174,13 @@
       "name" : "TC37-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC37- Verify that user is able to add a new note or reply to existing note",
-        "uid" : "db2d79f3f6c063a5",
+        "uid" : "81c46d559e358d56",
         "parentUid" : "c803aea613dcd6467747d1dd50fadb43",
         "status" : "broken",
         "time" : {
-          "start" : 1693809903610,
-          "stop" : 1693809929621,
-          "duration" : 26011
+          "start" : 1693813577986,
+          "stop" : 1693813604375,
+          "duration" : 26389
         },
         "flaky" : false,
         "newFailed" : false,
@@ -216,13 +195,13 @@
       "name" : "TC38-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC38- Verify that user is able to select between All Activities/Notes",
-        "uid" : "6117c8617070c8b",
+        "uid" : "c5ded44cb22da39b",
         "parentUid" : "622cc2831f5d6f17045f2259a37864ea",
         "status" : "broken",
         "time" : {
-          "start" : 1693809929621,
-          "stop" : 1693809956190,
-          "duration" : 26569
+          "start" : 1693813604377,
+          "stop" : 1693813630699,
+          "duration" : 26322
         },
         "flaky" : false,
         "newFailed" : false,
@@ -237,13 +216,13 @@
       "name" : "TC39-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC39- Verify that user is able to see the count of notes on the footer of the conversation as well as on Activity Panel.",
-        "uid" : "c9e70b6b6c0890f6",
+        "uid" : "c5af92bb5873c81e",
         "parentUid" : "bbbd9a3815e42597c83ae3fee2bd3059",
         "status" : "broken",
         "time" : {
-          "start" : 1693809956194,
-          "stop" : 1693809983755,
-          "duration" : 27561
+          "start" : 1693813630701,
+          "stop" : 1693813657134,
+          "duration" : 26433
         },
         "flaky" : false,
         "newFailed" : false,
@@ -258,13 +237,13 @@
       "name" : "TC43-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
-        "uid" : "79bb8c4b9cee10b4",
+        "uid" : "fc4af9a5ff790ba",
         "parentUid" : "8ac60ab20079992f2d812a2b0d900d72",
         "status" : "broken",
         "time" : {
-          "start" : 1693809983756,
-          "stop" : 1693810009997,
-          "duration" : 26241
+          "start" : 1693813657137,
+          "stop" : 1693813683195,
+          "duration" : 26058
         },
         "flaky" : false,
         "newFailed" : false,
@@ -279,13 +258,13 @@
       "name" : "TC44-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC44- Verify that user should see only 2 lines of parent notes and the commentors name for context",
-        "uid" : "e5161e2110bbb433",
+        "uid" : "525a22d159adfef2",
         "parentUid" : "6c3d91dea72cea6983c69e42062f2a51",
         "status" : "broken",
         "time" : {
-          "start" : 1693810009997,
-          "stop" : 1693810036103,
-          "duration" : 26106
+          "start" : 1693813683197,
+          "stop" : 1693813709339,
+          "duration" : 26142
         },
         "flaky" : false,
         "newFailed" : false,
@@ -300,13 +279,13 @@
       "name" : "TC55-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC55- Verify that user is able to add a new note or reply to an existing note",
-        "uid" : "8ac51484946eb4b7",
+        "uid" : "20e28ba730253052",
         "parentUid" : "3f59c552f4885c3a73d41bd63d90f10d",
         "status" : "broken",
         "time" : {
-          "start" : 1693810036104,
-          "stop" : 1693810062271,
-          "duration" : 26167
+          "start" : 1693813709340,
+          "stop" : 1693813735626,
+          "duration" : 26286
         },
         "flaky" : false,
         "newFailed" : false,
@@ -321,13 +300,13 @@
       "name" : "TC56-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC56- Verify that user is able to @mention people on note",
-        "uid" : "9cd10c41f1332503",
+        "uid" : "a8eedb7eeda3d9a1",
         "parentUid" : "acd512019ce72ab4a185ce2e2f01877c",
         "status" : "broken",
         "time" : {
-          "start" : 1693810062272,
-          "stop" : 1693810088611,
-          "duration" : 26339
+          "start" : 1693813735628,
+          "stop" : 1693813761498,
+          "duration" : 25870
         },
         "flaky" : false,
         "newFailed" : false,
@@ -342,13 +321,13 @@
       "name" : "TC61-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC61- Verify that placeholder text is shown after deleting notes",
-        "uid" : "883cd54a142dd18a",
+        "uid" : "1ed605007aa36963",
         "parentUid" : "a957f1abd985424e95c8a7c61f6cdb2a",
         "status" : "broken",
         "time" : {
-          "start" : 1693810088611,
-          "stop" : 1693810114952,
-          "duration" : 26341
+          "start" : 1693813761499,
+          "stop" : 1693813787074,
+          "duration" : 25575
         },
         "flaky" : false,
         "newFailed" : false,
@@ -363,13 +342,13 @@
       "name" : "TC65-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC65- Verify that user is able to edit their own notes",
-        "uid" : "8d4f6715c14acca3",
+        "uid" : "5edd7f1fc9df1b2d",
         "parentUid" : "7cc7710552f7ea3c3b4c48b5f08689ff",
         "status" : "broken",
         "time" : {
-          "start" : 1693810114952,
-          "stop" : 1693810142372,
-          "duration" : 27420
+          "start" : 1693813787075,
+          "stop" : 1693813813815,
+          "duration" : 26740
         },
         "flaky" : false,
         "newFailed" : false,
@@ -384,13 +363,13 @@
       "name" : "TC285-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC285- Verify that count of activity gets updated on changing status of an email",
-        "uid" : "a70081b3585edb9d",
+        "uid" : "80b59440e597b742",
         "parentUid" : "fa1c3fbb6a073d16e9d6974c899363cb",
         "status" : "broken",
         "time" : {
-          "start" : 1693810142373,
-          "stop" : 1693810168724,
-          "duration" : 26351
+          "start" : 1693813813817,
+          "stop" : 1693813840537,
+          "duration" : 26720
         },
         "flaky" : false,
         "newFailed" : false,
@@ -405,13 +384,13 @@
       "name" : "TC289-Failed-->Reason: Error: element (\"//android.widget.TextView[@text=\"Activities\"]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity",
-        "uid" : "3f69efc212d8c54a",
+        "uid" : "df2a4e314f6db47a",
         "parentUid" : "80bb289db1e05e8299eaabd37d1a701c",
         "status" : "broken",
         "time" : {
-          "start" : 1693810168725,
-          "stop" : 1693810195528,
-          "duration" : 26803
+          "start" : 1693813840538,
+          "stop" : 1693813867052,
+          "duration" : 26514
         },
         "flaky" : false,
         "newFailed" : false,
