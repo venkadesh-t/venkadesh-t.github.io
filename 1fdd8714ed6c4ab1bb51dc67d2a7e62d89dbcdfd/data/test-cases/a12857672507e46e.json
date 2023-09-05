@@ -1,0 +1,86 @@
+{
+  "uid" : "a12857672507e46e",
+  "name" : "TC659 - To verify users can switch to different SMs and able to see the assignee and other informations",
+  "fullName" : "Inbox Suite.TC659 - To verify users can switch to different SMs and able to see the assignee and other informations",
+  "historyId" : "d3b7481e73c118c02f85c4cfab3d1f",
+  "time" : {
+    "start" : 1693878822455,
+    "stop" : 1693878850172,
+    "duration" : 27717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC659-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.accessibilityId: smName' does not exist in DOM anymore",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC659-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.accessibilityId: smName' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:685:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC659-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.accessibilityId: smName' does not exist in DOM anymore",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC659-Failed-->Reason: Error: waitUntil condition failed with the following reason: The element 'By.accessibilityId: smName' does not exist in DOM anymore\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:685:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a84880bc10e35ee",
+      "name" : "Screenshot",
+      "source" : "8a84880bc10e35ee.png",
+      "type" : "image/png",
+      "size" : 110829
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC659 - To verify users can switch to different SMs and able to see the assignee and other informations"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a12857672507e46e.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
