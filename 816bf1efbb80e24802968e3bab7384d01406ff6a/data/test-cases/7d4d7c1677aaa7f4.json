@@ -1,0 +1,86 @@
+{
+  "uid" : "7d4d7c1677aaa7f4",
+  "name" : "TC331 - To verify if user is able to preview email templates.\".",
+  "fullName" : "Email Templates.TC331 - To verify if user is able to preview email templates.\".",
+  "historyId" : "25aa333c97f5f9dd772435e32b9038fd",
+  "time" : {
+    "start" : 1694087792743,
+    "stop" : 1694087816328,
+    "duration" : 23585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TC331-Failed-->Reason: AssertionError: expected false to equal true",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC331-Failed-->Reason: AssertionError: expected false to equal true\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:993:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TC331-Failed-->Reason: AssertionError: expected false to equal true",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC331-Failed-->Reason: AssertionError: expected false to equal true\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:993:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ebd7415df53e874b",
+      "name" : "Screenshot",
+      "source" : "ebd7415df53e874b.png",
+      "type" : "image/png",
+      "size" : 75624
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC331 - To verify if user is able to preview email templates.\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7d4d7c1677aaa7f4.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
