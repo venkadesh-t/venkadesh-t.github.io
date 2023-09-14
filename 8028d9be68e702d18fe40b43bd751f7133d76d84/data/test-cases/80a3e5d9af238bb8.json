@@ -1,0 +1,86 @@
+{
+  "uid" : "80a3e5d9af238bb8",
+  "name" : "TC321 - Verify that user is able to see all the templates on Tapping \"Use email templates\".",
+  "fullName" : "Email Templates.TC321 - Verify that user is able to see all the templates on Tapping \"Use email templates\".",
+  "historyId" : "2890fc611536d1c4918500c188a5b458",
+  "time" : {
+    "start" : 1694672676667,
+    "stop" : 1694672704687,
+    "duration" : 28020
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC321-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC321-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:944:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC321-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC321-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:944:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce36551e660fb9ea",
+      "name" : "Screenshot",
+      "source" : "ce36551e660fb9ea.png",
+      "type" : "image/png",
+      "size" : 88639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC321 - Verify that user is able to see all the templates on Tapping \"Use email templates\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "80a3e5d9af238bb8.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

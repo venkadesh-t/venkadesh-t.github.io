@@ -1,0 +1,86 @@
+{
+  "uid" : "b2705c451d698601",
+  "name" : "TC331 - To verify if user is able to preview email templates.\".",
+  "fullName" : "Email Templates.TC331 - To verify if user is able to preview email templates.\".",
+  "historyId" : "25aa333c97f5f9dd772435e32b9038fd",
+  "time" : {
+    "start" : 1694672760642,
+    "stop" : 1694672789304,
+    "duration" : 28662
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC331-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC331-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:996:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC331-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC331-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:996:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f376eeb05fede2a",
+      "name" : "Screenshot",
+      "source" : "4f376eeb05fede2a.png",
+      "type" : "image/png",
+      "size" : 88057
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC331 - To verify if user is able to preview email templates.\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2705c451d698601.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

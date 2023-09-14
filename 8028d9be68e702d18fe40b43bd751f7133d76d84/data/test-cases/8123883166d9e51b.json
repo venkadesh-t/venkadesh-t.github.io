@@ -1,0 +1,86 @@
+{
+  "uid" : "8123883166d9e51b",
+  "name" : "TC335 - To verify email templates are inserted into the mail body if user fills details for placeholders.\".",
+  "fullName" : "Email Templates.TC335 - To verify email templates are inserted into the mail body if user fills details for placeholders.\".",
+  "historyId" : "862eb12a91a1142c37848b0472548264",
+  "time" : {
+    "start" : 1694672817601,
+    "stop" : 1694672846460,
+    "duration" : 28859
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC335-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC335-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1036:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC335-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC335-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Email Templates\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1036:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fcdea4b8e7f5f5b4",
+      "name" : "Screenshot",
+      "source" : "fcdea4b8e7f5f5b4.png",
+      "type" : "image/png",
+      "size" : 88332
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC335 - To verify email templates are inserted into the mail body if user fills details for placeholders.\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8123883166d9e51b.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

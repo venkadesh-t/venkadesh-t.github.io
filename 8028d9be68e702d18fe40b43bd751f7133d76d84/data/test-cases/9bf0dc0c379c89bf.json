@@ -1,0 +1,86 @@
+{
+  "uid" : "9bf0dc0c379c89bf",
+  "name" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+  "fullName" : "leftAndRightPanel.TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )",
+  "historyId" : "37a27dfa1dd5c9879509e421cd2a295e",
+  "time" : {
+    "start" : 1694671480794,
+    "stop" : 1694671509333,
+    "duration" : 28539
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Mobile Test Email Template\")]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Mobile Test Email Template\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:335:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Mobile Test Email Template\")]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC746-Failed-->Reason: Error: element (\"//android.widget.TextView[contains(@text,\"Mobile Test Email Template\")]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:335:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67d50a609f826900",
+      "name" : "Screenshot",
+      "source" : "67d50a609f826900.png",
+      "type" : "image/png",
+      "size" : 87308
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testClass",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC746 - Verify that users are able to insert email templates (To be executed after email templates are developed for Mobile )"
+  }, {
+    "name" : "package",
+    "value" : "leftAndRightPanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9bf0dc0c379c89bf.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
