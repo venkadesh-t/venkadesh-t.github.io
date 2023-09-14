@@ -1,0 +1,86 @@
+{
+  "uid" : "f6c5586679aeae8d",
+  "name" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+  "fullName" : "Activity Panel and Notes.TC27- Verify that user can see the Activity timeline pertaining to a conversation",
+  "historyId" : "9d8e53905e47f1c307669cfad11ffc4e",
+  "time" : {
+    "start" : 1694679017312,
+    "stop" : 1694679069417,
+    "duration" : 52105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC27-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC27-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1308:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC27-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC27-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1308:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b86e7d0fed60a59d",
+      "name" : "Screenshot",
+      "source" : "b86e7d0fed60a59d.png",
+      "type" : "image/png",
+      "size" : 237994
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC27- Verify that user can see the Activity timeline pertaining to a conversation"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f6c5586679aeae8d.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "115f9cd3928e1c1c",
+  "name" : "TC56- Verify that user is able to @mention people on note",
+  "fullName" : "Activity Panel and Notes.TC56- Verify that user is able to @mention people on note",
+  "historyId" : "1c7182294f7d5a15dbc4463541b10a0b",
+  "time" : {
+    "start" : 1694679538932,
+    "stop" : 1694679591057,
+    "duration" : 52125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC56-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC56-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1484:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC56-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC56-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1484:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c989cd040124569",
+      "name" : "Screenshot",
+      "source" : "7c989cd040124569.png",
+      "type" : "image/png",
+      "size" : 238808
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC56- Verify that user is able to @mention people on note"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "115f9cd3928e1c1c.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

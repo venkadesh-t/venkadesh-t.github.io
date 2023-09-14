@@ -1,0 +1,86 @@
+{
+  "uid" : "f78b14317a2f6c8a",
+  "name" : "TC673 - To verify remove the conversation from SM",
+  "fullName" : "Inbox Suite.TC673 - To verify remove the conversation from SM",
+  "historyId" : "d0a427e5b8c42d597a4f518dcbd3cb9b",
+  "time" : {
+    "start" : 1694677267248,
+    "stop" : 1694677309194,
+    "duration" : 41946
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC673-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC673-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:778:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC673-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC673-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:778:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffade713061a206",
+      "name" : "Screenshot",
+      "source" : "ffade713061a206.png",
+      "type" : "image/png",
+      "size" : 237856
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC673 - To verify remove the conversation from SM"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f78b14317a2f6c8a.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
