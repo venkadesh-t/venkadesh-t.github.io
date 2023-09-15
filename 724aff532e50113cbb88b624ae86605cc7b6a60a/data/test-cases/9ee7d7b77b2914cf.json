@@ -1,0 +1,86 @@
+{
+  "uid" : "9ee7d7b77b2914cf",
+  "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+  "fullName" : "Permalinks.TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+  "historyId" : "f9fb209dd17e7a32245e7e79e6cc7c65",
+  "time" : {
+    "start" : 1694782340642,
+    "stop" : 1694782403363,
+    "duration" : 62721
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(Public links are disabled. Enable from your desktop or contact your admin)\"]\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(Public links are disabled. Enable from your desktop or contact your admin)\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:140:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(Public links are disabled. Enable from your desktop or contact your admin)\"]\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(Public links are disabled. Enable from your desktop or contact your admin)\"]\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:140:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fce7240866d7423d",
+      "name" : "Screenshot",
+      "source" : "fce7240866d7423d.png",
+      "type" : "image/png",
+      "size" : 208012
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ee7d7b77b2914cf.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "8a5e13af5c34cc37",
+  "name" : "TC331 - To verify if user is able to preview email templates.\".",
+  "fullName" : "Email Templates.TC331 - To verify if user is able to preview email templates.\".",
+  "historyId" : "25aa333c97f5f9dd772435e32b9038fd",
+  "time" : {
+    "start" : 1694784512376,
+    "stop" : 1694784554701,
+    "duration" : 42325
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC331-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC331-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:996:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC331-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC331-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:996:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51e04509bd826191",
+      "name" : "Screenshot",
+      "source" : "51e04509bd826191.png",
+      "type" : "image/png",
+      "size" : 214681
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC331 - To verify if user is able to preview email templates.\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a5e13af5c34cc37.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
