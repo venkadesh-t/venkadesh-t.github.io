@@ -1,0 +1,86 @@
+{
+  "uid" : "5ffba7dba8061333",
+  "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+  "fullName" : "Activity Panel and Notes.TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+  "historyId" : "e790975c7bdd6cf5912654cf0e5c6690",
+  "time" : {
+    "start" : 1694778695677,
+    "stop" : 1694778735410,
+    "duration" : 39733
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC30-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"All Activity\")])[2]\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC30-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"All Activity\")])[2]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1355:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC30-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"All Activity\")])[2]\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC30-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"All Activity\")])[2]\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1355:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "643f7a2a06c4ef1e",
+      "name" : "Screenshot",
+      "source" : "643f7a2a06c4ef1e.png",
+      "type" : "image/png",
+      "size" : 93363
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5ffba7dba8061333.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
