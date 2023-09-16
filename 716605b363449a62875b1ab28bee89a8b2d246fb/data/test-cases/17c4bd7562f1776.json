@@ -1,0 +1,86 @@
+{
+  "uid" : "17c4bd7562f1776",
+  "name" : "TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login.",
+  "fullName" : "Inbox Suite.TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login.",
+  "historyId" : "d12c5149f9768a5b202b53b7617898dd",
+  "time" : {
+    "start" : 1694895638115,
+    "stop" : 1694895680709,
+    "duration" : 42594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC631-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC631-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:369:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC631-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC631-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:369:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c418a1668eb9b814",
+      "name" : "Screenshot",
+      "source" : "c418a1668eb9b814.png",
+      "type" : "image/png",
+      "size" : 220224
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC631 - To verify users land on \"Gmail Inbox\" inbox category on very first login."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "17c4bd7562f1776.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

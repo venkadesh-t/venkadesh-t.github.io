@@ -1,0 +1,86 @@
+{
+  "uid" : "bcbc3b0d0f3bee99",
+  "name" : "TC640 - To verify Subject line",
+  "fullName" : "Inbox Suite.TC640 - To verify Subject line",
+  "historyId" : "5246dcdff532d6f55433b6921c962538",
+  "time" : {
+    "start" : 1694895856526,
+    "stop" : 1694895898928,
+    "duration" : 42402
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC640-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC640-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:439:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC640-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC640-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:439:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5049cb1239e17882",
+      "name" : "Screenshot",
+      "source" : "5049cb1239e17882.png",
+      "type" : "image/png",
+      "size" : 201026
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC640 - To verify Subject line"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bcbc3b0d0f3bee99.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

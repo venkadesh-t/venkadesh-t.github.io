@@ -1,0 +1,86 @@
+{
+  "uid" : "5b1448fec2564f9a",
+  "name" : "TC646 - To verify each mail in conversation should have the option to reply/reply all or forward",
+  "fullName" : "Inbox Suite.TC646 - To verify each mail in conversation should have the option to reply/reply all or forward",
+  "historyId" : "93fb46667ee6d48a033f2aad7c811f45",
+  "time" : {
+    "start" : 1694895941248,
+    "stop" : 1694895983702,
+    "duration" : 42454
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC646-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC646-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:471:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC646-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC646-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:471:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b63627d8ac9ae154",
+      "name" : "Screenshot",
+      "source" : "b63627d8ac9ae154.png",
+      "type" : "image/png",
+      "size" : 201222
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC646 - To verify each mail in conversation should have the option to reply/reply all or forward"
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b1448fec2564f9a.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

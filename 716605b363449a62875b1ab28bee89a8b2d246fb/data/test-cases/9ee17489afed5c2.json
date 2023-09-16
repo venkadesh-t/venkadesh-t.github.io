@@ -1,0 +1,86 @@
+{
+  "uid" : "9ee17489afed5c2",
+  "name" : "TC37- Verify that user is able to add a new note or reply to existing note",
+  "fullName" : "Activity Panel and Notes.TC37- Verify that user is able to add a new note or reply to existing note",
+  "historyId" : "a8b1ec1d18a9151f53440be575048b6",
+  "time" : {
+    "start" : 1694898515420,
+    "stop" : 1694898568341,
+    "duration" : 52921
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC37-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC37-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1374:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC37-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC37-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1374:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af5a196e9d1202b6",
+      "name" : "Screenshot",
+      "source" : "af5a196e9d1202b6.png",
+      "type" : "image/png",
+      "size" : 201207
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC37- Verify that user is able to add a new note or reply to existing note"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ee17489afed5c2.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

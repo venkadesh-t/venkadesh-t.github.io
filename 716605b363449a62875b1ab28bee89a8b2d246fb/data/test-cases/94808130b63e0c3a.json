@@ -1,0 +1,86 @@
+{
+  "uid" : "94808130b63e0c3a",
+  "name" : "TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft.",
+  "fullName" : "Inbox Suite.TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft.",
+  "historyId" : "e33048ae2ccfd0a39d741be135587c75",
+  "time" : {
+    "start" : 1694896238812,
+    "stop" : 1694896281386,
+    "duration" : 42574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC686-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC686-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:600:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC686-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC686-Failed-->Reason: Error: element (\"~smName\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:600:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e9e1cb461db2b00a",
+      "name" : "Screenshot",
+      "source" : "e9e1cb461db2b00a.png",
+      "type" : "image/png",
+      "size" : 201437
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC686 - To verify hiver menu would only have the option to add email templates and not create a shared draft."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "94808130b63e0c3a.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
