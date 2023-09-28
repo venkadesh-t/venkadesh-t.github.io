@@ -1,0 +1,198 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC707-Failed-->Reason: TypeError: permalinks.clickOnActivityTabtab is not a function",
+      "children" : [ {
+        "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+        "uid" : "939fcb89e0255ff7",
+        "parentUid" : "3ae62cf36a24fe18de6bd57925fcc97a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695889394170,
+          "stop" : 1695889413036,
+          "duration" : 18866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "3ae62cf36a24fe18de6bd57925fcc97a"
+    }, {
+      "name" : "TC716-Failed-->Reason: Error: element (\"~addToSM\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+        "uid" : "3863b4c5dba21c93",
+        "parentUid" : "9915b8842750fb674a76589396eb1800",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695889432489,
+          "stop" : 1695889499177,
+          "duration" : 66688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "9915b8842750fb674a76589396eb1800"
+    }, {
+      "name" : "TC718-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
+        "uid" : "227dd788435c5dbc",
+        "parentUid" : "4a26e361501087abb6a8b70e36f067b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695889499180,
+          "stop" : 1695889549130,
+          "duration" : 49950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "4a26e361501087abb6a8b70e36f067b3"
+    }, {
+      "name" : "TC647-Failed-->Reason: Error: element (\"//android.widget.TextView[@content-desc=\"Subject\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC647 - To verify users are able to \"reply/reply all/forward\" the mails available at a conversation level.",
+        "uid" : "9755917a0e37c81c",
+        "parentUid" : "2117189d88717aeca5aa494b299b3525",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695890277969,
+          "stop" : 1695890313371,
+          "duration" : 35402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "2117189d88717aeca5aa494b299b3525"
+    }, {
+      "name" : "TC560-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC560 - To verify \"Show quoted text\" is clickable in conversation thread list page.",
+        "uid" : "eeba7b77024597af",
+        "parentUid" : "2ea701bb88286b4d7d430b44e418c382",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695891158413,
+          "stop" : 1695891188053,
+          "duration" : 29640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "2ea701bb88286b4d7d430b44e418c382"
+    }, {
+      "name" : "TC561-Failed-->Reason: Error: element (\"//android.widget.TextView[@text= \"Show quoted text\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC561 - To verify \"Hide Quoted Text\" is clickable and the entire conversation thread under quoted text should collapse if user clicks the same",
+        "uid" : "3cb886d39df880b5",
+        "parentUid" : "5207cce1383724e6eac580524f7385f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695891188055,
+          "stop" : 1695891217154,
+          "duration" : 29099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "5207cce1383724e6eac580524f7385f6"
+    }, {
+      "name" : "TC571-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC571 - To verify the quoted in the Shared Draft screen",
+        "uid" : "9f3e6b30977b1530",
+        "parentUid" : "5417d23e119dd493ddfc444bfd297d98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695891341225,
+          "stop" : 1695891374434,
+          "duration" : 33209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "5417d23e119dd493ddfc444bfd297d98"
+    }, {
+      "name" : "TC30-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"All Activity\")])[2]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+        "uid" : "b583c55e85fe2938",
+        "parentUid" : "a84718bb708e9986b08b6d33690da99d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695891653954,
+          "stop" : 1695891693782,
+          "duration" : 39828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "a84718bb708e9986b08b6d33690da99d"
+    }, {
+      "name" : "TC61-Failed-->Reason: Error: Can't call getText on element with selector \"(//android.widget.TextView[@text=\"This note is deleted\"])[1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC61- Verify that placeholder text is shown after deleting notes",
+        "uid" : "ae26eaab5dfd9520",
+        "parentUid" : "37e041fb7abedea4edf61157c7c75a3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695892151812,
+          "stop" : 1695892231184,
+          "duration" : 79372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "37e041fb7abedea4edf61157c7c75a3f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
