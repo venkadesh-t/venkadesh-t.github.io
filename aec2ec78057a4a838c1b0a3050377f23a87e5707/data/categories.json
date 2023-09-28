@@ -1,5 +1,366 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TC690-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC690 - To verify \"Permalink icon\" is not visible/present for only Gmail Inbox conversations.",
+        "uid" : "bbd4ee92cd2a9a8",
+        "parentUid" : "d27c05da8f47b59c89ece102955ee2ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695881841328,
+          "stop" : 1695881883790,
+          "duration" : 42462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "d27c05da8f47b59c89ece102955ee2ee"
+    }, {
+      "name" : "TC691-Failed-->Reason: Error: element (\"~permalink\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC691 - To verify \"Permalink icon\" is visible/present for conversation belonging to SM/ Inbox + SM",
+        "uid" : "67c59ad3d55fa97b",
+        "parentUid" : "71b93c2ef4c94777916bb590d24052bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695881883795,
+          "stop" : 1695881936216,
+          "duration" : 52421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "71b93c2ef4c94777916bb590d24052bb"
+    }, {
+      "name" : "TC692-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"Share this conversation\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC692 - To verify Permalink Icon is accessible for conversation belonging to SM/Inbox+SM",
+        "uid" : "53c2f7b711180931",
+        "parentUid" : "4276b84435ea89d8d6835ef02725602f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695881936222,
+          "stop" : 1695881998731,
+          "duration" : 62509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "4276b84435ea89d8d6835ef02725602f"
+    }, {
+      "name" : "TC705-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC705 - To verify user is able to send a \"Private Permalink\" as reply/forward from compose section of conversation.",
+        "uid" : "f1956c1b7843c166",
+        "parentUid" : "053031081bd673e0941c679eebe10650",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882060261,
+          "stop" : 1695882143427,
+          "duration" : 83166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "053031081bd673e0941c679eebe10650"
+    }, {
+      "name" : "TC707-Failed-->Reason: TypeError: permalinks.clickOnActivityTabtab is not a function",
+      "children" : [ {
+        "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+        "uid" : "b51e23b183888305",
+        "parentUid" : "3ae62cf36a24fe18de6bd57925fcc97a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882143434,
+          "stop" : 1695882205674,
+          "duration" : 62240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "3ae62cf36a24fe18de6bd57925fcc97a"
+    }, {
+      "name" : "TC715-Failed-->Reason: Error: element (\"//android.widget.TextView[@text = \"(Public links are disabled. Enable from your desktop or contact your admin)\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC715 - To verify \"Public Permalink Generate\" option is disabled If an SM or UG configuration does not allow users to create public permalink.",
+        "uid" : "87e23aa233bb78fe",
+        "parentUid" : "a28da2824dcbc77fe0a88ff53a3e9bab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882205677,
+          "stop" : 1695882267830,
+          "duration" : 62153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "a28da2824dcbc77fe0a88ff53a3e9bab"
+    }, {
+      "name" : "TC716-Failed-->Reason: Error: element (\"//android.widget.EditText[@text=\"Select an email address\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC716 - To verify user is able to create a  Public Permalink  if \"SM or UG configuration allow users to create public permalink.",
+        "uid" : "ec430f087dbcc839",
+        "parentUid" : "ddb375567090f3fe1ed4d072d1c5fdc3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882267834,
+          "stop" : 1695882310392,
+          "duration" : 42558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "ddb375567090f3fe1ed4d072d1c5fdc3"
+    }, {
+      "name" : "TC718-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC718 - To verify user is able to send out the \"Public Permalink\" as \"Reply/Reply All/Forward/Notes\"",
+        "uid" : "56437ee71779e510",
+        "parentUid" : "4a26e361501087abb6a8b70e36f067b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882310396,
+          "stop" : 1695882392960,
+          "duration" : 82564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "4a26e361501087abb6a8b70e36f067b3"
+    }, {
+      "name" : "TC724-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC724 - To verify profileAvatar.",
+        "uid" : "fe4955fd52e23ba7",
+        "parentUid" : "8227503fa5475c3888f71a6b0963b63b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882392971,
+          "stop" : 1695882415017,
+          "duration" : 22046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "8227503fa5475c3888f71a6b0963b63b"
+    }, {
+      "name" : "TC725-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC725 - To verify right drawer panel  is accessible when user clicks on \"Profile Avatar\" in home page.",
+        "uid" : "aed26c4836f21094",
+        "parentUid" : "16831ec1c99fd7c3aa46ad5e244a9d17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882415022,
+          "stop" : 1695882436920,
+          "duration" : 21898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "16831ec1c99fd7c3aa46ad5e244a9d17"
+    }, {
+      "name" : "TC726-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC726 - To verify \"Right Drawer\" panel is closed when user clicks on \"Close\" icon.",
+        "uid" : "f12ec3855dddf1ab",
+        "parentUid" : "27455400fbbcd5d858861126b79c30d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882436923,
+          "stop" : 1695882458666,
+          "duration" : 21743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "27455400fbbcd5d858861126b79c30d8"
+    }, {
+      "name" : "TC727-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC729 - Verify that on clicking on \"Help and Feedback\" in \"Right Drawer Panel\", compose mail page is opened with \"support id\" as default in \"To\" field",
+        "uid" : "e1b0b0fefa2a8b9",
+        "parentUid" : "76e7657016ce796dfe537c8da208e6e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882458672,
+          "stop" : 1695882480449,
+          "duration" : 21777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "76e7657016ce796dfe537c8da208e6e1"
+    }, {
+      "name" : "TC730-Failed-->Reason: Error: element (\"~profilePic\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC730 - Verify that clicking on Product updates option, opens up web page where user can check the latest updates in app.",
+        "uid" : "cb342730c68d7421",
+        "parentUid" : "eda74109b03e1b5e463b9e20f7f7fcb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695882480453,
+          "stop" : 1695882504904,
+          "duration" : 24451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "eda74109b03e1b5e463b9e20f7f7fcb6"
+    }, {
+      "name" : "TC670-Failed-->Reason: Error: The element 'By.xpath: //android.widget.EditText[@text=\"Select an email address\"]' does not exist in DOM anymore",
+      "children" : [ {
+        "name" : "TC670 - To verify conversation menu (three dots) contains two options (mark as unread, remove conversation from SM) when user selects any shared conversation form inbox",
+        "uid" : "45a6fd5c4e9d3559",
+        "parentUid" : "c4dd6afb32479c70626582553e86f04f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695883344552,
+          "stop" : 1695883365060,
+          "duration" : 20508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "c4dd6afb32479c70626582553e86f04f"
+    }, {
+      "name" : "TC571-Failed-->Reason: Error: element (\"//android.widget.EditText[@text = \"Compose\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "TC571 - To verify the quoted in the Shared Draft screen",
+        "uid" : "fd4813081303bcd2",
+        "parentUid" : "5417d23e119dd493ddfc444bfd297d98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695884036993,
+          "stop" : 1695884067314,
+          "duration" : 30321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "5417d23e119dd493ddfc444bfd297d98"
+    }, {
+      "name" : "TC30-Failed-->Reason: Error: Can't call click on element with selector \"(//android.widget.TextView[contains(@text,\"All Activity\")])[2]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC30- Verify that the count of all activities/notes is shown on the conversation footer and in Activities Panel",
+        "uid" : "ec9df354df602924",
+        "parentUid" : "a84718bb708e9986b08b6d33690da99d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695884333297,
+          "stop" : 1695884372628,
+          "duration" : 39331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "a84718bb708e9986b08b6d33690da99d"
+    }, {
+      "name" : "TC61-Failed-->Reason: Error: Can't call getText on element with selector \"(//android.widget.TextView[@text=\"This note is deleted\"])[1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "TC61- Verify that placeholder text is shown after deleting notes",
+        "uid" : "f07efa15ee25a582",
+        "parentUid" : "37e041fb7abedea4edf61157c7c75a3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695884819646,
+          "stop" : 1695884897084,
+          "duration" : 77438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "google pixel 5-11.0" ]
+      } ],
+      "uid" : "37e041fb7abedea4edf61157c7c75a3f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
