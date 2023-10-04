@@ -1,0 +1,86 @@
+{
+  "uid" : "f0acfb36cb7c1f7b",
+  "name" : "TC333 - To verify if user is taken to a form to fill placeholders if email template contains place holder\".",
+  "fullName" : "Email Templates.TC333 - To verify if user is taken to a form to fill placeholders if email template contains place holder\".",
+  "historyId" : "896943f4a8894716c97976ab72fda3e6",
+  "time" : {
+    "start" : 1696415821615,
+    "stop" : 1696415864670,
+    "duration" : 43055
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC333-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC333-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1015:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC333-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC333-Failed-->Reason: Error: element (\"//android.view.ViewGroup[@content-desc=\"composeMenu\"]/android.view.ViewGroup/android.view.ViewGroup\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1015:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f762ff4cb5023542",
+      "name" : "Screenshot",
+      "source" : "f762ff4cb5023542.png",
+      "type" : "image/png",
+      "size" : 278065
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testClass",
+    "value" : "Email Templates"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC333 - To verify if user is taken to a form to fill placeholders if email template contains place holder\"."
+  }, {
+    "name" : "package",
+    "value" : "Email Templates"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f0acfb36cb7c1f7b.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
