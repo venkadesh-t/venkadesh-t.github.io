@@ -1,0 +1,86 @@
+{
+  "uid" : "a058c641613c0720",
+  "name" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
+  "fullName" : "Activity Panel and Notes.TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading ",
+  "historyId" : "e753b7bd80ed0e7954236175b9660987",
+  "time" : {
+    "start" : 1698663050115,
+    "stop" : 1698663103199,
+    "duration" : 53084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC43-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC43-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1428:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC43-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC43-Failed-->Reason: Error: element (\"~ActivityTab\") still not displayed after 10000ms\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1428:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df92175e97948552",
+      "name" : "Screenshot",
+      "source" : "df92175e97948552.png",
+      "type" : "image/png",
+      "size" : 276510
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC43- Verify that if a note is a response to an existing note, user should be able to see only one level of threading "
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a058c641613c0720.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
