@@ -1,0 +1,86 @@
+{
+  "uid" : "f457cf17c021298f",
+  "name" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity",
+  "fullName" : "Activity Panel and Notes.TC289- Verify that user is taken to activity screen on opening a notification related to activity",
+  "historyId" : "1c4bbf619b330c7d115504e825b265ff",
+  "time" : {
+    "start" : 1700028617497,
+    "stop" : 1700028676752,
+    "duration" : 59255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@content-desc=\"SuggestionItemButton\"])[4]/android.view.ViewGroup\" because element wasn't found",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@content-desc=\"SuggestionItemButton\"])[4]/android.view.ViewGroup\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1602:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@content-desc=\"SuggestionItemButton\"])[4]/android.view.ViewGroup\" because element wasn't found",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC289-Failed-->Reason: Error: Can't call click on element with selector \"(//android.view.ViewGroup[@content-desc=\"SuggestionItemButton\"])[4]/android.view.ViewGroup\" because element wasn't found\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:1602:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9133479678860d5f",
+      "name" : "Screenshot",
+      "source" : "9133479678860d5f.png",
+      "type" : "image/png",
+      "size" : 153076
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testClass",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC289- Verify that user is taken to activity screen on opening a notification related to activity"
+  }, {
+    "name" : "package",
+    "value" : "Activity Panel and Notes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f457cf17c021298f.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
