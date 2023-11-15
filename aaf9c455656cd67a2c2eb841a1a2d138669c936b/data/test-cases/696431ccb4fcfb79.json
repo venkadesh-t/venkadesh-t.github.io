@@ -1,0 +1,86 @@
+{
+  "uid" : "696431ccb4fcfb79",
+  "name" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+  "fullName" : "Permalinks.TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of.",
+  "historyId" : "ff9518779109cf80d10594b30e6fcf3a",
+  "time" : {
+    "start" : 1700022754737,
+    "stop" : 1700022780168,
+    "duration" : 25431
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC707-Failed-->Reason: TypeError: permalinks.clickOnActivityTab is not a function",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC707-Failed-->Reason: TypeError: permalinks.clickOnActivityTab is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:143:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TC707-Failed-->Reason: TypeError: permalinks.clickOnActivityTab is not a function",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: TC707-Failed-->Reason: TypeError: permalinks.clickOnActivityTab is not a function\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:143:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff413da6d0c3232e",
+      "name" : "Screenshot",
+      "source" : "ff413da6d0c3232e.png",
+      "type" : "image/png",
+      "size" : 152190
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testClass",
+    "value" : "Permalinks"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC707 - To verify user is able to access \"Private Permalink\" for SM which he is part of."
+  }, {
+    "name" : "package",
+    "value" : "Permalinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "696431ccb4fcfb79.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}

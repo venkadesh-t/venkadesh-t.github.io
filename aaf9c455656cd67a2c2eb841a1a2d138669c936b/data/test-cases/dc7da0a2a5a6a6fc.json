@@ -1,0 +1,68 @@
+{
+  "uid" : "dc7da0a2a5a6a6fc",
+  "name" : "TC641 - To verify that snippet of last sent email is visible in the conversation list.",
+  "fullName" : "Inbox Suite.TC641 - To verify that snippet of last sent email is visible in the conversation list.",
+  "historyId" : "8bfc3a79ef8837330d240c0bf5bb4c6a",
+  "time" : {
+    "start" : 1700023556700,
+    "stop" : 1700023605707,
+    "duration" : 49007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TC641-Failed-->Reason: Error: waitUntil condition failed with the following reason: Session not started or terminated",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: TC641-Failed-->Reason: Error: waitUntil condition failed with the following reason: Session not started or terminated\n                    at Context.<anonymous> (/Users/vagrant/git/Mobile-Automation/src/specs/androidNative/sanity.spec.js:470:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC641 - To verify that snippet of last sent email is visible in the conversation list."
+  }, {
+    "name" : "package",
+    "value" : "Inbox Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 5-11.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dc7da0a2a5a6a6fc.json",
+  "parameterValues" : [ "google pixel 5-11.0" ]
+}
